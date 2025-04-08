@@ -197,7 +197,6 @@ h1 {
   background-color: #1f2937;
 }
 
-/* You may need to add these base styles if not already present */
 .app {
   transition: background-color 0.3s, color 0.3s;
 }
@@ -210,4 +209,34 @@ h1 {
 .app.dark {
   background-color: #1a1a1a;
   color: #f0f0f0;
+}
+
+.add-new-book-container .form-actions {
+  display: flex;
+  gap: 10px; /* Add spacing between the buttons */
+  width: 100%; /* Ensure the container takes full width */
+}
+
+.add-new-book-container .form-actions button {
+  flex: 1; /* Make buttons take equal width within the container */
+  padding: 12px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.add-new-book-container .form-actions button:hover {
+  background-color: #0056b3;
+}
+
+.add-new-book-container .form-actions button:last-child { /* Style the "Cancel Edit" button */
+  background-color: #6c757d;
+}
+
+.add-new-book-container .form-actions button:last-child:hover {
+  background-color: #5a6268;
 }

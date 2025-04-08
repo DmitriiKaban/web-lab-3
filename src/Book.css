@@ -10,9 +10,17 @@
     text-align: center; /* Center text within the card */
 }
 
-.book-item strong {
-    font-weight: bold;
-    color: #333;
+.book-title {
+    font-size: 1.2em;
+    font-weight: 700;
+    color: #082442;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    /*font-style: italic;*/
+}
+
+.book-item > div {
+    font-size: 1em; /* Adjust the size of other text */
 }
 
 .book-actions {

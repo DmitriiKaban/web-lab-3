@@ -1,6 +1,10 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Book from './Book';
-import './App.css'; // You might want to add some global styles
+import './App.css'; // Default light theme
+import './App.dark.css'; // Dark theme styles
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faSun, faMoon } from '@fortawesome/free-solid-svg-icons';
+import './ThemeToggle.css'; // Separate CSS for the toggle
 
 function App() {
     const [books, setBooks] = useState([
@@ -23,6 +27,23 @@ function App() {
     ]);
     const [newBook, setNewBook] = useState({ title: '', author: '', year: '', pages: '' });
     const [editingBookId, setEditingBookId] = useState(null);
+    const [theme, setTheme] = useState('light');
+
+    useEffect(() => {
+        document.body.className = theme;
+        localStorage.setItem('theme', theme); // Save theme to local storage
+    }, [theme]);
+
+    useEffect(() => {
+        const storedTheme = localStorage.getItem('theme');
+        if (storedTheme) {
+            setTheme(storedTheme);
+        }
+    }, []);
+
+    const toggleTheme = () => {
+        setTheme(prevTheme => (prevTheme === 'light' ? 'dark' : 'light'));
+    };
 
     const addBook = () => {
         if (newBook.title && newBook.author && newBook.year && newBook.pages) {
@@ -59,8 +80,24 @@ function App() {
     };
 
     return (
-        <div className="app">
-            <h1>Book Management</h1>
+        <div className={`app ${theme}`}>
+            <div className="header">
+                <h1>Book Management</h1>
+                <div className="theme-switch-wrapper">
+                    <label className="theme-switch" htmlFor="checkbox">
+                        <input
+                            type="checkbox"
+                            id="checkbox"
+                            checked={theme === 'dark'}
+                            onChange={toggleTheme}
+                        />
+                        <span className="slider round">
+                            <FontAwesomeIcon icon={faSun} className="switch-sun" />
+                            <FontAwesomeIcon icon={faMoon} className="switch-moon" />
+                        </span>
+                    </label>
+                </div>
+            </div>
             <div className="content-wrapper">
                 <div className="book-list-container">
                     <h2>Book List</h2>

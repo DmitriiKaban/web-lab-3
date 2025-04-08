@@ -1,0 +1,87 @@
+.dark {
+    background-color: #1e1e1e;
+    color: #d4d4d4;
+}
+
+.dark h1,
+.dark h2 {
+    color: #d4d4d4;
+}
+
+.dark .add-new-book-container {
+    background-color: #252526;
+    border-color: #333;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.dark .add-new-book-container input[type="text"],
+.dark .add-new-book-container input[type="number"] {
+    background-color: #3b3b3b;
+    color: #d4d4d4;
+    border-color: #555;
+}
+
+.dark .add-new-book-container button {
+    background-color: #007acc; /* Dark theme button color */
+    color: #fff;
+}
+
+.dark .add-new-book-container button:hover {
+    background-color: #005c99;
+}
+
+.dark .book-item {
+    background-color: #252526;
+    border-color: #333;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.dark .book-item strong {
+    color: #eee;
+}
+
+.dark .book-actions button:first-child {
+    background-color: #388e3c; /* Dark theme edit button */
+    color: #fff;
+}
+
+.dark .book-actions button:first-child:hover {
+    background-color: #1b5e20;
+}
+
+.dark .book-actions button:last-child {
+    background-color: #d32f2f; /* Dark theme delete button */
+    color: #fff;
+}
+
+.dark .book-actions button:last-child:hover {
+    background-color: #9a0007;
+}
+
+.theme-toggle-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: #f0f0f0;
+    color: #333;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    z-index: 10; /* Ensure it's above other content */
+}
+
+.dark .theme-toggle-button {
+    background-color: #333;
+    color: #f0f0f0;
+}
+
+.theme-toggle-button:hover {
+    background-color: #ddd;
+}
+
+.dark .theme-toggle-button:hover {
+    background-color: #555;
+}

@@ -1,13 +1,51 @@
 .book-item {
-    border: 1px solid #ccc;
-    padding: 10px;
-    margin-bottom: 10px;
-    border-radius: 5px;
-    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    text-align: center; /* Center text within the card */
+}
+
+.book-item strong {
+    font-weight: bold;
+    color: #333;
+}
+
+.book-actions {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center; /* Center buttons horizontally */
+    gap: 10px;
 }
 
 .book-actions button {
-    margin-right: 5px;
-    padding: 5px 10px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px; /* More rounded buttons */
     cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    min-width: 80px; /* Ensure buttons have a minimum width */
+}
+
+.book-actions button:first-child {
+    background-color: #28a745; /* Green for Edit */
+    color: white;
+}
+
+.book-actions button:first-child:hover {
+    background-color: #1e7e34;
+}
+
+.book-actions button:last-child {
+    background-color: #dc3545; /* Red for Delete */
+    color: white;
+}
+
+.book-actions button:last-child:hover {
+    background-color: #c82333;
 }

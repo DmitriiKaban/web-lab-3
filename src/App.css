@@ -136,3 +136,78 @@ h1 {
 .book-actions button:last-child:hover {
   background-color: #c82333;
 }
+
+.theme-switch-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px 20px;
+}
+
+.theme-switch {
+  position: relative;
+  cursor: pointer;
+}
+
+.switch-track {
+  width: 60px;
+  height: 30px;
+  background-color: #f0f0f0;
+  border-radius: 15px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 0 5px;
+  box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+  transition: background-color 0.3s;
+}
+
+.app.dark .switch-track {
+  background-color: #374151;
+}
+
+.switch-sun {
+  font-size: 16px;
+  z-index: 1;
+  margin-right: auto;
+  transform: translateY(-2px);
+}
+
+.switch-moon {
+  font-size: 16px;
+  z-index: 1;
+  margin-left: auto;
+  /* Position the moon slightly higher */
+  transform: translateY(-3px);
+}
+
+.switch-thumb {
+  position: absolute;
+  left: 5px;
+  width: 24px;
+  height: 24px;
+  background-color: #fff;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+  box-shadow: 0 0 4px rgba(0,0,0,0.2);
+}
+
+.switch-thumb.switched {
+  /* Move the thumb further to the right */
+  transform: translateX(38px);
+  background-color: #1f2937;
+}
+
+/* You may need to add these base styles if not already present */
+.app {
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.app.light {
+  background-color: #ffffff;
+  color: #333333;
+}
+
+.app.dark {
+  background-color: #1a1a1a;
+  color: #f0f0f0;
+}

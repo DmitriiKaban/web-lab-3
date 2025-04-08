@@ -7,7 +7,8 @@ import { faSun, faMoon } from '@fortawesome/free-solid-svg-icons';
 import './ThemeToggle.css'; // Separate CSS for the toggle
 
 function App() {
-    const [books, setBooks] = useState([
+    // Initial books data - will only be used if no data in localStorage
+    const initialBooks = [
         { id: 1, title: 'The Lord of the Rings', author: 'J.R.R. Tolkien', year: 1954, pages: 1178 },
         { id: 2, title: 'Pride and Prejudice', author: 'Jane Austen', year: 1813, pages: 432 },
         { id: 3, title: 'To Kill a Mockingbird', author: 'Harper Lee', year: 1960, pages: 281 },
@@ -24,22 +25,39 @@ function App() {
         { id: 14, title: 'The Hobbit', author: 'J.R.R. Tolkien', year: 1937, pages: 310 },
         { id: 15, title: 'Little Women', author: 'Louisa May Alcott', year: 1868, pages: 449 },
         { id: 16, title: 'The Adventures of Sherlock Holmes', author: 'Arthur Conan Doyle', year: 1892, pages: 309 },
-    ]);
+    ];
+
+    const [books, setBooks] = useState([]);
     const [newBook, setNewBook] = useState({ title: '', author: '', year: '', pages: '' });
     const [editingBookId, setEditingBookId] = useState(null);
     const [theme, setTheme] = useState('light');
 
+    // Load books from localStorage on component mount
     useEffect(() => {
-        document.body.className = theme;
-        localStorage.setItem('theme', theme); // Save theme to local storage
-    }, [theme]);
+        const storedBooks = localStorage.getItem('books');
+        if (storedBooks) {
+            setBooks(JSON.parse(storedBooks));
+        } else {
+            setBooks(initialBooks);
+        }
 
-    useEffect(() => {
         const storedTheme = localStorage.getItem('theme');
         if (storedTheme) {
             setTheme(storedTheme);
         }
     }, []);
+
+    // Save books to localStorage whenever books state changes
+    useEffect(() => {
+        if (books.length > 0) {
+            localStorage.setItem('books', JSON.stringify(books));
+        }
+    }, [books]);
+
+    useEffect(() => {
+        document.body.className = theme;
+        localStorage.setItem('theme', theme); // Save theme to local storage
+    }, [theme]);
 
     const toggleTheme = () => {
         setTheme(prevTheme => (prevTheme === 'light' ? 'dark' : 'light'));
@@ -63,6 +81,11 @@ function App() {
         setEditingBookId(id);
         const bookToEdit = books.find((book) => book.id === id);
         setNewBook({ ...bookToEdit });
+    };
+
+    const cancelEdit = () => {
+        setEditingBookId(null);
+        setNewBook({ title: '', author: '', year: '', pages: '' }); // Clear the form
     };
 
     const saveEdit = () => {
@@ -100,7 +123,9 @@ function App() {
             </div>
             <div className="content-wrapper">
                 <div className="book-list-container">
-                    <h2>Book List</h2>
+                    <div className="book-list-header">
+                        <h2>Book List</h2>
+                    </div>
                     <div className="book-grid">
                         {books.map((book) => (
                             <Book
@@ -138,10 +163,14 @@ function App() {
                         value={newBook.pages}
                         onChange={(e) => setNewBook({ ...newBook, pages: parseInt(e.target.value) || '' })}
                     />
-                    <button onClick={editingBookId ? saveEdit : addBook}>
-                        {editingBookId ? 'Save Edit' : 'Add Book'}
-                    </button>
-                    {editingBookId && <button onClick={() => setEditingBookId(null)}>Cancel Edit</button>}
+                    <div className="form-actions">
+                        <button onClick={editingBookId ? saveEdit : addBook}>
+                            {editingBookId ? 'Save Edit' : 'Add Book'}
+                        </button>
+                        {editingBookId && (
+                            <button onClick={cancelEdit}>Cancel Edit</button>
+                        )}
+                    </div>
                 </div>
             </div>
         </div>

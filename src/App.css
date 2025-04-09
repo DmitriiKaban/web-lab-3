@@ -221,20 +221,85 @@ h1 {
   background-color: #5a6268;
 }
 
-/* Responsive adjustments */
 @media (max-width: 768px) {
   .content-wrapper {
-    flex-direction: column;
+    flex-direction: column-reverse; /* Reverse the order to put form first */
     width: 95%;
+    gap: 20px; /* Reduce the gap a bit */
   }
 
   .book-list-container,
   .add-new-book-container {
     flex: none;
     width: 100%;
+    box-sizing: border-box; /* Ensure padding is included in width */
   }
 
   .book-grid {
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px; /* Reduce the gap a bit */
+  }
+
+  .header {
+    width: 95%;
+    flex-direction: column;
+    gap: 10px; /* Reduce the gap a bit */
+  }
+
+  .add-new-book-container {
+    padding: 12px;]
+    margin: 0;
+    max-width: 100%;
+  }
+
+  .add-new-book-container h2 {
+    font-size: 1.2em; /* Smaller heading */
+    margin-bottom: 8px; /* Reduce margin */
+    padding-bottom: 6px; /* Reduce padding */
+  }
+
+  .add-new-book-container input[type="text"],
+  .add-new-book-container input[type="number"] {
+    padding: 6px; /* Reduce padding */
+    font-size: 14px; /* Smaller font size */
+    margin-bottom: 6px; /* Reduce margin */
+    width: calc(100% - 14px); /* Adjust width calculation for smaller padding */
+  }
+
+  .form-actions {
+    flex-direction: column; /* Stack buttons on mobile */
+    gap: 6px; /* Reduce gap between buttons */
+  }
+
+  .form-actions button {
+    width: 100%;
+    margin-bottom: 0; /* Remove margin bottom */
+    padding: 8px; /* Reduce padding */
+    font-size: 14px; /* Smaller font size */
+  }
+
+  .book-item {
+    padding: 10px; /* Reduce padding */
+    gap: 5px; /* Reduce gap */
+  }
+
+  .book-title {
+    font-size: 1em; /* Smaller title */
+    margin-bottom: 3px; /* Reduce margin */
+  }
+
+  .book-item > div {
+    font-size: 0.9em; /* Smaller text */
+  }
+
+  .book-actions {
+    margin-top: 10px; /* Reduce margin */
+    gap: 5px; /* Reduce gap */
+  }
+
+  .book-actions button {
+    padding: 8px 5px; /* Reduce padding */
+    font-size: 12px; /* Smaller font size */
+    min-width: auto; /* Allow buttons to shrink */
   }
 }

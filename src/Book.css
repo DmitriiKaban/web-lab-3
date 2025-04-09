@@ -25,6 +25,7 @@
     object-fit: cover;
     border-radius: 4px;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+    margin: 0 auto; /* Center the image */
 }
 
 .book-item > div {

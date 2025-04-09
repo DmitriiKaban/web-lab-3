@@ -1,4 +1,3 @@
-/* App.dark.css */
 .app.dark {
     background-color: #1a1a1a;
     color: #f0f0f0;
@@ -68,4 +67,75 @@
 
 .app.dark .switch-thumb.switched {
     background-color: #f0f0f0;
+}
+
+/* Enhanced Mobile Responsiveness */
+@media (max-width: 768px) {
+    /* Restructure layout for mobile - form at top */
+    .content-wrapper {
+        flex-direction: column-reverse; /* Reverse the order to put form first */
+        width: 95%;
+        gap: 30px;
+    }
+
+    .book-list-container,
+    .add-new-book-container {
+        flex: none;
+        width: 100%;
+    }
+
+    .book-grid {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        gap: 15px;
+    }
+
+    /* Adjust header for mobile */
+    .header {
+        width: 95%;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    /* Make form more mobile-friendly */
+    .add-new-book-container {
+        padding: 15px;
+        margin-bottom: 20px;
+    }
+
+    .add-new-book-container input[type="text"],
+    .add-new-book-container input[type="number"] {
+        padding: 12px;
+        font-size: 16px; /* Larger font for mobile inputs */
+    }
+
+    .form-actions {
+        flex-direction: column; /* Stack buttons on mobile */
+    }
+
+    .form-actions button {
+        width: 100%;
+        margin-bottom: 10px;
+        padding: 15px; /* Larger touch target */
+    }
+
+    /* Adjust book items for mobile */
+    .book-item {
+        padding: 12px;
+    }
+
+    .book-title {
+        font-size: 1.1em;
+    }
+
+    .book-actions {
+        flex-direction: row; /* Keep buttons side by side */
+        width: 100%;
+    }
+
+    .book-actions button {
+        flex: 1; /* Make buttons take equal space */
+        padding: 12px 8px;
+        font-size: 14px;
+        min-width: 0; /* Override min-width on mobile */
+    }
 }

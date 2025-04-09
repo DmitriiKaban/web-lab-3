@@ -29,7 +29,10 @@ function App() {
     const [books, setBooks] = useState([]);
     const [newBook, setNewBook] = useState({ title: '', author: '', year: '', pages: '' });
     const [editingBookId, setEditingBookId] = useState(null);
-    const [theme, setTheme] = useState('light');
+    const [theme, setTheme] = useState(() => {
+        return localStorage.getItem('theme') || 'light';
+    });
+
 
     // Load books from localStorage on component mount
     useEffect(() => {
@@ -46,12 +49,16 @@ function App() {
         }
     }, []);
 
-    // Save books to localStorage whenever books state changes
+
     useEffect(() => {
         if (books.length > 0) {
             localStorage.setItem('books', JSON.stringify(books));
         }
     }, [books]);
+
+    useEffect(() => {
+        localStorage.setItem('theme', theme);
+    }, [theme]);
 
     const toggleTheme = () => {
         setTheme(prevTheme => (prevTheme === 'light' ? 'dark' : 'light'));

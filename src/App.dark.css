@@ -1,87 +1,71 @@
-.dark {
-    background-color: #1e1e1e;
-    color: #d4d4d4;
-}
-
-.dark h1,
-.dark h2 {
-    color: #d4d4d4;
-}
-
-.dark .add-new-book-container {
-    background-color: #252526;
-    border-color: #333;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
-}
-
-.dark .add-new-book-container input[type="text"],
-.dark .add-new-book-container input[type="number"] {
-    background-color: #3b3b3b;
-    color: #d4d4d4;
-    border-color: #555;
-}
-
-.dark .add-new-book-container button {
-    background-color: #007acc; /* Dark theme button color */
-    color: #fff;
-}
-
-.dark .add-new-book-container button:hover {
-    background-color: #005c99;
-}
-
-.dark .book-item {
-    background-color: #252526;
-    border-color: #333;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
-}
-
-.dark .book-item strong {
-    color: #eee;
-}
-
-.dark .book-actions button:first-child {
-    background-color: #388e3c; /* Dark theme edit button */
-    color: #fff;
-}
-
-.dark .book-actions button:first-child:hover {
-    background-color: #1b5e20;
-}
-
-.dark .book-actions button:last-child {
-    background-color: #d32f2f; /* Dark theme delete button */
-    color: #fff;
-}
-
-.dark .book-actions button:last-child:hover {
-    background-color: #9a0007;
-}
-
-.theme-toggle-button {
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    padding: 10px 15px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-    background-color: #f0f0f0;
-    color: #333;
-    transition: background-color 0.3s ease, color 0.3s ease;
-    z-index: 10; /* Ensure it's above other content */
-}
-
-.dark .theme-toggle-button {
-    background-color: #333;
+/* App.dark.css */
+.app.dark {
+    background-color: #1a1a1a;
     color: #f0f0f0;
 }
 
-.theme-toggle-button:hover {
-    background-color: #ddd;
+.app.dark h1 {
+    color: #f0f0f0;
 }
 
-.dark .theme-toggle-button:hover {
+.app.dark .add-new-book-container,
+.app.dark .book-item {
+    background-color: #222831;
+    border-color: #333;
+}
+
+.app.dark .book-title {
+    color: #4a90e2;
+}
+
+.app.dark .add-new-book-container h2,
+.app.dark .book-list-container h2 {
+    color: #e0e0e0;
+    border-bottom-color: #333;
+}
+
+.app.dark input {
+    background-color: #2c3440;
+    border-color: #3f4756;
+    color: #e0e0e0;
+}
+
+.app.dark .form-actions button {
+    background-color: #4a6fa5;
+}
+
+.app.dark .form-actions button:hover {
+    background-color: #5d82b8;
+}
+
+.app.dark .form-actions button:last-child {
     background-color: #555;
+}
+
+.app.dark .form-actions button:last-child:hover {
+    background-color: #666;
+}
+
+.app.dark .book-actions button:first-child {
+    background-color: #2a9d4a;
+}
+
+.app.dark .book-actions button:first-child:hover {
+    background-color: #218838;
+}
+
+.app.dark .book-actions button:last-child {
+    background-color: #c82333;
+}
+
+.app.dark .book-actions button:last-child:hover {
+    background-color: #b21f2d;
+}
+
+.app.dark .switch-track {
+    background-color: #374151;
+}
+
+.app.dark .switch-thumb.switched {
+    background-color: #f0f0f0;
 }

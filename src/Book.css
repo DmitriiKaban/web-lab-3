@@ -19,6 +19,14 @@
     /*font-style: italic;*/
 }
 
+.book-image {
+    max-width: 120px;
+    max-height: 180px;
+    object-fit: cover;
+    border-radius: 4px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+}
+
 .book-item > div {
     font-size: 1em; /* Adjust the size of other text */
 }

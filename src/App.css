@@ -2,7 +2,7 @@
 .app {
   font-family: sans-serif;
   padding: 20px;
-  background-color: #f4f4f4;
+  background-color: #f8f8f8;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -11,7 +11,7 @@
 }
 
 .app.light {
-  background-color: #ffffff;
+  background-color: #e2f4d1;
   color: #333333;
 }
 
@@ -161,7 +161,7 @@ h1 {
   width: 90%;
   max-width: 1400px;
   height: 2px;
-  background-color: #2563eb;
+  background-color: #18d61b;
   margin: 30px 0 15px 0;
 }
 
@@ -171,7 +171,7 @@ h1 {
   font-size: 1.8rem;
   margin: 10px 0;
   padding-left: 10px;
-  border-left: 5px solid #2563eb;
+  border-left: 5px solid #18d61b;
 }
 
 .app.dark .year-divider {
@@ -332,7 +332,7 @@ h1 {
 }
 
 .book-actions button:first-child {
-  background-color: #3b82f6;
+  background-color: #357ef4;
 }
 
 .book-actions button:first-child:hover {
@@ -340,7 +340,7 @@ h1 {
 }
 
 .book-actions button:last-child {
-  background-color: #60a5fa;
+  background-color: #4770a3;
 }
 
 .book-actions button:last-child:hover {

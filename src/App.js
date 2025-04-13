@@ -1,7 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import './App.css';
 import './App.dark.css';
-import './ThemeToggle.css';
 import initialBooks from "./data/initialBooks.json";
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faStar as faStarRegular} from '@fortawesome/free-regular-svg-icons';
@@ -52,29 +51,42 @@ function App() {
     };
 
     const addBook = () => {
-        if (newBook.title && newBook.author && newBook.year && newBook.pages) {
-            // If no image provided, use a placeholder
+        if (newBook.title && newBook.author && newBook.year && newBook.readYear) {
             const bookToAdd = {
                 ...newBook,
                 id: Date.now(),
-                image: newBook.image || '/api/placeholder/120/180'
+                image: newBook.image || '/api/placeholder/120/180',
+                rating: newBook.rating || 5 // Default rating if not set
             };
             setBooks([...books, bookToAdd]);
-            setNewBook({title: '', author: '', year: '', pages: '', image: ''});
+            setNewBook({title: '', author: '', year: '', readYear: '', pages: '', image: '', rating: 5, comments: ''});
         } else {
-            alert('Please fill in all required book details.');
+            alert('Please fill in all required book details (title, author, year published, and year read).');
         }
     };
 
     const deleteBook = (id) => {
-        setBooks(books.filter((book) => book.id !== id));
-        setEditingBookId(null);
+        if (window.confirm('Are you sure you want to delete this book?')) {
+            setBooks(books.filter((book) => book.id !== id));
+            if (editingBookId === id) {
+                setEditingBookId(null);
+                setNewBook({
+                    title: '',
+                    author: '',
+                    year: '',
+                    readYear: '',
+                    pages: '',
+                    image: '',
+                    rating: 5,
+                    comments: ''
+                });
+            }
+        }
     };
 
-    const startEdit = (id) => {
-        setEditingBookId(id);
-        const bookToEdit = books.find((book) => book.id === id);
-        setNewBook({...bookToEdit});
+    const startEdit = (book) => {
+        setEditingBookId(book.id);
+        setNewBook({...book});
     };
 
     const cancelEdit = () => {
@@ -83,12 +95,11 @@ function App() {
     };
 
     const saveEdit = () => {
-        if (newBook.title && newBook.author && newBook.year && newBook.pages) {
-            // Make sure image exists or use placeholder
+        if (newBook.title && newBook.author && newBook.year && newBook.readYear) {
             const updatedBook = {
                 ...newBook,
-                id: editingBookId,
-                image: newBook.image || '/api/placeholder/120/180'
+                image: newBook.image || '/api/placeholder/120/180',
+                rating: newBook.rating || 5 // Default rating if not set
             };
 
             setBooks(
@@ -97,9 +108,9 @@ function App() {
                 )
             );
             setEditingBookId(null);
-            setNewBook({title: '', author: '', year: '', pages: '', image: ''});
+            setNewBook({title: '', author: '', year: '', readYear: '', pages: '', image: '', rating: 5, comments: ''});
         } else {
-            alert('Please fill in all required book details.');
+            alert('Please fill in all required book details (title, author, year published, and year read).');
         }
     };
 
@@ -287,7 +298,7 @@ function App() {
                         onChange={(e) => setSearchTerm(e.target.value)}
                     />
                     <button type="submit">
-                        <FontAwesomeIcon icon={faSearch} />
+                        <FontAwesomeIcon icon={faSearch}/>
                     </button>
                 </form>
 
@@ -422,11 +433,11 @@ function App() {
                                                 />
                                             )}
                                             <div className="book-author">{item.author}</div>
-                                            {/*<div className="book-year">Published: {item.year}</div>*/}
+                                            <div className="book-year">Published: {item.year}</div>
                                             <div className="book-rating"> {renderStarRating(item.rating)} </div>
                                             <div className="book-actions">
-                                                <button onClick={() => startEdit(item)}>Edit</button>
-                                                <button onClick={() => deleteBook(item.id)}>Delete</button>
+                                                <button className="edit-button" onClick={() => startEdit(item)}>Edit</button>
+                                                <button className="delete-button" onClick={() => deleteBook(item.id)}>Delete</button>
                                             </div>
                                         </div>
                                     )

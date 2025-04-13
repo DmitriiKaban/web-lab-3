@@ -45,22 +45,6 @@
     background-color: #666;
 }
 
-.app.dark .book-actions button:first-child {
-    background-color: #2a9d4a;
-}
-
-.app.dark .book-actions button:first-child:hover {
-    background-color: #218838;
-}
-
-.app.dark .book-actions button:last-child {
-    background-color: #c82333;
-}
-
-.app.dark .book-actions button:last-child:hover {
-    background-color: #b21f2d;
-}
-
 .app.dark .switch-track {
     background-color: #374151;
 }

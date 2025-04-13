@@ -1,0 +1,1742 @@
+[
+    {
+        "id": 1,
+        "title": "Ведьмак",
+        "author": "Анджей Сапковский",
+        "year": null,
+        "rating": 10.0,
+        "readYear": 2020,
+        "comments": "классика",
+        "image": "https://cdn.librarius.md/img/original/vedimak_1432886167.jpg"
+    },
+    {
+        "id": 2,
+        "title": "Метро 2033",
+        "author": "Дмитрий Глуховский",
+        "year": null,
+        "rating": 10,
+        "readYear": 2020,
+        "comments": "классика",
+        "image": "https://cdn.librarius.md/img/original/metro-2033_1442845577.jpg"
+    },
+    {
+        "id": 1002,
+        "title": "Метро 2034",
+        "author": "Дмитрий Глуховский",
+        "year": null,
+        "rating":8,
+        "readYear": 2020,
+        "comments": "по прежнему интересно",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM6J9I5WinzKv1iVh_Zu8iapzzzHtNWQoeMg&s"
+    },
+    {
+        "id": 1003,
+        "title": "Метро 2035",
+        "author": "Дмитрий Глуховский",
+        "year": null,
+        "rating": 8,
+        "readYear": 2020,
+        "comments": "очень много политики, духа метро почти нет",
+        "image": "https://upload.wikimedia.org/wikipedia/ru/thumb/6/64/%D0%9C%D0%B5%D1%82%D1%80%D0%BE_2035.jpg/274px-%D0%9C%D0%B5%D1%82%D1%80%D0%BE_2035.jpg"
+    },
+    {
+        "id": 1004,
+        "title": "Волкодав",
+        "author": "Мария Семёнова",
+        "year": null,
+        "rating": 8.0,
+        "readYear": 2020,
+        "comments": "на один раз",
+        "image": "https://cdn.librarius.md/img/original/volkodav_1435641966.jpg"
+    },
+    {
+        "id": 4,
+        "title": "1984",
+        "author": "Джордж Оруэлл",
+        "year": null,
+        "rating": 10.0,
+        "readYear": 2020,
+        "comments": "классика",
+        "image": "https://fantasy-worlds.org/img/full/116/11604.jpg"
+    },
+    {
+        "id": 5,
+        "title": "Скотный двор",
+        "author": "Джордж Оруэлл",
+        "year": null,
+        "rating": 9.0,
+        "readYear": 2020,
+        "comments": "интересно",
+        "image": "https://cdn.librarius.md/img/original/skotnyy-dvor-esse_1531412476.jpg"
+    },
+    {
+        "id": 6,
+        "title": "Часодеи",
+        "author": "Наталья Щерба",
+        "year": null,
+        "rating": 9.0,
+        "readYear": 2020,
+        "comments": "дети",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0KJ8l46OR5T5TXyaHCATtR9f_VvzpzKwhfQ&s"
+    },
+    {
+        "id": 7,
+        "title": "Чародол",
+        "author": "Наталья Щерба",
+        "year": null,
+        "rating": 9.0,
+        "readYear": 2020,
+        "comments": "дети",
+        "image": "https://cdn.librarius.md/img/original/charodol-1-charodoliskiy-braslet_1490515514.jpg"
+    },
+    {
+        "id": 8,
+        "title": "Пардус",
+        "author": "Евгений Гаглоев",
+        "year": null,
+        "rating": 8.0,
+        "readYear": 2020,
+        "comments": "дети",
+        "image": "https://cdn.librarius.md/img/original/pardus-1-beguschiy-v-nochi_1434011665.jpg"
+    },
+    {
+        "id": 9,
+        "title": "Автобиография Алекса Фергюсона",
+        "author": "Алекс Фергюсон",
+        "year": null,
+        "rating": 10.0,
+        "readYear": 2020,
+        "comments": "интересно",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfm5Z1CTnD3aq-6t6_mlJd9E195PLNs_1URw&s"
+    },
+    {
+        "id": 10,
+        "title": "Война и Мир",
+        "author": "Лев Толстой",
+        "year": null,
+        "rating": 10.0,
+        "readYear": 2020,
+        "comments": "классика",
+        "image": "https://cdn.librarius.md/img/catalog/voyna-i-mir-kn1_1625816986.jpg"
+    },
+    {
+        "id": 11,
+        "title": "Господа Головлевы",
+        "author": "Салтыков-Щедрин",
+        "year": null,
+        "rating": 7.0,
+        "readYear": 2020,
+        "comments": "не помню",
+        "image": "https://books.google.com/books/content?id=2GiA1nTO-ycC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+        "id": 12,
+        "title": "Мертвые Души",
+        "author": "Николай Гоголь",
+        "year": null,
+        "rating": 8.0,
+        "readYear": 2020,
+        "comments": "школа",
+        "image": "https://books.google.com/books/content?id=BoIUAgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+        "id": 13,
+        "title": "Hobbit",
+        "author": "Джон Рональд Руэл Толкин",
+        "year": null,
+        "rating": 10.0,
+        "readYear": 2020,
+        "comments": "классика",
+        "image": "https://carturesti.md/img-prod/72921469-0.jpeg"
+    },
+    {
+        "id": 14,
+        "title": "Властелин Колец",
+        "author": "Джон Рональд Руэл Толкин",
+        "year": null,
+        "rating": 10.0,
+        "readYear": 2020,
+        "comments": "классика",
+        "image": "https://fantasy-worlds.org/img/preview/9/992.jpg"
+    },
+    {
+        "id": 15,
+        "title": "На западном фронте без перемен",
+        "author": "Эрих Мария Ремарк",
+        "year": null,
+        "rating": 10.0,
+        "readYear": 2020,
+        "comments": "война, классика",
+        "image": "https://cdn.librarius.md/img/original/na-zapadnom-fronte-bez-peremen_1455527408.jpg"
+    },
+    {
+        "id": 16,
+        "title": "Три товарища",
+        "author": "Эрих Мария Ремарк",
+        "year": null,
+        "rating": 10.0,
+        "readYear": 2020,
+        "comments": "дружба, классика",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR17GNKf7AaO50_fh5PDpHN7zbsSTReiuoZhw&s"
+    },
+    {
+        "id": 17,
+        "title": "Праздник который всегда с тобой",
+        "author": "Эрнест Хемингуэй",
+        "year": null,
+        "rating": 7.0,
+        "readYear": 2020,
+        "comments": "автобиография, на момент прочтения не знал автора, поэтому не прочувствовал",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcor_9lWDUliiNVg4mfXuYMAnFagykxNnKCw&s"
+    },
+    {
+        "id": 18,
+        "title": "Фиеста",
+        "author": "Эрнест Хемингуэй",
+        "year": null,
+        "rating": 8.0,
+        "readYear": 2020,
+        "comments": "нудно",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBQNWjFqcPer541OMeImpoj_41h70rqEBYLA&s"
+    },
+    {
+        "id": 19,
+        "title": "По ком звонит колокол",
+        "author": "Эрнест Хемингуэй",
+        "year": null,
+        "rating": 10.0,
+        "readYear": 2020,
+        "comments": "классика, война",
+        "image": "https://books.google.com/books/content?id=w2plDwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+        "id": 20,
+        "title": "Прощай, оружие",
+        "author": "Эрнест Хемингуэй",
+        "year": null,
+        "rating": 9.0,
+        "readYear": 2020,
+        "comments": "интересно",
+        "image": "https://books.google.com/books/content?id=j0eU2MIGH60C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+        "id": 21,
+        "title": "Театр теней",
+        "author": "множество авторов",
+        "year": null,
+        "rating": 8.0,
+        "readYear": 2020,
+        "comments": "интересно",
+        "image": "https://books.google.com/books/content?id=7tORyo5FXrIC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+        "id": 22,
+        "title": "Лаки Стар",
+        "author": "Айзек Азимов",
+        "year": null,
+        "rating": 9.0,
+        "readYear": 2020,
+        "comments": "интересно",
+        "image": "https://www.litres.ru/pub/c/cover/136698.jpg"
+    },
+    {
+        "id": 23,
+        "title": "Дым",
+        "author": "Дэн Вилета",
+        "year": null,
+        "rating": 8.0,
+        "readYear": 2020,
+        "comments": "загадачно",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6NVSMKuSE9OAmsttx6P0TRt6avpApvyHsIQ&s"
+    },
+    {
+        "id": 24,
+        "title": "Понедельник начинается в субботу ",
+        "author": "Аркадий и Борис Стругацкие",
+        "year": null,
+        "rating": 10.0,
+        "readYear": 2020,
+        "comments": "весело, классика",
+        "image": "https://cdn.librarius.md/img/original/ponedelinik-nachinaetsya-v-subbotu_1457697774.jpg"
+    },
+    {
+        "id": 25,
+        "title": "Обитаемый остров",
+        "author": "Аркадий и Борис Стругацкие",
+        "year": null,
+        "rating": 10.0,
+        "readYear": 2020,
+        "comments": "пропаганда, благие намерения, чувство справедливости. тотальное одурманивание",
+        "image": "https://cdn.librarius.md/img/original/obitaemyy-ostrov_1675332351.jpg"
+    },
+    {
+        "id": 26,
+        "title": "Идиот",
+        "author": "Фёдор Достоевский",
+        "year": null,
+        "rating": 10.0,
+        "readYear": 2021,
+        "comments": "классика",
+        "image": "https://cdn.librarius.md/img/original/idiot_1645512389.jpeg"
+    },
+    {
+        "id": 27,
+        "title": "Братья Карамазовы",
+        "author": "Фёдор Достоевский",
+        "year": null,
+        "rating": 10.0,
+        "readYear": 2021,
+        "comments": "классика",
+        "image": "https://books.google.com/books/content?id=N3m6FwK1algC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+        "id": 28,
+        "title": "Палата номер 6",
+        "author": "Антон Павлович Чехов",
+        "year": null,
+        "rating": 9.0,
+        "readYear": 2021,
+        "comments": "классика",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfolW_fuimk4rODSzOLwzkvPyLRVeIkKY0oA&s"
+    },
+    {
+        "id": 29,
+        "title": "Бесы",
+        "author": "Фёдор Достоевский",
+        "year": null,
+        "rating": 8.0,
+        "readYear": 2021,
+        "comments": "не полностью прочуствовал",
+        "image": "https://cdn.librarius.md/img/original/besy_1668421673.jpg"
+    },
+    {
+        "id": 30,
+        "title": "Подросток",
+        "author": "Фёдор Достоевский",
+        "year": null,
+        "rating": 7.0,
+        "readYear": 2021,
+        "comments": "растянуто, размышления подростка близки и понятны(интересно читать и чувствоваать)",
+        "image": "https://cdn.librarius.md/img/original/idiot_1645512389.jpeg"
+    },
+    {
+        "id": 31,
+        "title": "Отверженные",
+        "author": "Виктор Гюго",
+        "year": null,
+        "rating": 10.0,
+        "readYear": 2021,
+        "comments": "классика, трагичная эпопея жизни беглого каторжника",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmZoUFpAxp2Typc_k-z_xyU0yZbskMcurz_w&s"
+    },
+    {
+        "id": 32,
+        "title": "Граф Монте Кристо",
+        "author": "Александр Дюма",
+        "year": null,
+        "rating": 10.0,
+        "readYear": 2021,
+        "comments": "классика, история мести, на которую была положена вся жизнь",
+        "image": "https://books.google.com/books/content?id=IkWvDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+        "id": 33,
+        "title": "Собор Парижской Богоматери",
+        "author": "Виктор Гюго",
+        "year": null,
+        "rating": 8.0,
+        "readYear": 2021,
+        "comments": "классика, местами затянуто (описание Парижа и собора)",
+        "image": "https://books.google.com/books/content?id=kiNIDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+        "id": 34,
+        "title": "Мартин Иден",
+        "author": "Джек Лондон",
+        "year": null,
+        "rating": 10.0,
+        "readYear": 2021,
+        "comments": "классика, очень интересно",
+        "image": "https://books.google.com/books/content?id=vaQlEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+        "id": 35,
+        "title": "Униженные и оскорблённые",
+        "author": "Фёдор Достоевский",
+        "year": null,
+        "rating": 9.0,
+        "readYear": 2021,
+        "comments": "классика",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmZoUFpAxp2Typc_k-z_xyU0yZbskMcurz_w&s"
+    },
+    {
+        "id": 36,
+        "title": "Божественная комедия",
+        "author": "Данте Алигьери",
+        "year": null,
+        "rating": 7.0,
+        "readYear": 2021,
+        "comments": "трудно следить за сюжетом без кратких описаний глав",
+        "image": "https://books.google.com/books/content?id=bRvdDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+        "id": 37,
+        "title": "Трудно быть богом",
+        "author": "Аркадий и Борис Стругацкие",
+        "year": null,
+        "rating": 10.0,
+        "readYear": 2021,
+        "comments": "интересно, концепция",
+        "image": "https://books.google.com/books/content?id=HjkkEAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+        "id": 38,
+        "title": "Степной волк",
+        "author": "Герман Гессе",
+        "year": null,
+        "rating": 10.0,
+        "readYear": 2021,
+        "comments": "классика, загадочно",
+        "image": "https://books.google.com/books/content?id=OuZsuONPeG8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+        "id": 39,
+        "title": "Бедные люди",
+        "author": "Фёдор Достоевский",
+        "year": null,
+        "rating": 8.0,
+        "readYear": 2021,
+        "comments": "необычно",
+        "image": "https://books.google.com/books/content?id=puiaEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+        "id": 40,
+        "title": "Портрет Дориана Грея",
+        "author": "Оскар Уайльд",
+        "year": null,
+        "rating": 10.0,
+        "readYear": 2021,
+        "comments": "классика",
+        "image": "https://books.google.com/books/content?id=b0tGBAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+        "id": 41,
+        "title": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "year": null,
+        "rating": 9.0,
+        "readYear": 2021,
+        "comments": "детский взгляд",
+        "image": "https://books.google.com/books/content?id=uxfmDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+        "id": 42,
+        "title": "One Flew Over the Cuckoo's Nest",
+        "author": "Ken Kesey",
+        "year": null,
+        "rating": 9.0,
+        "readYear": 2021,
+        "comments": "классика",
+        "image": "https://cdn.librarius.md/img/original/one-flew-over-the-cuckoos-nest_1686641537.jpg"
+    },
+    {
+        "id": 43,
+        "title": "Мы",
+        "author": "Евгений Замятин",
+        "year": null,
+        "rating": 7.0,
+        "readYear": 2021,
+        "comments": "хуже других жанровых представителей",
+        "image": "https://cdn.librarius.md/img/original/my_1627557586.jpg"
+    },
+    {
+        "id": 44,
+        "title": "Анна Каренина",
+        "author": "Лев Николаевич Толстой",
+        "year": null,
+        "rating": 10.0,
+        "readYear": 2021,
+        "comments": "классика, женская и мужская психология, трагедия",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1T-Ohls6e18zHaGFsfHFe5R5ZOLpI7wkPPQ&s"
+    },
+    {
+        "id": 45,
+        "title": "Черный Обелиск",
+        "author": "Эрих Мария Ремарк",
+        "year": null,
+        "rating": 10.0,
+        "readYear": 2021,
+        "comments": "исторический опыт",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSIT2ZVAFU0fUpTDgpYJYNN_A0BCF-TpPX5A&s"
+    },
+    {
+        "id": 46,
+        "title": "Деглобализация",
+        "author": "Проект \"Простые Числа\"",
+        "year": null,
+        "rating": 10.0,
+        "readYear": 2021,
+        "comments": "обучение",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRedDZcwmYOPQ8Fd9ibglcYbLlDBipBICmWGA&s"
+    },
+    {
+        "id": 47,
+        "title": "Триумфальная арка",
+        "author": "Эрих Мария Ремарк",
+        "year": null,
+        "rating": 10.0,
+        "readYear": 2021,
+        "comments": "классика",
+        "image": "https://cdn.librarius.md/img/original/zemlya-obetovannaya_1646299422.jpg"
+    },
+    {
+        "id": 48,
+        "title": "Generation П",
+        "author": "Виктор Пелевин",
+        "year": null,
+        "rating": 8.0,
+        "readYear": 2021,
+        "comments": "ближе к концу - больше наркомании",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPtckH_jC81UVcOpMRhjLr5RQd3duUnKjWow&s"
+    },
+    {
+        "id": 49,
+        "title": "Государь",
+        "author": "Никколо Макиавелли",
+        "year": null,
+        "rating": 8.0,
+        "readYear": 2021,
+        "comments": "интересно",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTg5zedCDmIUOjh-JxqWvjnZbVfh8JG6N0sgQ&s"
+    },
+    {
+        "id": 50,
+        "title": "О военном искусстве",
+        "author": "Никколо Макиавелли",
+        "year": null,
+        "rating": 7.0,
+        "readYear": 2021,
+        "comments": "размышления",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpxf3ojyrQWfcP4xPeB268SoxIqfEvIlZmRg"
+    },
+    {
+        "id": 51,
+        "title": "Империализм как высшая стадия капитализма",
+        "author": "Ленин",
+        "year": null,
+        "rating": 10.0,
+        "readYear": 2021,
+        "comments": "обучение",
+        "image": "https://cdn.librarius.md/img/original/imperializm-kak-vysshaya-stadiya-kapitalizma_1628666634.jpg"
+    },
+    {
+        "id": 52,
+        "title": "Игра в бисер",
+        "author": "Герман Гессе",
+        "year": null,
+        "rating": 9.0,
+        "readYear": 2021,
+        "comments": "загадочно, концепция разделения людей на рабочих и ученых",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0CA9uWP0_6xGCxFJAHJgxuKm_L0cQa_Rc4A&s"
+    },
+    {
+        "id": 53,
+        "title": "Над пропастью во ржи",
+        "author": "Джером Сэлинджер",
+        "year": null,
+        "rating": 9.0,
+        "readYear": 2021,
+        "comments": "интересно, взгляд подростка на взрослую жизнь",
+        "image": "https://cdn.librarius.md/img/original/nad-propastiyu-vo-rzhi_1627984460.jpg"
+    },
+    {
+        "id": 54,
+        "title": "Повелитель мух",
+        "author": "Уильям Голдинг",
+        "year": null,
+        "rating": 9.0,
+        "readYear": 2021,
+        "comments": "попытка детей выжить, создать общество со своей структурой и законами, жестокость",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcRnzvbJnnciMHwDsRWp82FYFHsfsOKqKjdw&s"
+    },
+    {
+        "id": 55,
+        "title": "Сто лет одиночества",
+        "author": "Габриэль Гарсиа Маркес",
+        "year": null,
+        "rating": 9.0,
+        "readYear": 2021,
+        "comments": "интересно, новый опыт, специфика мексиканской культуры",
+        "image": "https://books.google.com/books/content?id=unIyeOAhwCoC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+        "id": 56,
+        "title": "Осень патриарха",
+        "author": "Габриэль Гарсиа Маркес",
+        "year": null,
+        "rating": 9.0,
+        "readYear": 2021,
+        "comments": "интересные размышления человека с абсолютной властью, бог при жизни, мифическое создание для жителей государства",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXv9dpU4U-AaHXcxcy0ZNImWvbHXJl7O5AaQ&s"
+    },
+    {
+        "id": 57,
+        "title": "Земля обетованная",
+        "author": "Эрих Мария Ремарк",
+        "year": null,
+        "rating": 9.0,
+        "readYear": 2021,
+        "comments": "жизнь после войны",
+        "image": "https://cdn.librarius.md/img/original/zemlya-obetovannaya_1646299422.jpg"
+    },
+    {
+        "id": 58,
+        "title": "Автостопом по галактике",
+        "author": "Адамс Дуглас",
+        "year": null,
+        "rating": 10.0,
+        "readYear": 2021,
+        "comments": "невероятно смешные и забавные приключения",
+        "image": "https://cdn.librarius.md/img/original/avtostopom-po-galaktike-restoran-u-konca-vselennoy_1686638091.jpg"
+    },
+    {
+        "id": 59,
+        "title": "Пикник на обочине",
+        "author": "Аркадий и Борис Стругацкие ",
+        "year": null,
+        "rating": 9.0,
+        "readYear": 2021,
+        "comments": "сталкер",
+        "image": "https://cdn.librarius.md/img/original/piknik-na-obochine_1561049426.jpg"
+    },
+    {
+        "id": 60,
+        "title": "Записки из мертвого дома",
+        "author": "Фёдор Достоевский",
+        "year": null,
+        "rating": 9.0,
+        "readYear": 2022,
+        "comments": "тюрьма",
+        "image": "https://books.google.com/books/content?id=yR_BAQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+        "id": 61,
+        "title": "Ночной портье",
+        "author": "Шоу Ирвин",
+        "year": null,
+        "rating": 9.0,
+        "readYear": 2022,
+        "comments": "экшн с погонями, крупными суммами ",
+        "image": "https://books.google.com/books/content?id=BjoHEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+        "id": 62,
+        "title": "Луна и грош",
+        "author": "Уильям Сомерсет Моэм",
+        "year": null,
+        "rating": 9.0,
+        "readYear": 2022,
+        "comments": "интересно",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCw0v2Ruh6P_vXZDpaGF6t7B5_iYTYXbeX1A&s"
+    },
+    {
+        "id": 63,
+        "title": "Театр",
+        "author": "Уильям Сомерсет Моэм",
+        "year": null,
+        "rating": 10.0,
+        "readYear": 2022,
+        "comments": "история, театр, любовь людей разных возрастов",
+        "image": "https://books.google.com/books/content?id=lmT9AgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+        "id": 64,
+        "title": "Ночь в Лиссабоне",
+        "author": "Эрих Мария Ремарк",
+        "year": null,
+        "rating": 9.0,
+        "readYear": 2022,
+        "comments": "жизнь, интересно",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnVSdqgaSwhmB0UD3GwF98Lud93Inw3cTLVg&s"
+    },
+    {
+        "id": 65,
+        "title": "Тени в раю",
+        "author": "Эрих Мария Ремарк",
+        "year": null,
+        "rating": 9.0,
+        "readYear": 2022,
+        "comments": "Земля обетованная, только другое название и другая редактура",
+        "image": "https://cdn.librarius.md/img/original/teni-v-rayu_1472038274.jpg"
+    },
+    {
+        "id": 66,
+        "title": "Бремя страстей человеческих",
+        "author": "Уильям Сомерсет Моэм",
+        "year": null,
+        "rating": 10.0,
+        "readYear": 2022,
+        "comments": "интересные мысли, классика",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXI4kA6sOyQ0eiLgAXgrRkJTdps2XlVOaH6A&s"
+    },
+    {
+        "id": 67,
+        "title": "рассказы",
+        "author": "Уильям Сомерсет Моэм",
+        "year": null,
+        "rating": null,
+        "readYear": 2022,
+        "comments": "",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjO4jnq1qbY4uUnlCZP2QebVMO3lv2MGozoQ&s"
+    },
+    {
+        "id": 68,
+        "title": "Ярмарка тщеславия",
+        "author": "Уильям Мейкпис Теккерей",
+        "year": null,
+        "rating": 9.0,
+        "readYear": 2022,
+        "comments": "классика",
+        "image": "https://books.google.com/books/content?id=FwfhDAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+        "id": 69,
+        "title": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "year": null,
+        "rating": 10.0,
+        "readYear": 2022,
+        "comments": "эпоха, джаз, стиль, невероятная любовь",
+        "image": "https://books.google.com/books/content?id=ko_aDwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+        "id": 70,
+        "title": "Записки из подполья",
+        "author": "Фёдор Достоевский",
+        "year": null,
+        "rating": 9.0,
+        "readYear": 2022,
+        "comments": "жизнь",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzuO9y0McGmUuovqRWv6Xa4cQKC3lqBIj36g&s"
+    },
+    {
+        "id": 71,
+        "title": "Вечный муж.     Бобок",
+        "author": "Фёдор Достоевский",
+        "year": null,
+        "rating": 8.0,
+        "readYear": 2022,
+        "comments": "творчество автора",
+        "image": "https://books.google.com/books/content?id=JSBFDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+        "id": 72,
+        "title": "Чума",
+        "author": "Альбер Камю",
+        "year": null,
+        "rating": 9.0,
+        "readYear": 2022,
+        "comments": "новый опыт, пандемия, характеры людей во время катастрофы",
+        "image": "https://cdn.librarius.md/img/original/chuma_1472038267.jpg"
+    },
+    {
+        "id": 73,
+        "title": "Демиан",
+        "author": "Герман Гессе",
+        "year": null,
+        "rating": 9.0,
+        "readYear": 2022,
+        "comments": "интересно",
+        "image": "https://books.google.com/books/content?id=n1KjEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+        "id": 74,
+        "title": "Гертруда",
+        "author": "Герман Гессе",
+        "year": null,
+        "rating": 9.0,
+        "readYear": 2022,
+        "comments": "интересно",
+        "image": "https://imo10.labirint.ru/books/654026/cover.jpg/242-0"
+    },
+    {
+        "id": 75,
+        "title": "Чужая жена и муж под кроватью",
+        "author": "Фёдор Достоевский",
+        "year": null,
+        "rating": 8.0,
+        "readYear": 2022,
+        "comments": "-",
+        "image": "https://books.google.com/books/content?id=sx5FDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+        "id": 76,
+        "title": "Хозяйка",
+        "author": "Фёдор Достоевский",
+        "year": null,
+        "rating": 8.0,
+        "readYear": 2022,
+        "comments": "-",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSD7k-XT2xoo-IFfkmYDrvk3tZUX8K7mzbFQ&s"
+    },
+    {
+        "id": 77,
+        "title": "Село Степанчиково и его обитатели",
+        "author": "Фёдор Достоевский",
+        "year": null,
+        "rating": 8.0,
+        "readYear": 2022,
+        "comments": "-",
+        "image": "https://books.google.com/books/content?id=LTPWYMqId_IC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+        "id": 78,
+        "title": "Белые ночи",
+        "author": "Фёдор Достоевский",
+        "year": null,
+        "rating": 8.0,
+        "readYear": 2022,
+        "comments": "забавная история любви",
+        "image": "https://books.google.com/books/content?id=Mux4BgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+        "id": 79,
+        "title": "Неточка Незванова",
+        "author": "Фёдор Достоевский",
+        "year": null,
+        "rating": 7.0,
+        "readYear": 2022,
+        "comments": "-",
+        "image": "https://books.google.com/books/content?id=2_6kAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+        "id": 80,
+        "title": "Посторонний",
+        "author": "Альбер Камю",
+        "year": null,
+        "rating": 10.0,
+        "readYear": 2022,
+        "comments": "трагедия человека, осужденного обществом",
+        "image": "https://librarius.md/img/400/600/aHR0cHM6Ly9jZG4ubGlicmFyaXVzLm1kL2ltZy9jYXRhbG9nL3Bvc3Rvcm9ubml5XzE2Mjc5OTQyMzMuanBn.jpg"
+    },
+    {
+        "id": 81,
+        "title": "Смерть Ивана Ильича",
+        "author": "Лев Николаевич Толстой",
+        "year": null,
+        "rating": 8.0,
+        "readYear": 2022,
+        "comments": "разочарование жизнью",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxz4tM27ViPz38nZuDY-uxhADt5rnygkPbOw&s"
+    },
+    {
+        "id": 82,
+        "title": "Хаджи Мурат",
+        "author": "Лев Николаевич Толстой",
+        "year": null,
+        "rating": 8.0,
+        "readYear": 2022,
+        "comments": "эпоха, обычаи",
+        "image": "https://books.google.com/books/content?id=M0ZNDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+        "id": 83,
+        "title": "Доктор Живаго",
+        "author": "Борис Пастернак ",
+        "year": null,
+        "rating": 5.0,
+        "readYear": 2022,
+        "comments": "скучно, затянуто",
+        "image": "https://cdn.librarius.md/img/original/doktor-zhivago_1650371892.jpg"
+    },
+    {
+        "id": 84,
+        "title": "Град обречённый",
+        "author": "Аркадий и Борис Стругацкие",
+        "year": null,
+        "rating": 10.0,
+        "readYear": 2022,
+        "comments": "концепция",
+        "image": "https://cdn.librarius.md/img/original/grad-obrechennyy_1486813842.jpg"
+    },
+    {
+        "id": 85,
+        "title": "Унесённые ветром",
+        "author": "Маргарет Митчелл ",
+        "year": null,
+        "rating": 10.0,
+        "readYear": 2022,
+        "comments": "классика, исторический роман",
+        "image": "https://books.google.com/books/content?id=S07-AgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+        "id": 86,
+        "title": "Война миров",
+        "author": "Герберт Уэллс",
+        "year": null,
+        "rating": 10.0,
+        "readYear": 2023,
+        "comments": "классика, интересная концепция пришельцев",
+        "image": "https://books.google.com/books/content?id=je52EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+        "id": 87,
+        "title": "Человек-невидимка",
+        "author": "Герберт Уэллс",
+        "year": null,
+        "rating": 9.0,
+        "readYear": 2023,
+        "comments": "интересная симуляция жизни человека-невидимки в обществе",
+        "image": "https://books.google.com/books/content?id=QgZNDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+        "id": 88,
+        "title": "Солярис",
+        "author": "Станислав Лем",
+        "year": null,
+        "rating": 8.0,
+        "readYear": 2023,
+        "comments": "местами страшно, жутко, непонятная форма жизни",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSClaaMY4Qc5UWPdSdhHUVWXfk71faxlvQlBw&s"
+    },
+    {
+        "id": 89,
+        "title": "Грозовой перевал",
+        "author": "Эмили Бронте",
+        "year": null,
+        "rating": 10.0,
+        "readYear": 2023,
+        "comments": "классика, трагедия, ужасные поступки человека, обиженного жизнью, со сложным характером и судьбой",
+        "image": "https://books.google.com/books/content?id=GQcSAgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+        "id": 90,
+        "title": "Улитка на склоне",
+        "author": "Аркадий и Борис Стругацкие",
+        "year": null,
+        "rating": 6.0,
+        "readYear": 2023,
+        "comments": "наркомания, лес и странности в нем + государственное бюро, запутанное, погрязшее в бюрократии",
+        "image": "https://cdn.librarius.md/img/original/ulitka-na-sklone_1675074642.jpg"
+    },
+    {
+        "id": 91,
+        "title": "Большие надежды",
+        "author": "Чарльз Диккенс",
+        "year": null,
+        "rating": 9.0,
+        "readYear": 2023,
+        "comments": "классика, детский взгляд",
+        "image": "https://cdn.librarius.md/img/original/bolishie-nadezhdy_1645800015.jpg"
+    },
+    {
+        "id": 92,
+        "title": "Сами Боги",
+        "author": "Айзек Азимов",
+        "year": null,
+        "rating": 8.0,
+        "readYear": 2023,
+        "comments": "интересно, странненько",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJLAKaZdOHE7QQ10VUankqEh0wkQoB5x2zyA&s"
+    },
+    {
+        "id": 93,
+        "title": "Восемнадцатое брюмера Луи Бонапарта",
+        "author": "Карл Маркс",
+        "year": null,
+        "rating": 5.0,
+        "readYear": 2023,
+        "comments": "сложно без глубоких познаний истории того времени (знание имен деятелей и событий)",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzaw9nZzq5pU0fFq7f3FTl1z3znLlvviUXug&s"
+    },
+    {
+        "id": 94,
+        "title": "Бесы",
+        "author": "Фёдор Достоевский",
+        "year": null,
+        "rating": 10.0,
+        "readYear": 2023,
+        "comments": "классика, трагедия, судьбы молодых людей, попавших под влияние заразительной идеи",
+        "image": "https://cdn.librarius.md/img/original/besy_1668421673.jpg"
+    },
+    {
+        "id": 95,
+        "title": "11/22/63",
+        "author": "Стивен Кинг ",
+        "year": null,
+        "rating": 10.0,
+        "readYear": 2023,
+        "comments": "приключения, классика, перемещение во времени, дух США 60-х",
+        "image": "https://cdn.librarius.md/img/original/112263_1645515794.jpeg"
+    },
+    {
+        "id": 96,
+        "title": "Задача Трех Тел",
+        "author": "Лю Цысинь",
+        "year": null,
+        "rating": 10.0,
+        "readYear": 2023,
+        "comments": "задумка существования цивилизации и взаимодействие с ней людей + немного истории Китая 60-х",
+        "image": "https://cdn.librarius.md/img/original/zadacha-treh-tel_1513682045.jpg"
+    },
+    {
+        "id": 97,
+        "title": "Темный лес",
+        "author": "Лю Цысинь",
+        "year": null,
+        "rating": 9.0,
+        "readYear": 2023,
+        "comments": "интересно",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfezEmoAio-rqOU9CRSyJkdaPP2Obw_NcMFQ&s"
+    },
+    {
+        "id": 98,
+        "title": "Вечная жизнь Смерти",
+        "author": "Лю Цысинь ",
+        "year": null,
+        "rating": 7.0,
+        "readYear": 2023,
+        "comments": "затянуто",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsCf8NFofb-xOeeYYZ2kyXiVQxaOStuLEzSA&s"
+    },
+    {
+        "id": 99,
+        "title": "Philosopher's Stone ",
+        "author": "\tJ. K. Rowling",
+        "year": null,
+        "rating": 10.0,
+        "readYear": 2023,
+        "comments": "классика",
+        "image": "https://books.google.com/books/content?id=n05jCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+        "id": 100,
+        "title": "Chamber of Secrets",
+        "author": "\tJ. K. Rowling",
+        "year": null,
+        "rating": 10.0,
+        "readYear": 2023,
+        "comments": "классика",
+        "image": "https://books.google.com/books/content?id=_UfhEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+        "id": 101,
+        "title": "Prisoner of Azkaban",
+        "author": "\tJ. K. Rowling",
+        "year": null,
+        "rating": 10.0,
+        "readYear": 2023,
+        "comments": "классика",
+        "image": "https://books.google.com/books/content?id=1YcHEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+        "id": 102,
+        "title": "Goblet Of Fire",
+        "author": "J. K. Rowling",
+        "year": null,
+        "rating": 10.0,
+        "readYear": 2023,
+        "comments": "классика",
+        "image": "https://books.google.com/books/content?id=etukl7GfrxQC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+        "id": 103,
+        "title": "Order Of Phoenix ",
+        "author": "J. K. Rowling ",
+        "year": null,
+        "rating": 10.0,
+        "readYear": 2023,
+        "comments": "классика",
+        "image": "https://books.google.com/books/content?id=zpvysRGsBlwC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+        "id": 104,
+        "title": "Halfblood Prince ",
+        "author": "J.K. Rowling ",
+        "year": null,
+        "rating": 10.0,
+        "readYear": 2023,
+        "comments": "классика",
+        "image": "https://books.google.com/books/content?id=1YwtPwAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+        "id": 105,
+        "title": "Deathly Hallows ",
+        "author": "J.K. Rowling",
+        "year": null,
+        "rating": 10.0,
+        "readYear": 2023,
+        "comments": "классика",
+        "image": "https://books.google.com/books/content?id=szF_pLGmJTQC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+        "id": 106,
+        "title": "Процесс",
+        "author": "Франц Кафка",
+        "year": null,
+        "rating": 5.0,
+        "readYear": 2023,
+        "comments": "скучно, затянуто",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR22PsF5Zx6iyoltHB01RmwHpwIxbNSVR7Smg&s"
+    },
+    {
+        "id": 107,
+        "title": "Воспитание Чувств",
+        "author": "Флобер Гюстав",
+        "year": null,
+        "rating": 9.0,
+        "readYear": 2023,
+        "comments": "классика, детский взгляд",
+        "image": "https://books.google.com/books/content?id=fe52EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+        "id": 108,
+        "title": "Гроздья Гнева",
+        "author": "Джон Стейнбек",
+        "year": null,
+        "rating": 10.0,
+        "readYear": 2023,
+        "comments": "переселение жителей центра США в Калифорнию, трагедия маленьких людей",
+        "image": "https://books.google.com/books/content?id=MLoAAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+        "id": 109,
+        "title": "День Триффидов",
+        "author": "Джон Уиндем",
+        "year": null,
+        "rating": 10.0,
+        "readYear": 2023,
+        "comments": "интересно, приключения в постапокалипсисе, выживание людей, попытка воссоздать общество",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3uf_2VAVm9w8-bpdk-7Bki8x1-cALoZwBEg&s"
+    },
+    {
+        "id": 110,
+        "title": "Печальный детектив ",
+        "author": "Виктор Астафьев ",
+        "year": null,
+        "rating": 9.0,
+        "readYear": 2023,
+        "comments": "интересно, эпоха",
+        "image": "https://cdn.librarius.md/img/catalog/pechalinyy-detektiv_1531080331.jpg"
+    },
+    {
+        "id": 111,
+        "title": "О мышах и людях ",
+        "author": "Джон Стейнбек ",
+        "year": null,
+        "rating": 10.0,
+        "readYear": 2023,
+        "comments": "эпоха, жизнь",
+        "image": "https://cdn.librarius.md/img/original/o-myshah-i-lyudyah-zhemchuzhina_1472038291.jpg"
+    },
+    {
+        "id": 112,
+        "title": "Жемчужина",
+        "author": "Джон Стейнбек ",
+        "year": null,
+        "rating": 9.0,
+        "readYear": 2023,
+        "comments": "интересно",
+        "image": "https://s1.livelib.ru/boocover/1000330921/200/afa4/boocover.jpg"
+    },
+    {
+        "id": 113,
+        "title": "Зима тревоги нашей ",
+        "author": "Джон Стейнбек ",
+        "year": null,
+        "rating": 10.0,
+        "readYear": 2023,
+        "comments": "человеческие качества, честность, трагедия чистого человека, его предательство своих идеалов",
+        "image": "https://imo10.labirint.ru/books/552430/cover.jpg/242-0"
+    },
+    {
+        "id": 114,
+        "title": "К востоку от Эдема",
+        "author": "Джон Стейнбек ",
+        "year": null,
+        "rating": 10.0,
+        "readYear": 2023,
+        "comments": "человеческий путь в жизни не предначертан, выбор за нами, Кайн и Авель",
+        "image": "https://cdn.librarius.md/img/original/k-vostoku-ot-edema_1537043737.jpg"
+    },
+    {
+        "id": 115,
+        "title": "Пегий пёс, бегущий краем моря",
+        "author": "Чингиз Айтматов ",
+        "year": null,
+        "rating": 7.0,
+        "readYear": 2023,
+        "comments": "народные мотивы, Великая волна, Великий туман",
+        "image": "https://books.google.com/books/content?id=xRyhAwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+        "id": 116,
+        "title": "Преступление лорда Артура Сэвила",
+        "author": "Оскар Уайльд ",
+        "year": null,
+        "rating": 9.0,
+        "readYear": 2023,
+        "comments": "насмешка над херомантией",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRM3Af1iqnimV1OiNwqOc0iNV0Syj9wVXh7BA&s"
+    },
+    {
+        "id": 117,
+        "title": "Тошнота",
+        "author": "Жан-Поль Сартр",
+        "year": null,
+        "rating": 6.0,
+        "readYear": 2024,
+        "comments": "Рассуждения о существовании, перекручено во многом, от нечего делать впадает в извечные бесконечные рассуждения, которые только отдалаяют его от действительности",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1akM9YP1W2D04rx02nIlC50udB9I5vaSK2Q&s"
+    },
+    {
+        "id": 118,
+        "title": "Дом падших ангелов ",
+        "author": "Урреа Луис Альберто",
+        "year": null,
+        "rating": 9.0,
+        "readYear": 2024,
+        "comments": "большая мексиканская семья, адаптация в США, отношения членов семьи ",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKfsZ5PniLTHWscVapaL79Y3kKGgf-008LyQ&s"
+    },
+    {
+        "id": 119,
+        "title": "Отец Горио",
+        "author": "Оноре Де Бальзак",
+        "year": null,
+        "rating": 10.0,
+        "readYear": 2024,
+        "comments": "несчастный отец, чрезмерно любивший дочерей был убит их прихотями и невозможностью им отказать",
+        "image": "https://books.google.com/books/content?id=vabIDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+        "id": 120,
+        "title": "Мечтают ли андроиды об электроовцах",
+        "author": "Филип К. Дик",
+        "year": null,
+        "rating": 10.0,
+        "readYear": 2024,
+        "comments": "что отличает человека от андроида, так ли важна эта разница, связь с природой, жизнью",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRR-tgvIsC1YpXQVM1f4cQsjj1hy-ih-9vEOQ&s"
+    },
+    {
+        "id": 121,
+        "title": "Утраченные иллюзии ",
+        "author": "Оноре Де Бальзак ",
+        "year": null,
+        "rating": 10.0,
+        "readYear": 2024,
+        "comments": "Пороки высшего французского общества, влияние журналистов, дружба честолюбца и преданного друга",
+        "image": "https://books.google.com/books/content?id=f-52EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+        "id": 122,
+        "title": "Гадкие Лебеди",
+        "author": "Аркадий и Борис Стругацкие",
+        "year": null,
+        "rating": 10.0,
+        "readYear": 2024,
+        "comments": "Будущее поколение, сверхлюди, дети, которых трудно понять, они лучше нас, умнее, пусть и жестоки, но практичны",
+        "image": "https://books.google.com/books/content?id=RCNFDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+        "id": 123,
+        "title": "Дюна",
+        "author": "Фрэнк Герберт",
+        "year": null,
+        "rating": 8.0,
+        "readYear": 2024,
+        "comments": "Интересно, но больше под впечатлением фильма",
+        "image": "https://books.google.com/books/content?id=SPtFDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+        "id": 124,
+        "title": "Сборник стихов",
+        "author": "Владимир Маяковский ",
+        "year": null,
+        "rating": 9.0,
+        "readYear": 2024,
+        "comments": "Революционные стихи не так понравились, а лирика - очень, любимое: Люблю, стихи про США, Разговор с фининспектором ",
+        "image": "https://www.moscowbooks.ru/image/book/543/orig/i543777.jpg?cu=20180101000000"
+    },
+    {
+        "id": 125,
+        "title": "Богатый папа, бедный папа",
+        "author": "Роберт Кийосаки",
+        "year": null,
+        "rating": 8.0,
+        "readYear": 2024,
+        "comments": "Интересно, много про инвестиции и подход к деньгам. Многовато повторений, деньги - смысл жизни",
+        "image": "https://books.google.com/books/content?id=vy_lCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+        "id": 126,
+        "title": "Обитаемый остров",
+        "author": "Аркадий и Борис Стругацкие",
+        "year": null,
+        "rating": 10.0,
+        "readYear": 2024,
+        "comments": "пропаганда, благие намерения, чувство справедливости. тотальное одурманивание",
+        "image": "https://cdn.librarius.md/img/original/obitaemyy-ostrov_1675332351.jpg"
+    },
+    {
+        "id": 127,
+        "title": "Грокаем алгоритмы",
+        "author": "Бхаргава А.",
+        "year": null,
+        "rating": 10.0,
+        "readYear": 2024,
+        "comments": "хорошо и понятно изложено",
+        "image": "https://books.google.com/books/content?id=ZSApEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+        "id": 128,
+        "title": "Хоббит, или Туда и обратно",
+        "author": "Джон Р.Р. Толкин",
+        "year": null,
+        "rating": 10.0,
+        "readYear": 2024,
+        "comments": "добрая сказка, любимая вселенная",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnC0sDG5Cj1HbgGI1nRnqDvtuTcosm9KQXCQ&s"
+    },
+    {
+        "id": 129,
+        "title": "За миллиард лет до конца света ",
+        "author": "Аркадий и Борис Стругацкие",
+        "year": null,
+        "rating": 10.0,
+        "readYear": 2024,
+        "comments": "ученные встают перед выбором: океан смерти или кривые глухие окольные тропы",
+        "image": "https://books.google.com/books/content?id=ViNFDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+        "id": 130,
+        "title": "Гобсек",
+        "author": "Оноре Де Бальзак",
+        "year": null,
+        "rating": 10.0,
+        "readYear": 2024,
+        "comments": "скряга, извивающийся над высшим обществом, людьми, которые берут у него кредит, будучи в бедственном финансовом положении. часть цикла парижских историй",
+        "image": "https://books.google.com/books/content?id=ggUSAgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+        "id": 131,
+        "title": "Чемодан",
+        "author": "Сергей Довлатов",
+        "year": null,
+        "rating": 8.0,
+        "readYear": 2024,
+        "comments": "Забавные истории антисоветчика-разгильдяя-пофигиста",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIsXTnbpIFCfFfQaGkCR29SPJPwr6GJsA82Q&s"
+    },
+    {
+        "id": 132,
+        "title": "Блеск и нищета куртизанок",
+        "author": "Оноре Де Бальзак",
+        "year": null,
+        "rating": 9.0,
+        "readYear": 2024,
+        "comments": "много неожиданных поворотов, продолжение цикла парижских историй",
+        "image": "https://books.google.com/books/content?id=yX10EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+        "id": 133,
+        "title": "Компромисс ",
+        "author": "Сергей Довлатов ",
+        "year": null,
+        "rating": 9.0,
+        "readYear": 2024,
+        "comments": "забавные истории из жизни журналиста ",
+        "image": "https://cdn.librarius.md/img/original/kompromiss_1531329506.jpg"
+    },
+    {
+        "id": 134,
+        "title": "Хижина дяди Тома",
+        "author": "Гарриет Бичер-Стоу",
+        "year": null,
+        "rating": 10.0,
+        "readYear": 2024,
+        "comments": "Рабство - чёрное пятно на лице истории человечества, одно из самых страшных явлений",
+        "image": "https://books.google.com/books/content?id=a-qaEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+        "id": 135,
+        "title": "Последний день приговоренного к смерти",
+        "author": "Виктор Гюго",
+        "year": null,
+        "rating": 9.0,
+        "readYear": 2024,
+        "comments": "Размышления перед неминуемой смертью, чувства. Ничего нового для себя не открыл, но было интересно послушать. Очень напомнило рассуждения князя Мышкина из романа \"Идиот\"",
+        "image": "https://books.google.com/books/content?id=yptLDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+        "id": 136,
+        "title": "Страна багровых туч",
+        "author": "Аркадий и Борис Стругацкие",
+        "year": null,
+        "rating": 9.0,
+        "readYear": 2024,
+        "comments": "интересное научно-практическое приключение на Венере, ученные, сталкивающиеся с неизвестными живыми существами и природными явлениями ",
+        "image": "https://books.google.com/books/content?id=KCNFDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+        "id": 137,
+        "title": "Человек. Анатомия. Физиология. 8 класс",
+        "author": "Цузмер и Петришина",
+        "year": null,
+        "rating": 10.0,
+        "readYear": 2024,
+        "comments": "базовая анатомия",
+        "image": "https://fremus.narod.ru/java/i03/anat886-00m.jpg"
+    },
+    {
+        "id": 138,
+        "title": "Люси Краун ",
+        "author": "Ирвин Шоу ",
+        "year": null,
+        "rating": 10.0,
+        "readYear": 2024,
+        "comments": "измена, утрата доверия, поиск себя в жизни, прощение",
+        "image": "https://cdn.librarius.md/img/original/lyusi-kraun_1531031103.jpg"
+    },
+    {
+        "id": 139,
+        "title": "Рассказы 1955-59",
+        "author": "Аркадий и Борис Стругацкие ",
+        "year": null,
+        "rating": 9.0,
+        "readYear": 2024,
+        "comments": "небольшие научно-фантастические рассказы",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZo34x22CnykdP36tLVIv3PBdtqFoiiN2aLA&s"
+    },
+    {
+        "id": 140,
+        "title": "Путь на Амальтею ",
+        "author": "Аркадий и Борис Стругацкие ",
+        "year": null,
+        "rating": 9.0,
+        "readYear": 2024,
+        "comments": "интересное небольшое приключение космонавтов, научная фантастика ",
+        "image": "https://books.google.com/books/content?id=ICNFDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+        "id": 141,
+        "title": "Bobby Fischer Teaches Chess",
+        "author": "Robert Fischer",
+        "year": null,
+        "rating": 10.0,
+        "readYear": 2024,
+        "comments": "шахматная книга с задачками для начинающих",
+        "image": "https://books.google.com/books/content?id=v6G1AAAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    {
+        "id": 142,
+        "title": "Приключения Оливера Твиста ",
+        "author": "Чарльз Диккенс ",
+        "year": null,
+        "rating": 10.0,
+        "readYear": 2024,
+        "comments": "доброта, искренность, честность спасают душу",
+        "image": "https://cdn.librarius.md/img/original/priklyucheniya-olivera-tvista_1554021988.jpg"
+    },
+    {
+        "id": 143,
+        "title": "Человек в высоком замке ",
+        "author": "Филип К. Дик",
+        "year": null,
+        "rating": 9.0,
+        "readYear": 2024,
+        "comments": "альтернативная история, много сюжетных линий, все крутится вокруг гадательной книги",
+        "image": "https://cdn.librarius.md/img/original/chelovek-v-vysokom-zamke_1591528981.jpg"
+    },
+    {
+        "id": 144,
+        "title": "Убик",
+        "author": "Филип К. Дик",
+        "year": null,
+        "rating": 9.0,
+        "readYear": 2024,
+        "comments": "научная фантастика, много всего непонятного, полужизнь - разум живёт, к нему можно обращаться из нашего мира",
+        "image": "https://cdn.librarius.md/img/original/ubik_1716373916.jpg"
+    },
+    {
+        "id": 145,
+        "title": "Анатомия человека. Том 1",
+        "author": "М.Р. Сапин, Г.Л. Билич",
+        "year": null,
+        "rating": 10.0,
+        "readYear": 2024,
+        "comments": "очень подробно, не полная, надо читать следующий том",
+        "image": "https://books.google.com/books/content?id=i-EJbkH9b-EC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+        "id": 146,
+        "title": "Пролейтесь, слёзы ",
+        "author": "Филип К. Дик",
+        "year": null,
+        "rating": 9.0,
+        "readYear": 2024,
+        "comments": "история знаменитого человека, проснувшегося в один день неизвестным, без документов",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_kqspNCU4howbHO2ZvaHS_bKwKCEyyUtT5g&s"
+    },
+    {
+        "id": 147,
+        "title": "Воскресение",
+        "author": "Лев Николаевич Толстой ",
+        "year": null,
+        "rating": 10.0,
+        "readYear": 2024,
+        "comments": "судебная и исправительная системы, искупление, прощение, божьи заповеди",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdj_2dcY38VnoDuMwR9sb-02mcH2ZKqOPehQ&s"
+    },
+    {
+        "id": 148,
+        "title": "Финансист",
+        "author": "Теодор Драйзер",
+        "year": null,
+        "rating": 10.0,
+        "readYear": 2024,
+        "comments": "прирожденный делец пробивается в сливки общества, много финансовых схем, много исторических событий",
+        "image": "https://librarius.md/img/400/600/aHR0cHM6Ly9jZG4ubGlicmFyaXVzLm1kL2ltZy9jYXRhbG9nL2ZpbmFuc2lzdF8xNTI2OTMwMzQyLmpwZw_e__e_.jpg"
+    },
+    {
+        "id": 149,
+        "title": "Титан",
+        "author": "Теодор Драйзер ",
+        "year": null,
+        "rating": 8.0,
+        "readYear": 2024,
+        "comments": "прямое продолжение, не очень понравилось изменение характера жены в угоду сюжета ",
+        "image": "https://biblion.md/wp-content/uploads/2024/06/%D1%82%D0%B8%D1%82%D0%B0%D0%BD-%D0%B4%D1%80%D0%B0%D0%B9%D0%B7%D0%B5%D1%80-%D0%90%D0%A1%D0%A2-%D0%BC%D1%8F%D0%B3.png"
+    },
+    {
+        "id": 150,
+        "title": "Стоик",
+        "author": "Теодор Драйзер ",
+        "year": null,
+        "rating": 9.0,
+        "readYear": 2024,
+        "comments": "прямое продолжение, понравилась концовка, переосмысление жизни",
+        "image": "https://cdn.ast.ru/v2/ASE000000000848853/COVER/cover1__w340.jpg"
+    },
+    {
+        "id": 151,
+        "title": "Восстание ангелов",
+        "author": "Анатоль Франс",
+        "year": null,
+        "rating": 9.0,
+        "readYear": 2024,
+        "comments": "интересная концепция, много отсылок к философии, религии и истории. война – это всегда коммерческое предприятие",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBVA2n5EJjnnDP3R3SjqdAmbdpAuZhG1zXIQ&s"
+    },
+    {
+        "id": 152,
+        "title": "Каллокаин",
+        "author": "Карин Бойе",
+        "year": null,
+        "rating": 10.0,
+        "readYear": 2024,
+        "comments": "антиутопия, главный герой придумывает \"эликсир правды\", теперь даже мысли караются законом, лишь в душах людей теплится стремление к свободе, единению людей, доверию",
+        "image": "https://books.google.com/books/content?id=zTE_DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+        "id": 153,
+        "title": "Овод",
+        "author": "Этель Лилиан Войнич",
+        "year": null,
+        "rating": 9.0,
+        "readYear": 2024,
+        "comments": "религиозный человек разочарован, обижен, хочет мстить за свои страдания и утраты. Сравнение мучений человека и Христа, кто пострадал больше, кто заслуживает больше любви (сын, прошедший через ад или Христос как символ религии?)",
+        "image": "https://books.google.com/books/content?id=4X10EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+        "id": 154,
+        "title": "Стив Джобс",
+        "author": "Уолтер Айзексон",
+        "year": null,
+        "rating": 10.0,
+        "readYear": 2024,
+        "comments": "невероятная история противоречивой лочности, которая своей гениальностью изменила индустрию ПК, музыки(iTunes, iPod), телефонов, мультипликации(Pixar). Он кричал на людей, оскорблял, увольнял, но стремился создать компанию, которая полностью отвечает за опыт клиента, а сотрудники говорят правду о том, что им не нравится. Он подходил ко всему как творец, принимавший только близкие к идеалу образы (будь то кампус, телефон, компьютер или магазин).",
+        "image": "https://cdn.librarius.md/img/original/stiv-dzhobs_1432884618.jpg"
+    },
+    {
+        "id": 155,
+        "title": "Госпожа Бовари ",
+        "author": "Гюстав Флобер ",
+        "year": null,
+        "rating": 10.0,
+        "readYear": 2024,
+        "comments": "мечтательная девушка, строившая свои представления о любви, читая романы, вышла замуж, поняла, что не любит и начала искать настоящую любовь (1 - мечтатель, как и она, 2 - богатый герой ее романов). страсть и желание счастья, любви -> разорила мужа и покончила с собой ",
+        "image": "https://books.google.com/books/content?id=cq2IDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+        "id": 156,
+        "title": "Морфий",
+        "author": "Михаил Булгаков ",
+        "year": null,
+        "rating": 10.0,
+        "readYear": 2024,
+        "comments": "автобиографический рассказ о зависимости, неотвратимости порабощения человеского сознания, невозможности борьбы ",
+        "image": "https://books.google.com/books/content?id=GRrhDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+        "id": 157,
+        "title": "Крошка Цахес, по прозванию Циннобер",
+        "author": "Эрнст Теодор Амадей Гофман",
+        "year": null,
+        "rating": 9.0,
+        "readYear": 2025,
+        "comments": "Детская сказка про урода от рождения, которому с помощью магии дали власть, а потом, его как злодея победили",
+        "image": "https://books.google.com/books/content?id=tGNGDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+        "id": 158,
+        "title": "Белая Гвардия ",
+        "author": "Михаил Булгаков ",
+        "year": null,
+        "rating": 8.0,
+        "readYear": 2025,
+        "comments": "Исторический роман про быт людей в Киеве зимой 1918-19 годов со всеми ужасами тех лет.",
+        "image": "https://cdn.librarius.md/img/original/belaya-gvardiya_1485340543.jpg"
+    },
+    {
+        "id": 159,
+        "title": "Поющие в терновнике",
+        "author": "Колин Маккалоу",
+        "year": null,
+        "rating": 10.0,
+        "readYear": 2025,
+        "comments": "Люди приносят свою жизнь в жертву, ради чего-то более высокого и прекрасного, будь то жизнь, полная любви к человеку, который не может ответить взаимностью, или отречение от мирских благ в пользу бога",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQO72_RwLOdx3Gk9LDeFiRMEtGWvu95pMw35w&s"
+    },
+    {
+        "id": 160,
+        "title": "Записки юного врача ",
+        "author": "Михаил Булгаков ",
+        "year": null,
+        "rating": 10.0,
+        "readYear": 2025,
+        "comments": "молодой врач делится мыслями, переживаниями в коротких рассказах повествуя нам о различных случаях, будучи врачом в глухой деревне. очень забавные, интересные мысли, близкие простому читателю. герой ругает сельчан за их невежество, пытается им помочь, достучаться до них (большинство забивало на сифилис)",
+        "image": "https://books.google.com/books/content?id=PaBEDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+        "id": 161,
+        "title": "1984",
+        "author": "Джордж Оруэлл",
+        "year": null,
+        "rating": 10.0,
+        "readYear": 2025,
+        "comments": "безысходность борьбы с тоталитаризмом, который находится в руках 2 млн избранных, истово цепляющихся за власть. роман-предупреждение про тоталитарное общество, которое порабощает не только тела, но и умы своих граждан.",
+        "image": "https://fantasy-worlds.org/img/full/116/11604.jpg"
+    },
+    {
+        "id": 162,
+        "title": "Шагреневая кожа",
+        "author": "Оноре де Бальзак",
+        "year": null,
+        "rating": 9.0,
+        "readYear": 2025,
+        "comments": "молодой человек продал свою жизнь дьяволу за исполнение желаний, пусть это и вернуло его к жизни, оставалось ему не долго",
+        "image": "https://books.google.com/books/content?id=ZM7BEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+        "id": 163,
+        "title": "Скотный двор",
+        "author": "Джордж Оруэлл",
+        "year": null,
+        "rating": 10.0,
+        "readYear": 2025,
+        "comments": "сатира на становление СССР, интересно читается",
+        "image": "https://cdn.librarius.md/img/original/skotnyy-dvor-esse_1531412476.jpg"
+    },
+    {
+        "id": 164,
+        "title": "Машина времени ",
+        "author": "Герберт Уэллс",
+        "year": null,
+        "rating": 9.0,
+        "readYear": 2025,
+        "comments": "интересная попытка объяснить возможность существования машины времени, а также предположение, каким может быть устройство жизни, если гиперболизировать капиталистические отношения конца 19 века",
+        "image": "https://books.google.com/books/content?id=uE2ZBAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+        "id": 165,
+        "title": "Норвежский лес",
+        "author": "Харуки Мураками",
+        "year": null,
+        "rating": 2.0,
+        "readYear": 2025,
+        "comments": "запутавшийся молодой человек, не знает, что с собой делать (вокруг него такие же люди поканчивают с собой), слишком много откровенной пошлости, не в попад, просто ужас, невозможно читать, герои все в депресии и сплошные смерти",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQl7NqKyrUqInytCqvINi6wcZ9f3y5MI6H08A&s"
+    },
+    {
+        "id": 166,
+        "title": "Как закалялась сталь",
+        "author": "Николай Островский",
+        "year": null,
+        "rating": 6.0,
+        "readYear": 2025,
+        "comments": "агитка про бравого большевика, настоящего рабочего, честного и идейного парня, который, превозмогая трудности, сопротивление неприятелей и проблемы со здоровьем, до последнего предан коммунистическому движению и борьбе за свободу Человека",
+        "image": "https://books.google.com/books/content?id=BNtLDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    {
+        "id": 167,
+        "title": "Пропаганда",
+        "author": "Эдвард Бернейс",
+        "year": null,
+        "rating": 9.0,
+        "readYear": 2025,
+        "comments": "интересно рассказано и техниках, примерах и возможностях пропаганды, мало чего-то нового, но все равно интересно систематизировать",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyZHRwDZYjaUpBuZgjcie5lkSlUhDFVmvhBA&s"
+    },
+    {
+        "id": 168,
+        "title": "Странник по звёздам ",
+        "author": "Джек Лондон ",
+        "year": null,
+        "rating": 9.0,
+        "readYear": 2025,
+        "comments": "история заключённого, который поверил в бессмертие души, реинкарнацию, который переживал одну за другой свои прошлые жизни. осознал, что главное чудо и радость - женщина",
+        "image": "https://cdn.librarius.md/img/original/strannik-po-zvezdam_1675249764.jpg"
+    },
+    {
+        "id": 169,
+        "title": "Удержать небо ",
+        "author": "Лю Цысинь",
+        "year": null,
+        "rating": 9.0,
+        "readYear": 2025,
+        "comments": "сборник научно фантастических рассказов, какие-то интереснее, какие-то менее интересные, но очень много идей и гипотез",
+        "image": "https://cdn.librarius.md/img/original/uderzhati-nebo_1683291128.jpg"
+    },
+    {
+        "id": 170,
+        "title": "Станция на горизонте",
+        "author": "Эрих Мария Ремарк",
+        "year": null,
+        "rating": 9.0,
+        "readYear": 2025,
+        "comments": "роман про гонщика, который флиртует, заводит романы и, конечно, участвует и побеждает в гонках. много интеллектуальных дуэлей, разговоров, каждое слово во время которых оценивается, обдумывается и только после этого произносится (стратегии, тактики)",
+        "image": "https://carturesti.md/img-prod/72921549-0-240.jpeg"
+    },
+    {
+        "id": 171,
+        "title": "Отель \"У погибшего альпиниста\"",
+        "author": "Аркадий и Борис Стругацкие",
+        "year": null,
+        "rating": 9.0,
+        "readYear": 2025,
+        "comments": "интересный камерный детектив, очень уютный, местами жуткий и загадочный, в самом конце превращается в фантастический триллер",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcVnYqxQU2Hhu9BDlg6lnrrhLNK42rgUlrUw&s"
+    },
+    {
+        "id": 172,
+        "title": "Собрание сочинений, том 3",
+        "author": "Александр Блок",
+        "year": null,
+        "rating": 8.0,
+        "readYear": 2025,
+        "comments": "слишком много похожих сентиментальных любовных стихов, понравилось из всей книги лишь 3: \"Мой бедный, мой далёкий друг! ...\", \"Ты твердишь, что я холоден, замкнут и сух...\", \"Когда ты загнан и забит.. (отрывок поэмы Возмездие)\"",
+        "image": "https://s1.livelib.ru/boocover/1000154351/200x305/cc9f/Aleksandr_Blok__Sobranie_sochinenij_v_12_tomah._Tom_3._Sobranie_stihotvorenij._K.jpg"
+    }
+]

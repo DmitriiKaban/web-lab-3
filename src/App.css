@@ -24,7 +24,7 @@ h1 {
   color: #333;
   margin-bottom: 20px;
   text-align: center;
-  width: 100%;
+  width: 1000%;
 }
 
 .app.dark h1 {
@@ -89,8 +89,9 @@ h1 {
 .filter-options {
   display: flex;
   gap: 10px;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   align-items: center;
+  flex: 1;
 }
 
 .filter-options select {
@@ -99,6 +100,7 @@ h1 {
   border-radius: 4px;
   background-color: white;
   min-width: 120px;
+  flex: 1;
 }
 
 .app.dark .filter-options select {
@@ -117,6 +119,8 @@ h1 {
   border-radius: 4px;
   padding: 5px;
   background-color: white;
+  width: 100%;
+  flex-wrap: wrap;
 }
 
 .app.dark .rating-filter {
@@ -129,16 +133,17 @@ h1 {
   font-size: 12px;
   font-weight: bold;
   white-space: nowrap;
+  padding: 0 10px;
 }
 
 .rating-checkbox-group {
   display: flex;
-  flex-wrap: nowrap;
-  gap: 3px;
-  padding: 5px 10px;
-
-  max-width: 300px;
+  flex-wrap: wrap;
+  gap: 5px;
+  padding: 5px;
+  flex: 1;
 }
+
 
 .rating-filter .rating-filter-title + div {
   display: flex;
@@ -146,14 +151,37 @@ h1 {
   margin-top: 0;
 }
 
+
 .rating-checkbox-item {
   display: flex;
   align-items: center;
   gap: 5px;
+  margin-right: 5px;
 }
 
 .rating-checkbox-item input[type="checkbox"] {
   margin: 0;
+}
+
+.rating-buttons {
+  display: flex;
+  gap: 5px;
+  padding-right: 10px;
+}
+
+.rating-buttons button {
+  padding: 2px 8px;
+  font-size: 11px;
+  background-color: #e0e0e0;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.app.dark .rating-buttons button {
+  background-color: #3f4756;
+  border-color: #2c3440;
+  color: #e0e0e0;
 }
 
 /* Year Section Styling */
@@ -206,7 +234,7 @@ h1 {
   flex-direction: column;
   gap: 8px;
   text-align: center;
-  height: 350px;
+  height: 375px;
   width: calc(22% - 20px); /* Changed to 25% for 4 items */
   min-width: 180px;
   flex: 1 1 calc(22% - 20px); /* Changed to 25% for 4 items */
@@ -214,6 +242,7 @@ h1 {
   overflow: hidden;
   transition: transform 0.2s, box-shadow 0.2s;
   position: relative;
+  order: 1;
 }
 
 .book-item:hover {
@@ -279,6 +308,11 @@ h1 {
   border-radius: 4px;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
   margin: 0 auto;
+}
+
+.book-author {
+  font-weight: 500;
+  margin-bottom: 2px;
 }
 
 /* Star Rating */
@@ -357,12 +391,13 @@ h1 {
   display: flex;
   flex-direction: column;
   gap: 8px;
-  height: 350px;
+  height: 375px;
   width: calc(21% - 20px); /* Changed to 25% for 4 items */
   min-width: 180px;
   flex: 1 1 calc(21% - 20px); /* Changed to 25% for 4 items */
   max-width: calc(21% - 20px); /* Changed to 25% for 4 items */
   overflow: auto;
+  order: -1; /* This will make it appear first in flexbox layouts */
 }
 
 .app.dark .add-book-item {
@@ -521,6 +556,308 @@ input:checked + .slider:before {
   transform: translateX(30px);
 }
 
+/* Rating Filter Dropdown with Checkboxes */
+.rating-filter-container {
+  position: relative;
+  display: inline-block;
+  z-index: 1000; /* Ensure dropdown appears above other elements */
+}
+
+.rating-dropdown-button {
+  padding: 8px 12px;
+  background-color: #f8f9fa;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-width: 140px;
+  font-size: 1rem;
+  color: #212529;
+  text-align: left;
+}
+
+.dark .rating-dropdown-button {
+  background-color: #333;
+  color: #f8f9fa;
+  border-color: #555;
+}
+.rating-dropdown-button:hover {
+  background-color: #e9ecef;
+}
+
+.dark .rating-dropdown-button:hover {
+  background-color: #444;
+}
+
+
+.rating-dropdown-button:after {
+  content: "▼";
+  font-size: 10px;
+  margin-left: 10px;
+}
+.rating-dropdown-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.rating-dropdown-content {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  z-index: 1001;
+  min-width: 220px;
+  padding: 12px;
+  margin-top: 8px;
+  display: block; /* Ensure it's displayed */
+}
+
+.dark .rating-dropdown-content {
+  background-color: #222;
+  border-color: #555;
+  color: #f8f9fa;
+}
+
+.rating-filter-container.active .rating-dropdown-content {
+  display: block;
+}
+
+.rating-dropdown-content .rating-checkbox-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+}
+
+.rating-checkbox-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 3px 0;
+}
+
+.rating-checkbox-item label {
+  cursor: pointer;
+  user-select: none;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+}
+
+.rating-checkbox-item input[type="checkbox"] {
+  margin: 0;
+  cursor: pointer;
+}
+
+.rating-dropdown-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid #eee;
+}
+
+.app.dark .rating-dropdown-actions {
+  border-top-color: #3f4756;
+}
+
+.rating-dropdown-actions button {
+  padding: 5px 10px;
+  font-size: 12px;
+  background-color: #e0e0e0;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.app.dark .rating-dropdown-actions button {
+  background-color: #3f4756;
+  border-color: #2c3440;
+  color: #e0e0e0;
+}
+
+.rating-dropdown-actions button:hover {
+  background-color: #d0d0d0;
+}
+
+.app.dark .rating-dropdown-actions button:hover {
+  background-color: #4a5568;
+}
+
+/* For the star display inside the dropdown */
+.rating-star-display {
+  display: flex;
+  align-items: center;
+}
+
+.dropdown-star {
+  color: #ffb800;
+  font-size: 14px;
+  margin-right: 2px;
+}
+
+/* Selected ratings indicator */
+.selected-ratings {
+  display: inline-flex;
+  align-items: center;
+  margin-left: 8px;
+  gap: 5px;
+}
+
+.selected-rating-tag {
+  background-color: #e7f3ff;
+  color: #2563eb;
+  border-radius: 12px;
+  padding: 2px 8px;
+  font-size: 12px;
+  display: inline-flex;
+  align-items: center;
+}
+
+.app.dark .selected-rating-tag {
+  background-color: #2c3e50;
+  color: #93c5fd;
+}
+
+.selected-rating-tag .remove-tag {
+  margin-left: 5px;
+  cursor: pointer;
+  font-size: 10px;
+}
+
+
+.rating-checkbox-group {
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.rating-checkbox-item {
+  margin-bottom: 10px;
+  padding: 6px 4px;
+  border-radius: 4px;
+  transition: background-color 0.2s;
+}
+
+.rating-checkbox-item:hover {
+  background-color: #f8f9fa;
+}
+
+.dark .rating-checkbox-item:hover {
+  background-color: #333;
+}
+
+.rating-checkbox-item label {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.rating-checkbox-item input[type="checkbox"] {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.rating-star-display {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.dropdown-star {
+  color: #ffc107;
+  font-size: 16px;
+  margin-right: 2px;
+}
+
+.dropdown-star.empty {
+  color: #ccc;
+}
+
+.dark .dropdown-star.empty {
+  color: #666;
+}
+
+.dropdown-star.half {
+  position: relative;
+  color: #ccc;
+}
+
+.dropdown-star.half::after {
+  content: "★";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  overflow: hidden;
+  color: #ffc107;
+}
+
+.rating-number {
+  margin-left: 8px;
+  font-size: 14px;
+  color: #666;
+  flex-shrink: 0;
+}
+
+.dark .rating-number {
+  color: #ccc;
+}
+
+.rating-dropdown-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px solid #eee;
+}
+
+.dark .rating-dropdown-actions {
+  border-top-color: #444;
+}
+
+.rating-dropdown-actions button {
+  background-color: transparent;
+  border: none;
+  color: #007bff;
+  cursor: pointer;
+  padding: 4px 8px;
+  font-size: 14px;
+}
+
+.dark .rating-dropdown-actions button {
+  color: #4dabf7;
+}
+
+.rating-dropdown-actions button:hover {
+  text-decoration: underline;
+}
+
+.selected-ratings {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-left: 8px;
+}
+
+.selected-rating-tag {
+  background-color: #e9ecef;
+  padding: 2px 8px;
+  border-radius: 12px;
+  font-size: 12px;
+  color: #495057;
+}
+
+.dark .selected-rating-tag {
+  background-color: #444;
+  color: #e9ecef;
+}
 /* Responsive Styles */
 @media (max-width: 1200px) {
   .book-item,
@@ -545,10 +882,16 @@ input:checked + .slider:before {
 @media (max-width: 768px) {
   .search-filter-container {
     width: 95%;
+    flex-direction: column;
+    align-items: stretch; /* Changed from flex-start for full width */
+    gap: 12px;
   }
 
   .book-row {
-    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 20px;
   }
 
   .book-item,
@@ -579,19 +922,134 @@ input:checked + .slider:before {
     min-width: auto;
   }
 
+  .search-filter-container {
+    width: 95%;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .filter-options {
+    width: 100%;
+    justify-content: space-between;
+    gap: 8px;
+  }
+  .filter-options select {
+    flex: 1 1 calc(50% - 5px); /* Two selects per row with gap */
+    min-width: unset;
+  }
+
+  /* Make rating filter full width and on its own row in mobile */
   .rating-filter {
     width: 100%;
+    order: 3; /* Push to the bottom of filter options */
+    margin-top: 10px;
+  }
+
+  .book-row {
+    justify-content: center;
+  }
+
+  .book-item,
+  .add-book-item {
+    width: calc(50% - 20px);
+    min-width: unset;
+    flex: 1 1 calc(50% - 20px);
+    max-width: calc(50% - 20px);
+    height: 320px;
+  }
+
+  .header {
+    width: 95%;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .year-heading,
+  .year-divider,
+  .book-grid-container {
+    width: 95%;
+  }
+
+  .book-actions button {
+    padding: 8px 5px;
+    font-size: 12px;
+    min-width: auto;
+  }
+
+
+  .search-bar {
+    width: 100%;
+    min-width: unset;
+    flex: 1 1 auto;
+  }
+
+  .rating-filter {
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+  }
+
+  .rating-filter-title {
+    margin-bottom: 8px;
+    width: 100%;
+    text-align: left;
+  }
+
+  .rating-checkbox-group {
+    width: 100%;
+    justify-content: flex-start;
+    gap: 10px;
+    padding: 2px 0;
+    flex-wrap: wrap;
+  }
+
+  .rating-checkbox-item {
+    min-width: calc(33% - 10px); /* Three checkboxes per row */
+  }
+
+  .rating-buttons {
+    width: 100%;
+    justify-content: flex-end;
+    padding: 8px 0 2px;
+  }
+
+  .rating-buttons button {
+    padding: 5px 10px; /* Larger touch target */
+    font-size: 12px;
+  }
+
+  .filter-options {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .rating-filter-container {
+    width: 100%;
+  }
+
+  .rating-dropdown-content {
+    width: 100%;
+    left: 0;
+    right: 0;
   }
 }
 
 @media (max-width: 480px) {
-  .book-item,
-  .add-book-item {
-    width: 100%;
-    min-width: unset;
-    flex: 1 1 100%;
-    max-width: 100%;
-    height: auto;
-    min-height: 300px;
+  .filter-options select {
+    flex: 1 1 100%; /* One select per row */
+  }
+
+  .rating-checkbox-item {
+    min-width: calc(50% - 10px); /* Two checkboxes per row */
+  }
+
+  .search-bar input {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  .search-bar button {
+    padding: 8px 12px;
   }
 }

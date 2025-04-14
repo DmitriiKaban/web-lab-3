@@ -10,18 +10,20 @@ import {
     faSearch,
     faStar as faStarSolid,
     faStarHalfAlt
-} from '@fortawesome/free-solid-svg-icons'
+} from '@fortawesome/free-solid-svg-icons';
+import RatingFilter from './RatingFilter';
 
 function App() {
 
     const [books, setBooks] = useState(initialBooks);
-    const [newBook, setNewBook] = useState({title: '', author: '', year: '', pages: '', image: ''});
+    const [newBook, setNewBook] = useState({title: '', author: '', year: '', pages: '', image: '', genre: ''});
     const [editingBookId, setEditingBookId] = useState(null);
     const [searchTerm, setSearchTerm] = useState('');
     const [filterCriteria, setFilterCriteria] = useState({
         readYear: 'all',
         sortBy: 'readYear',
-        ratings: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10] // All ratings selected by default
+        ratings: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10], // All ratings selected by default
+        genre: 'all' // Add genre filter
     });
     const [theme, setTheme] = useState(() => {
         return localStorage.getItem('theme') || 'light';
@@ -56,10 +58,11 @@ function App() {
                 ...newBook,
                 id: Date.now(),
                 image: newBook.image || '/api/placeholder/120/180',
-                rating: newBook.rating || 5 // Default rating if not set
+                rating: newBook.rating || 5, // Default rating if not set
+                genre: newBook.genre || 'Uncategorized' // Default genre if not set
             };
             setBooks([...books, bookToAdd]);
-            setNewBook({title: '', author: '', year: '', readYear: '', pages: '', image: '', rating: 5, comments: ''});
+            setNewBook({title: '', author: '', year: '', readYear: '', pages: '', image: '', rating: 5, comments: '', genre: ''});
         } else {
             alert('Please fill in all required book details (title, author, year published, and year read).');
         }
@@ -78,7 +81,8 @@ function App() {
                     pages: '',
                     image: '',
                     rating: 5,
-                    comments: ''
+                    comments: '',
+                    genre: ''
                 });
             }
         }
@@ -91,7 +95,7 @@ function App() {
 
     const cancelEdit = () => {
         setEditingBookId(null);
-        setNewBook({title: '', author: '', year: '', pages: '', image: ''});
+        setNewBook({title: '', author: '', year: '', pages: '', image: '', genre: ''});
     };
 
     const saveEdit = () => {
@@ -99,7 +103,8 @@ function App() {
             const updatedBook = {
                 ...newBook,
                 image: newBook.image || '/api/placeholder/120/180',
-                rating: newBook.rating || 5 // Default rating if not set
+                rating: newBook.rating || 5, // Default rating if not set
+                genre: newBook.genre || 'Uncategorized' // Default genre if not set
             };
 
             setBooks(
@@ -108,7 +113,7 @@ function App() {
                 )
             );
             setEditingBookId(null);
-            setNewBook({title: '', author: '', year: '', readYear: '', pages: '', image: '', rating: 5, comments: ''});
+            setNewBook({title: '', author: '', year: '', readYear: '', pages: '', image: '', rating: 5, comments: '', genre: ''});
         } else {
             alert('Please fill in all required book details (title, author, year published, and year read).');
         }
@@ -210,7 +215,11 @@ function App() {
         // Apply rating filter (from checkboxes)
         const ratingMatch = filterCriteria.ratings.includes(book.rating);
 
-        return searchMatch && yearMatch && ratingMatch;
+        // Apply genre filter
+        const genreMatch = filterCriteria.genre === 'all' ||
+            book.genre === filterCriteria.genre;
+
+        return searchMatch && yearMatch && ratingMatch && genreMatch;
     });
 
     // Sort filtered books
@@ -224,6 +233,8 @@ function App() {
                 return b.rating - a.rating;
             case 'year':
                 return b.year - a.year;
+            case 'genre':
+                return a.genre.localeCompare(b.genre);
             case 'readYear':
             default:
                 return b.readYear - a.readYear;
@@ -241,7 +252,7 @@ function App() {
 
     // Calculate rows per year (including form in the first row)
     const getBooksInRows = (booksForYear, yearIndex) => {
-        const booksPerRow = 4; // Changed to 5 books per row
+        const booksPerRow = 4; // Changed to 4 books per row
         const rows = [];
         const booksCopy = [...booksForYear];
 
@@ -270,6 +281,116 @@ function App() {
 
     // Get unique read years for filter dropdown
     const uniqueReadYears = [...new Set(books.map(book => book.readYear))].sort((a, b) => b - a);
+
+    // Get unique genres for filter dropdown
+    const uniqueGenres = [...new Set(books.map(book => book.genre || 'Uncategorized'))].sort();
+
+    // Rating Filter Dropdown Functionality
+    document.addEventListener('DOMContentLoaded', function() {
+        const ratingDropdownButton = document.querySelector('.rating-dropdown-button');
+        const ratingFilterContainer = document.querySelector('.rating-filter-container');
+        const checkboxes = document.querySelectorAll('.rating-checkbox-item input[type="checkbox"]');
+        const selectAllButton = document.querySelector('.select-all-ratings');
+        const clearButton = document.querySelector('.clear-ratings');
+        const selectedRatingsContainer = document.querySelector('.selected-ratings');
+
+        // Toggle dropdown when button is clicked
+        ratingDropdownButton.addEventListener('click', function(e) {
+            e.stopPropagation();
+            ratingFilterContainer.classList.toggle('active');
+        });
+
+        // Close dropdown when clicking outside
+        document.addEventListener('click', function(e) {
+            if (!ratingFilterContainer.contains(e.target)) {
+                ratingFilterContainer.classList.remove('active');
+            }
+        });
+
+        // Handle checkbox changes
+        checkboxes.forEach(checkbox => {
+            checkbox.addEventListener('change', updateSelectedRatings);
+        });
+
+        // Select All button
+        selectAllButton.addEventListener('click', function() {
+            checkboxes.forEach(checkbox => {
+                checkbox.checked = true;
+            });
+            updateSelectedRatings();
+        });
+
+        // Clear All button
+        clearButton.addEventListener('click', function() {
+            checkboxes.forEach(checkbox => {
+                checkbox.checked = false;
+            });
+            updateSelectedRatings();
+        });
+
+        // Update the selected ratings display
+        function updateSelectedRatings() {
+            // Clear current tags
+            selectedRatingsContainer.innerHTML = '';
+
+            // Count selected ratings
+            let selectedCount = 0;
+
+            // Add tags for selected ratings
+            checkboxes.forEach(checkbox => {
+                if (checkbox.checked) {
+                    selectedCount++;
+
+                    // For a compact UI, we can choose to not show individual tags
+                    // and just show a count, but here's the code for individual tags
+
+                    // Create tag
+                    /*
+                    const tag = document.createElement('span');
+                    tag.className = 'selected-rating-tag';
+                    tag.innerHTML = `${checkbox.value}★ <span class="remove-tag">✕</span>`;
+
+                    // Add remove functionality
+                    tag.querySelector('.remove-tag').addEventListener('click', function(e) {
+                      e.stopPropagation();
+                      checkbox.checked = false;
+                      updateSelectedRatings();
+                    });
+
+                    selectedRatingsContainer.appendChild(tag);
+                    */
+                }
+            });
+
+            // Add count tag if any are selected
+            if (selectedCount > 0) {
+                const countTag = document.createElement('span');
+                countTag.className = 'selected-rating-tag';
+                countTag.textContent = `${selectedCount} selected`;
+                selectedRatingsContainer.appendChild(countTag);
+            }
+
+            // Update filter status and trigger filtering
+            triggerFiltering();
+        }
+
+        // Function to trigger actual filtering of books
+        function triggerFiltering() {
+            // Get selected ratings
+            const selectedRatings = Array.from(checkboxes)
+                .filter(checkbox => checkbox.checked)
+                .map(checkbox => parseInt(checkbox.value));
+
+            // Here you would implement the actual filtering logic
+            // For example:
+            // filterBooksByRatings(selectedRatings);
+
+            console.log('Filtering by ratings:', selectedRatings);
+        }
+
+        // Initialize the display
+        updateSelectedRatings();
+    });
     return (
         <div className={`app ${theme}`}>
             <div className="header">
@@ -288,6 +409,7 @@ function App() {
                     </label>
                 </div>
             </div>
+
 
             <div className="search-filter-container">
                 <form className="search-bar" onSubmit={handleSearch}>
@@ -314,6 +436,16 @@ function App() {
                     </select>
 
                     <select
+                        value={filterCriteria.genre}
+                        onChange={(e) => setFilterCriteria({...filterCriteria, genre: e.target.value})}
+                    >
+                        <option value="all">All Genres</option>
+                        {uniqueGenres.map(genre => (
+                            <option key={genre} value={genre}>{genre}</option>
+                        ))}
+                    </select>
+
+                    <select
                         value={filterCriteria.sortBy}
                         onChange={(e) => setFilterCriteria({...filterCriteria, sortBy: e.target.value})}
                     >
@@ -322,24 +454,15 @@ function App() {
                         <option value="author">Sort by Author</option>
                         <option value="rating">Sort by Rating</option>
                         <option value="year">Sort by Published Year</option>
+                        <option value="genre">Sort by Genre</option>
                     </select>
-
-                    <div className="rating-filter">
-                        <div className="rating-filter-title">Rating:</div>
-                        <div className="rating-checkbox-group">
-                            {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10].map(rating => (
-                                <label key={rating} className="rating-checkbox-item">
-                                    <input
-                                        type="checkbox"
-                                        checked={filterCriteria.ratings.includes(rating)}
-                                        onChange={() => handleRatingCheckboxChange(rating)}
-                                    />
-                                    {rating}
-                                </label>
-                            ))}
-                        </div>
-                    </div>
                 </div>
+
+                {/* Replace the old rating filter with the new component */}
+                <RatingFilter
+                    filterCriteria={filterCriteria}
+                    setFilterCriteria={setFilterCriteria}
+                />
             </div>
             <div className="book-grid-container">
                 {readYears.map((year, yearIndex) => (
@@ -364,6 +487,12 @@ function App() {
                                                 placeholder="Author"
                                                 value={newBook.author}
                                                 onChange={(e) => setNewBook({...newBook, author: e.target.value})}
+                                            />
+                                            <input
+                                                type="text"
+                                                placeholder="Genre"
+                                                value={newBook.genre || ''}
+                                                onChange={(e) => setNewBook({...newBook, genre: e.target.value})}
                                             />
                                             <input
                                                 type="number"
@@ -433,6 +562,9 @@ function App() {
                                                 />
                                             )}
                                             <div className="book-author">{item.author}</div>
+                                            {item.genre && (
+                                                <div className="book-genre">Genre: {item.genre}</div>
+                                            )}
                                             <div className="book-year">Published: {item.year}</div>
                                             <div className="book-rating"> {renderStarRating(item.rating)} </div>
                                             <div className="book-actions">
@@ -463,6 +595,12 @@ function App() {
                                 placeholder="Author"
                                 value={newBook.author}
                                 onChange={(e) => setNewBook({...newBook, author: e.target.value})}
+                            />
+                            <input
+                                type="text"
+                                placeholder="Genre"
+                                value={newBook.genre || ''}
+                                onChange={(e) => setNewBook({...newBook, genre: e.target.value})}
                             />
                             <input
                                 type="number"

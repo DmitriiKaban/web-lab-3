@@ -7,7 +7,8 @@
         "rating": 10.0,
         "readYear": 2020,
         "comments": "классика",
-        "image": "https://cdn.librarius.md/img/original/vedimak_1432886167.jpg"
+        "image": "https://cdn.librarius.md/img/original/vedimak_1432886167.jpg",
+        "genre": "Fantasy"
     },
     {
         "id": 2,
@@ -17,7 +18,8 @@
         "rating": 10,
         "readYear": 2020,
         "comments": "классика",
-        "image": "https://cdn.librarius.md/img/original/metro-2033_1442845577.jpg"
+        "image": "https://cdn.librarius.md/img/original/metro-2033_1442845577.jpg",
+        "genre": "Post-Apocalyptic"
     },
     {
         "id": 1002,
@@ -27,7 +29,8 @@
         "rating": 8,
         "readYear": 2020,
         "comments": "по прежнему интересно",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM6J9I5WinzKv1iVh_Zu8iapzzzHtNWQoeMg&s"
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM6J9I5WinzKv1iVh_Zu8iapzzzHtNWQoeMg&s",
+        "genre": "Post-Apocalyptic"
     },
     {
         "id": 1003,
@@ -37,7 +40,8 @@
         "rating": 8,
         "readYear": 2020,
         "comments": "очень много политики, духа метро почти нет",
-        "image": "https://upload.wikimedia.org/wikipedia/ru/thumb/6/64/%D0%9C%D0%B5%D1%82%D1%80%D0%BE_2035.jpg/274px-%D0%9C%D0%B5%D1%82%D1%80%D0%BE_2035.jpg"
+        "image": "https://upload.wikimedia.org/wikipedia/ru/thumb/6/64/%D0%9C%D0%B5%D1%82%D1%80%D0%BE_2035.jpg/274px-%D0%9C%D0%B5%D1%82%D1%80%D0%BE_2035.jpg",
+        "genre": "Post-Apocalyptic"
     },
     {
         "id": 1004,
@@ -47,7 +51,8 @@
         "rating": 8.0,
         "readYear": 2020,
         "comments": "на один раз",
-        "image": "https://cdn.librarius.md/img/original/volkodav_1435641966.jpg"
+        "image": "https://cdn.librarius.md/img/original/volkodav_1435641966.jpg",
+        "genre": "Fantasy"
     },
     {
         "id": 4,
@@ -57,7 +62,8 @@
         "rating": 10.0,
         "readYear": 2020,
         "comments": "классика",
-        "image": "https://fantasy-worlds.org/img/full/116/11604.jpg"
+        "image": "https://fantasy-worlds.org/img/full/116/11604.jpg",
+        "genre": "Dystopian"
     },
     {
         "id": 5,
@@ -67,7 +73,8 @@
         "rating": 9.0,
         "readYear": 2020,
         "comments": "интересно",
-        "image": "https://cdn.librarius.md/img/original/skotnyy-dvor-esse_1531412476.jpg"
+        "image": "https://cdn.librarius.md/img/original/skotnyy-dvor-esse_1531412476.jpg",
+        "genre": "Political Satire"
     },
     {
         "id": 6,
@@ -77,7 +84,8 @@
         "rating": 9.0,
         "readYear": 2020,
         "comments": "дети",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0KJ8l46OR5T5TXyaHCATtR9f_VvzpzKwhfQ&s"
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0KJ8l46OR5T5TXyaHCATtR9f_VvzpzKwhfQ&s",
+        "genre": "Young Adult"
     },
     {
         "id": 7,
@@ -87,7 +95,8 @@
         "rating": 9.0,
         "readYear": 2020,
         "comments": "дети",
-        "image": "https://cdn.librarius.md/img/original/charodol-1-charodoliskiy-braslet_1490515514.jpg"
+        "image": "https://cdn.librarius.md/img/original/charodol-1-charodoliskiy-braslet_1490515514.jpg",
+        "genre": "Young Adult"
     },
     {
         "id": 8,
@@ -97,7 +106,8 @@
         "rating": 8.0,
         "readYear": 2020,
         "comments": "дети",
-        "image": "https://cdn.librarius.md/img/original/pardus-1-beguschiy-v-nochi_1434011665.jpg"
+        "image": "https://cdn.librarius.md/img/original/pardus-1-beguschiy-v-nochi_1434011665.jpg",
+        "genre": "Young Adult"
     },
     {
         "id": 9,
@@ -107,7 +117,8 @@
         "rating": 10.0,
         "readYear": 2020,
         "comments": "интересно",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfm5Z1CTnD3aq-6t6_mlJd9E195PLNs_1URw&s"
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfm5Z1CTnD3aq-6t6_mlJd9E195PLNs_1URw&s",
+        "genre": "Biography"
     },
     {
         "id": 10,
@@ -117,7 +128,8 @@
         "rating": 10.0,
         "readYear": 2020,
         "comments": "классика",
-        "image": "https://cdn.librarius.md/img/catalog/voyna-i-mir-kn1_1625816986.jpg"
+        "image": "https://cdn.librarius.md/img/catalog/voyna-i-mir-kn1_1625816986.jpg",
+        "genre": "Historical Fiction"
     },
     {
         "id": 11,
@@ -127,7 +139,8 @@
         "rating": 7.0,
         "readYear": 2020,
         "comments": "не помню",
-        "image": "https://books.google.com/books/content?id=2GiA1nTO-ycC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        "image": "https://books.google.com/books/content?id=2GiA1nTO-ycC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "genre": "Classic Literature"
     },
     {
         "id": 12,
@@ -137,7 +150,8 @@
         "rating": 8.0,
         "readYear": 2020,
         "comments": "школа",
-        "image": "https://books.google.com/books/content?id=BoIUAgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        "image": "https://books.google.com/books/content?id=BoIUAgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "genre": "Classic Literature"
     },
     {
         "id": 13,
@@ -147,7 +161,8 @@
         "rating": 10.0,
         "readYear": 2020,
         "comments": "классика",
-        "image": "https://carturesti.md/img-prod/72921469-0.jpeg"
+        "image": "https://carturesti.md/img-prod/72921469-0.jpeg",
+        "genre": "Fantasy"
     },
     {
         "id": 14,
@@ -157,7 +172,8 @@
         "rating": 10.0,
         "readYear": 2020,
         "comments": "классика",
-        "image": "https://fantasy-worlds.org/img/preview/9/992.jpg"
+        "image": "https://fantasy-worlds.org/img/preview/9/992.jpg",
+        "genre": "Fantasy"
     },
     {
         "id": 15,
@@ -167,7 +183,8 @@
         "rating": 10.0,
         "readYear": 2020,
         "comments": "война, классика",
-        "image": "https://cdn.librarius.md/img/original/na-zapadnom-fronte-bez-peremen_1455527408.jpg"
+        "image": "https://cdn.librarius.md/img/original/na-zapadnom-fronte-bez-peremen_1455527408.jpg",
+        "genre": "War Novel"
     },
     {
         "id": 16,
@@ -177,7 +194,8 @@
         "rating": 10.0,
         "readYear": 2020,
         "comments": "дружба, классика",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR17GNKf7AaO50_fh5PDpHN7zbsSTReiuoZhw&s"
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR17GNKf7AaO50_fh5PDpHN7zbsSTReiuoZhw&s",
+        "genre": "Literary Fiction"
     },
     {
         "id": 17,
@@ -187,7 +205,8 @@
         "rating": 7.0,
         "readYear": 2020,
         "comments": "автобиография, на момент прочтения не знал автора, поэтому не прочувствовал",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcor_9lWDUliiNVg4mfXuYMAnFagykxNnKCw&s"
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcor_9lWDUliiNVg4mfXuYMAnFagykxNnKCw&s",
+        "genre": "Memoir"
     },
     {
         "id": 18,
@@ -197,7 +216,8 @@
         "rating": 8.0,
         "readYear": 2020,
         "comments": "нудно",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBQNWjFqcPer541OMeImpoj_41h70rqEBYLA&s"
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBQNWjFqcPer541OMeImpoj_41h70rqEBYLA&s",
+        "genre": "Literary Fiction"
     },
     {
         "id": 19,
@@ -207,7 +227,8 @@
         "rating": 10.0,
         "readYear": 2020,
         "comments": "классика, война",
-        "image": "https://books.google.com/books/content?id=w2plDwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        "image": "https://books.google.com/books/content?id=w2plDwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+        "genre": "War Novel"
     },
     {
         "id": 20,
@@ -217,7 +238,8 @@
         "rating": 9.0,
         "readYear": 2020,
         "comments": "интересно",
-        "image": "https://books.google.com/books/content?id=j0eU2MIGH60C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        "image": "https://books.google.com/books/content?id=j0eU2MIGH60C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "genre": "War Novel"
     },
     {
         "id": 21,
@@ -227,7 +249,8 @@
         "rating": 8.0,
         "readYear": 2020,
         "comments": "интересно",
-        "image": "https://books.google.com/books/content?id=7tORyo5FXrIC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        "image": "https://books.google.com/books/content?id=7tORyo5FXrIC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "genre": "Anthology"
     },
     {
         "id": 22,
@@ -237,7 +260,8 @@
         "rating": 9.0,
         "readYear": 2020,
         "comments": "интересно",
-        "image": "https://www.litres.ru/pub/c/cover/136698.jpg"
+        "image": "https://www.litres.ru/pub/c/cover/136698.jpg",
+        "genre": "Science Fiction"
     },
     {
         "id": 23,
@@ -247,7 +271,8 @@
         "rating": 8.0,
         "readYear": 2020,
         "comments": "загадачно",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6NVSMKuSE9OAmsttx6P0TRt6avpApvyHsIQ&s"
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6NVSMKuSE9OAmsttx6P0TRt6avpApvyHsIQ&s",
+        "genre": "Mystery"
     },
     {
         "id": 24,
@@ -257,7 +282,8 @@
         "rating": 10.0,
         "readYear": 2020,
         "comments": "весело, классика",
-        "image": "https://cdn.librarius.md/img/original/ponedelinik-nachinaetsya-v-subbotu_1457697774.jpg"
+        "image": "https://cdn.librarius.md/img/original/ponedelinik-nachinaetsya-v-subbotu_1457697774.jpg",
+        "genre": "Science Fiction"
     },
     {
         "id": 25,
@@ -267,7 +293,8 @@
         "rating": 10.0,
         "readYear": 2020,
         "comments": "пропаганда, благие намерения, чувство справедливости. тотальное одурманивание",
-        "image": "https://cdn.librarius.md/img/original/obitaemyy-ostrov_1675332351.jpg"
+        "image": "https://cdn.librarius.md/img/original/obitaemyy-ostrov_1675332351.jpg",
+        "genre": "Science Fiction"
     },
     {
         "id": 26,
@@ -277,7 +304,8 @@
         "rating": 10.0,
         "readYear": 2021,
         "comments": "классика",
-        "image": "https://cdn.librarius.md/img/original/idiot_1645512389.jpeg"
+        "image": "https://cdn.librarius.md/img/original/idiot_1645512389.jpeg",
+        "genre": "Classic Literature"
     },
     {
         "id": 27,
@@ -287,7 +315,8 @@
         "rating": 10.0,
         "readYear": 2021,
         "comments": "классика",
-        "image": "https://books.google.com/books/content?id=N3m6FwK1algC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        "image": "https://books.google.com/books/content?id=N3m6FwK1algC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "genre": "Classic Literature"
     },
     {
         "id": 28,
@@ -297,7 +326,8 @@
         "rating": 9.0,
         "readYear": 2021,
         "comments": "классика",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfolW_fuimk4rODSzOLwzkvPyLRVeIkKY0oA&s"
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfolW_fuimk4rODSzOLwzkvPyLRVeIkKY0oA&s",
+        "genre": "Classic Literature"
     },
     {
         "id": 29,
@@ -307,7 +337,8 @@
         "rating": 8.0,
         "readYear": 2021,
         "comments": "не полностью прочуствовал",
-        "image": "https://cdn.librarius.md/img/original/besy_1668421673.jpg"
+        "image": "https://cdn.librarius.md/img/original/besy_1668421673.jpg",
+        "genre": "Classic Literature"
     },
     {
         "id": 30,
@@ -317,7 +348,8 @@
         "rating": 7.0,
         "readYear": 2021,
         "comments": "растянуто, размышления подростка близки и понятны(интересно читать и чувствоваать)",
-        "image": "https://cdn.librarius.md/img/original/idiot_1645512389.jpeg"
+        "image": "https://cdn.librarius.md/img/original/idiot_1645512389.jpeg",
+        "genre": "Classic Literature"
     },
     {
         "id": 31,
@@ -327,7 +359,8 @@
         "rating": 10.0,
         "readYear": 2021,
         "comments": "классика, трагичная эпопея жизни беглого каторжника",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmZoUFpAxp2Typc_k-z_xyU0yZbskMcurz_w&s"
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmZoUFpAxp2Typc_k-z_xyU0yZbskMcurz_w&s",
+        "genre": "Classic Literature"
     },
     {
         "id": 32,
@@ -337,7 +370,8 @@
         "rating": 10.0,
         "readYear": 2021,
         "comments": "классика, история мести, на которую была положена вся жизнь",
-        "image": "https://books.google.com/books/content?id=IkWvDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        "image": "https://books.google.com/books/content?id=IkWvDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "genre": "Adventure"
     },
     {
         "id": 33,
@@ -347,7 +381,8 @@
         "rating": 8.0,
         "readYear": 2021,
         "comments": "классика, местами затянуто (описание Парижа и собора)",
-        "image": "https://books.google.com/books/content?id=kiNIDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        "image": "https://books.google.com/books/content?id=kiNIDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "genre": "Historical Fiction"
     },
     {
         "id": 34,
@@ -357,7 +392,8 @@
         "rating": 10.0,
         "readYear": 2021,
         "comments": "классика, очень интересно",
-        "image": "https://books.google.com/books/content?id=vaQlEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        "image": "https://books.google.com/books/content?id=vaQlEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "genre": "Literary Fiction"
     },
     {
         "id": 35,
@@ -367,7 +403,8 @@
         "rating": 9.0,
         "readYear": 2021,
         "comments": "классика",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmZoUFpAxp2Typc_k-z_xyU0yZbskMcurz_w&s"
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmZoUFpAxp2Typc_k-z_xyU0yZbskMcurz_w&s",
+        "genre": "Classic Literature"
     },
     {
         "id": 36,
@@ -377,7 +414,8 @@
         "rating": 7.0,
         "readYear": 2021,
         "comments": "трудно следить за сюжетом без кратких описаний глав",
-        "image": "https://books.google.com/books/content?id=bRvdDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        "image": "https://books.google.com/books/content?id=bRvdDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "genre": "Poetry"
     },
     {
         "id": 37,
@@ -387,7 +425,8 @@
         "rating": 10.0,
         "readYear": 2021,
         "comments": "интересно, концепция",
-        "image": "https://books.google.com/books/content?id=HjkkEAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        "image": "https://books.google.com/books/content?id=HjkkEAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+        "genre": "Science Fiction"
     },
     {
         "id": 38,
@@ -397,7 +436,8 @@
         "rating": 10.0,
         "readYear": 2021,
         "comments": "классика, загадочно",
-        "image": "https://books.google.com/books/content?id=OuZsuONPeG8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        "image": "https://books.google.com/books/content?id=OuZsuONPeG8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "genre": "Philosophical Fiction"
     },
     {
         "id": 39,
@@ -407,7 +447,8 @@
         "rating": 8.0,
         "readYear": 2021,
         "comments": "необычно",
-        "image": "https://books.google.com/books/content?id=puiaEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        "image": "https://books.google.com/books/content?id=puiaEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "genre": "Classic Literature"
     },
     {
         "id": 40,
@@ -417,7 +458,8 @@
         "rating": 10.0,
         "readYear": 2021,
         "comments": "классика",
-        "image": "https://books.google.com/books/content?id=b0tGBAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        "image": "https://books.google.com/books/content?id=b0tGBAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "genre": "Gothic Fiction"
     },
     {
         "id": 41,
@@ -427,7 +469,8 @@
         "rating": 9.0,
         "readYear": 2021,
         "comments": "детский взгляд",
-        "image": "https://books.google.com/books/content?id=uxfmDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        "image": "https://books.google.com/books/content?id=uxfmDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "genre": "Southern Gothic"
     },
     {
         "id": 42,
@@ -437,7 +480,8 @@
         "rating": 9.0,
         "readYear": 2021,
         "comments": "классика",
-        "image": "https://cdn.librarius.md/img/original/one-flew-over-the-cuckoos-nest_1686641537.jpg"
+        "image": "https://cdn.librarius.md/img/original/one-flew-over-the-cuckoos-nest_1686641537.jpg",
+        "genre": "Psychological Fiction"
     },
     {
         "id": 43,
@@ -447,7 +491,8 @@
         "rating": 7.0,
         "readYear": 2021,
         "comments": "хуже других жанровых представителей",
-        "image": "https://cdn.librarius.md/img/original/my_1627557586.jpg"
+        "image": "https://cdn.librarius.md/img/original/my_1627557586.jpg",
+        "genre": "Dystopian"
     },
     {
         "id": 44,
@@ -457,7 +502,8 @@
         "rating": 10.0,
         "readYear": 2021,
         "comments": "классика, женская и мужская психология, трагедия",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1T-Ohls6e18zHaGFsfHFe5R5ZOLpI7wkPPQ&s"
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1T-Ohls6e18zHaGFsfHFe5R5ZOLpI7wkPPQ&s",
+        "genre": "Classic Literature"
     },
     {
         "id": 45,
@@ -467,7 +513,8 @@
         "rating": 10.0,
         "readYear": 2021,
         "comments": "исторический опыт",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSIT2ZVAFU0fUpTDgpYJYNN_A0BCF-TpPX5A&s"
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSIT2ZVAFU0fUpTDgpYJYNN_A0BCF-TpPX5A&s",
+        "genre": "Historical Fiction"
     },
     {
         "id": 46,
@@ -477,7 +524,8 @@
         "rating": 10.0,
         "readYear": 2021,
         "comments": "обучение",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRedDZcwmYOPQ8Fd9ibglcYbLlDBipBICmWGA&s"
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRedDZcwmYOPQ8Fd9ibglcYbLlDBipBICmWGA&s",
+        "genre": "Non-Fiction"
     },
     {
         "id": 47,
@@ -487,7 +535,8 @@
         "rating": 10.0,
         "readYear": 2021,
         "comments": "классика",
-        "image": "https://cdn.librarius.md/img/original/zemlya-obetovannaya_1646299422.jpg"
+        "image": "https://cdn.librarius.md/img/original/zemlya-obetovannaya_1646299422.jpg",
+        "genre": "War Novel"
     },
     {
         "id": 48,
@@ -497,7 +546,8 @@
         "rating": 8.0,
         "readYear": 2021,
         "comments": "ближе к концу - больше наркомании",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPtckH_jC81UVcOpMRhjLr5RQd3duUnKjWow&s"
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPtckH_jC81UVcOpMRhjLr5RQd3duUnKjWow&s",
+        "genre": "Contemporary Fiction"
     },
     {
         "id": 49,
@@ -507,7 +557,8 @@
         "rating": 8.0,
         "readYear": 2021,
         "comments": "интересно",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTg5zedCDmIUOjh-JxqWvjnZbVfh8JG6N0sgQ&s"
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTg5zedCDmIUOjh-JxqWvjnZbVfh8JG6N0sgQ&s",
+        "genre": "Political Philosophy"
     },
     {
         "id": 50,
@@ -517,7 +568,8 @@
         "rating": 7.0,
         "readYear": 2021,
         "comments": "размышления",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpxf3ojyrQWfcP4xPeB268SoxIqfEvIlZmRg"
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpxf3ojyrQWfcP4xPeB268SoxIqfEvIlZmRg",
+        "genre": "Military Theory"
     },
     {
         "id": 51,
@@ -527,7 +579,8 @@
         "rating": 10.0,
         "readYear": 2021,
         "comments": "обучение",
-        "image": "https://cdn.librarius.md/img/original/imperializm-kak-vysshaya-stadiya-kapitalizma_1628666634.jpg"
+        "image": "https://cdn.librarius.md/img/original/imperializm-kak-vysshaya-stadiya-kapitalizma_1628666634.jpg",
+        "genre": "Political Theory"
     },
     {
         "id": 52,
@@ -537,7 +590,8 @@
         "rating": 9.0,
         "readYear": 2021,
         "comments": "загадочно, концепция разделения людей на рабочих и ученых",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0CA9uWP0_6xGCxFJAHJgxuKm_L0cQa_Rc4A&s"
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0CA9uWP0_6xGCxFJAHJgxuKm_L0cQa_Rc4A&s",
+        "genre": "Philosophical Fiction"
     },
     {
         "id": 53,
@@ -547,7 +601,8 @@
         "rating": 9.0,
         "readYear": 2021,
         "comments": "интересно, взгляд подростка на взрослую жизнь",
-        "image": "https://cdn.librarius.md/img/original/nad-propastiyu-vo-rzhi_1627984460.jpg"
+        "image": "https://cdn.librarius.md/img/original/nad-propastiyu-vo-rzhi_1627984460.jpg",
+        "genre": "Coming-of-Age"
     },
     {
         "id": 54,
@@ -557,7 +612,8 @@
         "rating": 9.0,
         "readYear": 2021,
         "comments": "попытка детей выжить, создать общество со своей структурой и законами, жестокость",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcRnzvbJnnciMHwDsRWp82FYFHsfsOKqKjdw&s"
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcRnzvbJnnciMHwDsRWp82FYFHsfsOKqKjdw&s",
+        "genre": "Allegory"
     },
     {
         "id": 55,
@@ -567,7 +623,8 @@
         "rating": 9.0,
         "readYear": 2021,
         "comments": "интересно, новый опыт, специфика мексиканской культуры",
-        "image": "https://books.google.com/books/content?id=unIyeOAhwCoC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        "image": "https://books.google.com/books/content?id=unIyeOAhwCoC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "genre": "Magical Realism"
     },
     {
         "id": 56,
@@ -577,7 +634,8 @@
         "rating": 9.0,
         "readYear": 2021,
         "comments": "интересные размышления человека с абсолютной властью, бог при жизни, мифическое создание для жителей государства",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXv9dpU4U-AaHXcxcy0ZNImWvbHXJl7O5AaQ&s"
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXv9dpU4U-AaHXcxcy0ZNImWvbHXJl7O5AaQ&s",
+        "genre": "Magical Realism"
     },
     {
         "id": 57,
@@ -587,7 +645,8 @@
         "rating": 9.0,
         "readYear": 2021,
         "comments": "жизнь после войны",
-        "image": "https://cdn.librarius.md/img/original/zemlya-obetovannaya_1646299422.jpg"
+        "image": "https://cdn.librarius.md/img/original/zemlya-obetovannaya_1646299422.jpg",
+        "genre": "Historical Fiction"
     },
     {
         "id": 58,
@@ -597,7 +656,8 @@
         "rating": 10.0,
         "readYear": 2021,
         "comments": "невероятно смешные и забавные приключения",
-        "image": "https://cdn.librarius.md/img/original/avtostopom-po-galaktike-restoran-u-konca-vselennoy_1686638091.jpg"
+        "image": "https://cdn.librarius.md/img/original/avtostopom-po-galaktike-restoran-u-konca-vselennoy_1686638091.jpg",
+        "genre": "Science Fiction Comedy"
     },
     {
         "id": 59,
@@ -607,7 +667,8 @@
         "rating": 9.0,
         "readYear": 2021,
         "comments": "сталкер",
-        "image": "https://cdn.librarius.md/img/original/piknik-na-obochine_1561049426.jpg"
+        "image": "https://cdn.librarius.md/img/original/piknik-na-obochine_1561049426.jpg",
+        "genre": "Science Fiction"
     },
     {
         "id": 60,
@@ -617,7 +678,8 @@
         "rating": 9.0,
         "readYear": 2022,
         "comments": "тюрьма",
-        "image": "https://books.google.com/books/content?id=yR_BAQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        "image": "https://books.google.com/books/content?id=yR_BAQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "genre": "Memoir"
     },
     {
         "id": 61,
@@ -627,7 +689,8 @@
         "rating": 9.0,
         "readYear": 2022,
         "comments": "экшн с погонями, крупными суммами ",
-        "image": "https://books.google.com/books/content?id=BjoHEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        "image": "https://books.google.com/books/content?id=BjoHEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "genre": "Thriller"
     },
     {
         "id": 62,
@@ -637,7 +700,8 @@
         "rating": 9.0,
         "readYear": 2022,
         "comments": "интересно",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCw0v2Ruh6P_vXZDpaGF6t7B5_iYTYXbeX1A&s"
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCw0v2Ruh6P_vXZDpaGF6t7B5_iYTYXbeX1A&s",
+        "genre": "Biographical Fiction"
     },
     {
         "id": 63,
@@ -647,7 +711,8 @@
         "rating": 10.0,
         "readYear": 2022,
         "comments": "история, театр, любовь людей разных возрастов",
-        "image": "https://books.google.com/books/content?id=lmT9AgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        "image": "https://books.google.com/books/content?id=lmT9AgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "genre": "Drama"
     },
     {
         "id": 64,
@@ -657,7 +722,8 @@
         "rating": 9.0,
         "readYear": 2022,
         "comments": "жизнь, интересно",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnVSdqgaSwhmB0UD3GwF98Lud93Inw3cTLVg&s"
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnVSdqgaSwhmB0UD3GwF98Lud93Inw3cTLVg&s",
+        "genre": "War Novel"
     },
     {
         "id": 65,
@@ -667,7 +733,8 @@
         "rating": 9.0,
         "readYear": 2022,
         "comments": "Земля обетованная, только другое название и другая редактура",
-        "image": "https://cdn.librarius.md/img/original/teni-v-rayu_1472038274.jpg"
+        "image": "https://cdn.librarius.md/img/original/teni-v-rayu_1472038274.jpg",
+        "genre": "War Novel"
     },
     {
         "id": 66,
@@ -677,7 +744,8 @@
         "rating": 10.0,
         "readYear": 2022,
         "comments": "интересные мысли, классика",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXI4kA6sOyQ0eiLgAXgrRkJTdps2XlVOaH6A&s"
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXI4kA6sOyQ0eiLgAXgrRkJTdps2XlVOaH6A&s",
+        "genre": "Literary Fiction"
     },
     {
         "id": 67,
@@ -687,7 +755,8 @@
         "rating": null,
         "readYear": 2022,
         "comments": "",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjO4jnq1qbY4uUnlCZP2QebVMO3lv2MGozoQ&s"
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjO4jnq1qbY4uUnlCZP2QebVMO3lv2MGozoQ&s",
+        "genre": "Short Stories"
     },
     {
         "id": 68,
@@ -697,7 +766,8 @@
         "rating": 9.0,
         "readYear": 2022,
         "comments": "классика",
-        "image": "https://books.google.com/books/content?id=FwfhDAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        "image": "https://books.google.com/books/content?id=FwfhDAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "genre": "Satire"
     },
     {
         "id": 69,
@@ -707,7 +777,8 @@
         "rating": 10.0,
         "readYear": 2022,
         "comments": "эпоха, джаз, стиль, невероятная любовь",
-        "image": "https://books.google.com/books/content?id=ko_aDwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        "image": "https://books.google.com/books/content?id=ko_aDwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+        "genre": "Tragedy"
     },
     {
         "id": 70,
@@ -717,7 +788,8 @@
         "rating": 9.0,
         "readYear": 2022,
         "comments": "жизнь",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzuO9y0McGmUuovqRWv6Xa4cQKC3lqBIj36g&s"
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzuO9y0McGmUuovqRWv6Xa4cQKC3lqBIj36g&s",
+        "genre": "Philosophical Fiction"
     },
     {
         "id": 71,
@@ -727,7 +799,8 @@
         "rating": 8.0,
         "readYear": 2022,
         "comments": "творчество автора",
-        "image": "https://books.google.com/books/content?id=JSBFDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        "image": "https://books.google.com/books/content?id=JSBFDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "genre": "Psychological Fiction"
     },
     {
         "id": 72,
@@ -737,7 +810,8 @@
         "rating": 9.0,
         "readYear": 2022,
         "comments": "новый опыт, пандемия, характеры людей во время катастрофы",
-        "image": "https://cdn.librarius.md/img/original/chuma_1472038267.jpg"
+        "image": "https://cdn.librarius.md/img/original/chuma_1472038267.jpg",
+        "genre": "Allegory"
     },
     {
         "id": 73,
@@ -747,7 +821,8 @@
         "rating": 9.0,
         "readYear": 2022,
         "comments": "интересно",
-        "image": "https://books.google.com/books/content?id=n1KjEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        "image": "https://books.google.com/books/content?id=n1KjEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "genre": "Bildungsroman"
     },
     {
         "id": 74,
@@ -757,7 +832,8 @@
         "rating": 9.0,
         "readYear": 2022,
         "comments": "интересно",
-        "image": "https://imo10.labirint.ru/books/654026/cover.jpg/242-0"
+        "image": "https://imo10.labirint.ru/books/654026/cover.jpg/242-0",
+        "genre": "Literary Fiction"
     },
     {
         "id": 75,
@@ -767,7 +843,8 @@
         "rating": 8.0,
         "readYear": 2022,
         "comments": "-",
-        "image": "https://books.google.com/books/content?id=sx5FDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        "image": "https://books.google.com/books/content?id=sx5FDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "genre": "Satire"
     },
     {
         "id": 76,
@@ -777,7 +854,8 @@
         "rating": 8.0,
         "readYear": 2022,
         "comments": "-",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSD7k-XT2xoo-IFfkmYDrvk3tZUX8K7mzbFQ&s"
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSD7k-XT2xoo-IFfkmYDrvk3tZUX8K7mzbFQ&s",
+        "genre": "Psychological Fiction"
     },
     {
         "id": 77,
@@ -787,7 +865,8 @@
         "rating": 8.0,
         "readYear": 2022,
         "comments": "-",
-        "image": "https://books.google.com/books/content?id=LTPWYMqId_IC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        "image": "https://books.google.com/books/content?id=LTPWYMqId_IC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "genre": "Satire"
     },
     {
         "id": 78,
@@ -797,7 +876,8 @@
         "rating": 8.0,
         "readYear": 2022,
         "comments": "забавная история любви",
-        "image": "https://books.google.com/books/content?id=Mux4BgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        "image": "https://books.google.com/books/content?id=Mux4BgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "genre": "Romance"
     },
     {
         "id": 79,
@@ -807,7 +887,8 @@
         "rating": 7.0,
         "readYear": 2022,
         "comments": "-",
-        "image": "https://books.google.com/books/content?id=2_6kAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        "image": "https://books.google.com/books/content?id=2_6kAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "genre": "Psychological Fiction"
     },
     {
         "id": 80,
@@ -817,7 +898,8 @@
         "rating": 10.0,
         "readYear": 2022,
         "comments": "трагедия человека, осужденного обществом",
-        "image": "https://librarius.md/img/400/600/aHR0cHM6Ly9jZG4ubGlicmFyaXVzLm1kL2ltZy9jYXRhbG9nL3Bvc3Rvcm9ubml5XzE2Mjc5OTQyMzMuanBn.jpg"
+        "image": "https://librarius.md/img/400/600/aHR0cHM6Ly9jZG4ubGlicmFyaXVzLm1kL2ltZy9jYXRhbG9nL3Bvc3Rvcm9ubml5XzE2Mjc5OTQyMzMuanBn.jpg",
+        "genre": "Existential Fiction"
     },
     {
         "id": 81,
@@ -827,7 +909,8 @@
         "rating": 8.0,
         "readYear": 2022,
         "comments": "разочарование жизнью",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxz4tM27ViPz38nZuDY-uxhADt5rnygkPbOw&s"
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxz4tM27ViPz38nZuDY-uxhADt5rnygkPbOw&s",
+        "genre": "Philosophical Fiction"
     },
     {
         "id": 82,
@@ -837,7 +920,8 @@
         "rating": 8.0,
         "readYear": 2022,
         "comments": "эпоха, обычаи",
-        "image": "https://books.google.com/books/content?id=M0ZNDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        "image": "https://books.google.com/books/content?id=M0ZNDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "genre": "Historical Fiction"
     },
     {
         "id": 83,
@@ -847,7 +931,8 @@
         "rating": 5.0,
         "readYear": 2022,
         "comments": "скучно, затянуто",
-        "image": "https://cdn.librarius.md/img/original/doktor-zhivago_1650371892.jpg"
+        "image": "https://cdn.librarius.md/img/original/doktor-zhivago_1650371892.jpg",
+        "genre": "Historical Fiction"
     },
     {
         "id": 84,
@@ -857,7 +942,8 @@
         "rating": 10.0,
         "readYear": 2022,
         "comments": "концепция",
-        "image": "https://cdn.librarius.md/img/original/grad-obrechennyy_1486813842.jpg"
+        "image": "https://cdn.librarius.md/img/original/grad-obrechennyy_1486813842.jpg",
+        "genre": "Science Fiction"
     },
     {
         "id": 85,
@@ -867,7 +953,8 @@
         "rating": 10.0,
         "readYear": 2022,
         "comments": "классика, исторический роман",
-        "image": "https://books.google.com/books/content?id=S07-AgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        "image": "https://books.google.com/books/content?id=S07-AgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "genre": "Historical Romance"
     },
     {
         "id": 86,
@@ -877,7 +964,8 @@
         "rating": 10.0,
         "readYear": 2023,
         "comments": "классика, интересная концепция пришельцев",
-        "image": "https://books.google.com/books/content?id=je52EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        "image": "https://books.google.com/books/content?id=je52EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "genre": "Science Fiction"
     },
     {
         "id": 87,
@@ -887,7 +975,8 @@
         "rating": 9.0,
         "readYear": 2023,
         "comments": "интересная симуляция жизни человека-невидимки в обществе",
-        "image": "https://books.google.com/books/content?id=QgZNDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        "image": "https://books.google.com/books/content?id=QgZNDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "genre": "Science Fiction"
     },
     {
         "id": 88,
@@ -897,7 +986,8 @@
         "rating": 8.0,
         "readYear": 2023,
         "comments": "местами страшно, жутко, непонятная форма жизни",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSClaaMY4Qc5UWPdSdhHUVWXfk71faxlvQlBw&s"
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSClaaMY4Qc5UWPdSdhHUVWXfk71faxlvQlBw&s",
+        "genre": "Science Fiction"
     },
     {
         "id": 89,
@@ -907,7 +997,8 @@
         "rating": 10.0,
         "readYear": 2023,
         "comments": "классика, трагедия, ужасные поступки человека, обиженного жизнью, со сложным характером и судьбой",
-        "image": "https://books.google.com/books/content?id=GQcSAgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        "image": "https://books.google.com/books/content?id=GQcSAgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "genre": "Gothic Fiction"
     },
     {
         "id": 90,
@@ -917,7 +1008,8 @@
         "rating": 6.0,
         "readYear": 2023,
         "comments": "наркомания, лес и странности в нем + государственное бюро, запутанное, погрязшее в бюрократии",
-        "image": "https://cdn.librarius.md/img/original/ulitka-na-sklone_1675074642.jpg"
+        "image": "https://cdn.librarius.md/img/original/ulitka-na-sklone_1675074642.jpg",
+        "genre": "Science Fiction"
     },
     {
         "id": 91,
@@ -927,7 +1019,8 @@
         "rating": 9.0,
         "readYear": 2023,
         "comments": "классика, детский взгляд",
-        "image": "https://cdn.librarius.md/img/original/bolishie-nadezhdy_1645800015.jpg"
+        "image": "https://cdn.librarius.md/img/original/bolishie-nadezhdy_1645800015.jpg",
+        "genre": "Bildungsroman"
     },
     {
         "id": 92,
@@ -937,7 +1030,8 @@
         "rating": 8.0,
         "readYear": 2023,
         "comments": "интересно, странненько",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJLAKaZdOHE7QQ10VUankqEh0wkQoB5x2zyA&s"
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJLAKaZdOHE7QQ10VUankqEh0wkQoB5x2zyA&s",
+        "genre": "Science Fiction"
     },
     {
         "id": 93,
@@ -947,7 +1041,8 @@
         "rating": 5.0,
         "readYear": 2023,
         "comments": "сложно без глубоких познаний истории того времени (знание имен деятелей и событий)",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzaw9nZzq5pU0fFq7f3FTl1z3znLlvviUXug&s"
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzaw9nZzq5pU0fFq7f3FTl1z3znLlvviUXug&s",
+        "genre": "Political Theory"
     },
     {
         "id": 94,
@@ -957,7 +1052,8 @@
         "rating": 10.0,
         "readYear": 2023,
         "comments": "классика, трагедия, судьбы молодых людей, попавших под влияние заразительной идеи",
-        "image": "https://cdn.librarius.md/img/original/besy_1668421673.jpg"
+        "image": "https://cdn.librarius.md/img/original/besy_1668421673.jpg",
+        "genre": "Political Fiction"
     },
     {
         "id": 95,
@@ -967,7 +1063,8 @@
         "rating": 10.0,
         "readYear": 2023,
         "comments": "приключения, классика, перемещение во времени, дух США 60-х",
-        "image": "https://cdn.librarius.md/img/original/112263_1645515794.jpeg"
+        "image": "https://cdn.librarius.md/img/original/112263_1645515794.jpeg",
+        "genre": "Science Fiction"
     },
     {
         "id": 96,
@@ -977,7 +1074,8 @@
         "rating": 10.0,
         "readYear": 2023,
         "comments": "задумка существования цивилизации и взаимодействие с ней людей + немного истории Китая 60-х",
-        "image": "https://cdn.librarius.md/img/original/zadacha-treh-tel_1513682045.jpg"
+        "image": "https://cdn.librarius.md/img/original/zadacha-treh-tel_1513682045.jpg",
+        "genre": "Science Fiction"
     },
     {
         "id": 97,
@@ -987,7 +1085,8 @@
         "rating": 9.0,
         "readYear": 2023,
         "comments": "интересно",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfezEmoAio-rqOU9CRSyJkdaPP2Obw_NcMFQ&s"
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfezEmoAio-rqOU9CRSyJkdaPP2Obw_NcMFQ&s",
+        "genre": "Science Fiction"
     },
     {
         "id": 98,
@@ -997,7 +1096,8 @@
         "rating": 7.0,
         "readYear": 2023,
         "comments": "затянуто",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsCf8NFofb-xOeeYYZ2kyXiVQxaOStuLEzSA&s"
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsCf8NFofb-xOeeYYZ2kyXiVQxaOStuLEzSA&s",
+        "genre": "Science Fiction"
     },
     {
         "id": 99,
@@ -1007,7 +1107,8 @@
         "rating": 10.0,
         "readYear": 2023,
         "comments": "классика",
-        "image": "https://m.media-amazon.com/images/I/918wxhKJaPL._AC_UF1000,1000_QL80_.jpg"
+        "image": "https://m.media-amazon.com/images/I/918wxhKJaPL._AC_UF1000,1000_QL80_.jpg",
+        "genre": "Fantasy"
     },
     {
         "id": 100,
@@ -1017,7 +1118,8 @@
         "rating": 10.0,
         "readYear": 2023,
         "comments": "классика",
-        "image": "https://m.media-amazon.com/images/I/918wxhKJaPL._AC_UF1000,1000_QL80_.jpg"
+        "image": "https://m.media-amazon.com/images/I/918wxhKJaPL._AC_UF1000,1000_QL80_.jpg",
+        "genre": "Fantasy"
     },
     {
         "id": 101,
@@ -1027,7 +1129,8 @@
         "rating": 10.0,
         "readYear": 2023,
         "comments": "классика",
-        "image": "https://prodimage.images-bn.com/pimages/9780439136358_p0_v2_s600x595.jpg"
+        "image": "https://prodimage.images-bn.com/pimages/9780439136358_p0_v2_s600x595.jpg",
+        "genre": "Fantasy"
     },
     {
         "id": 102,
@@ -1037,7 +1140,8 @@
         "rating": 10.0,
         "readYear": 2023,
         "comments": "классика",
-        "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1627044952l/58613424.jpg"
+        "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1627044952l/58613424.jpg",
+        "genre": "Fantasy"
     },
     {
         "id": 103,
@@ -1047,7 +1151,8 @@
         "rating": 10.0,
         "readYear": 2023,
         "comments": "классика",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTd-6gcL-NjIpJfh2TXlXz2VgGS1zukI5PEjA&s"
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTd-6gcL-NjIpJfh2TXlXz2VgGS1zukI5PEjA&s",
+        "genre": "Fantasy"
     },
     {
         "id": 104,
@@ -1057,7 +1162,8 @@
         "rating": 10.0,
         "readYear": 2023,
         "comments": "классика",
-        "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1627043894l/58613345.jpg"
+        "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1627043894l/58613345.jpg",
+        "genre": "Fantasy"
     },
     {
         "id": 105,
@@ -1067,7 +1173,8 @@
         "rating": 10.0,
         "readYear": 2023,
         "comments": "классика",
-        "image": "https://m.media-amazon.com/images/I/71sH3vxziLL._AC_UF1000,1000_QL80_DpWeblab_.jpg"
+        "image": "https://m.media-amazon.com/images/I/71sH3vxziLL._AC_UF1000,1000_QL80_DpWeblab_.jpg",
+        "genre": "Fantasy"
     },
     {
         "id": 106,
@@ -1077,7 +1184,8 @@
         "rating": 5.0,
         "readYear": 2023,
         "comments": "скучно, затянуто",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR22PsF5Zx6iyoltHB01RmwHpwIxbNSVR7Smg&s"
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR22PsF5Zx6iyoltHB01RmwHpwIxbNSVR7Smg&s",
+        "genre": "Absurdist Fiction"
     },
     {
         "id": 107,
@@ -1087,7 +1195,8 @@
         "rating": 9.0,
         "readYear": 2023,
         "comments": "классика, детский взгляд",
-        "image": "https://books.google.com/books/content?id=fe52EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        "image": "https://books.google.com/books/content?id=fe52EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "genre": "Bildungsroman"
     },
     {
         "id": 108,
@@ -1097,7 +1206,8 @@
         "rating": 10.0,
         "readYear": 2023,
         "comments": "переселение жителей центра США в Калифорнию, трагедия маленьких людей",
-        "image": "https://books.google.com/books/content?id=MLoAAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        "image": "https://books.google.com/books/content?id=MLoAAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "genre": "Social Novel"
     },
     {
         "id": 109,
@@ -1107,7 +1217,8 @@
         "rating": 10.0,
         "readYear": 2023,
         "comments": "интересно, приключения в постапокалипсисе, выживание людей, попытка воссоздать общество",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3uf_2VAVm9w8-bpdk-7Bki8x1-cALoZwBEg&s"
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3uf_2VAVm9w8-bpdk-7Bki8x1-cALoZwBEg&s",
+        "genre": "Science Fiction"
     },
     {
         "id": 110,
@@ -1117,7 +1228,8 @@
         "rating": 9.0,
         "readYear": 2023,
         "comments": "интересно, эпоха",
-        "image": "https://cdn.librarius.md/img/catalog/pechalinyy-detektiv_1531080331.jpg"
+        "image": "https://cdn.librarius.md/img/catalog/pechalinyy-detektiv_1531080331.jpg",
+        "genre": "Social Novel"
     },
     {
         "id": 111,
@@ -1127,7 +1239,8 @@
         "rating": 10.0,
         "readYear": 2023,
         "comments": "эпоха, жизнь",
-        "image": "https://cdn.librarius.md/img/original/o-myshah-i-lyudyah-zhemchuzhina_1472038291.jpg"
+        "image": "https://cdn.librarius.md/img/original/o-myshah-i-lyudyah-zhemchuzhina_1472038291.jpg",
+        "genre": "Tragedy"
     },
     {
         "id": 112,
@@ -1137,7 +1250,8 @@
         "rating": 9.0,
         "readYear": 2023,
         "comments": "интересно",
-        "image": "https://s1.livelib.ru/boocover/1000330921/200/afa4/boocover.jpg"
+        "image": "https://s1.livelib.ru/boocover/1000330921/200/afa4/boocover.jpg",
+        "genre": "Parable"
     },
     {
         "id": 113,
@@ -1147,7 +1261,8 @@
         "rating": 10.0,
         "readYear": 2023,
         "comments": "человеческие качества, честность, трагедия чистого человека, его предательство своих идеалов",
-        "image": "https://imo10.labirint.ru/books/552430/cover.jpg/242-0"
+        "image": "https://imo10.labirint.ru/books/552430/cover.jpg/242-0",
+        "genre": "Literary Fiction"
     },
     {
         "id": 114,
@@ -1157,7 +1272,8 @@
         "rating": 10.0,
         "readYear": 2023,
         "comments": "человеческий путь в жизни не предначертан, выбор за нами, Кайн и Авель",
-        "image": "https://cdn.librarius.md/img/original/k-vostoku-ot-edema_1537043737.jpg"
+        "image": "https://cdn.librarius.md/img/original/k-vostoku-ot-edema_1537043737.jpg",
+        "genre": "Family Saga"
     },
     {
         "id": 115,
@@ -1167,7 +1283,8 @@
         "rating": 7.0,
         "readYear": 2023,
         "comments": "народные мотивы, Великая волна, Великий туман",
-        "image": "https://books.google.com/books/content?id=xRyhAwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        "image": "https://books.google.com/books/content?id=xRyhAwAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+        "genre": "Folklore"
     },
     {
         "id": 116,
@@ -1177,7 +1294,8 @@
         "rating": 9.0,
         "readYear": 2023,
         "comments": "насмешка над херомантией",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRM3Af1iqnimV1OiNwqOc0iNV0Syj9wVXh7BA&s"
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRM3Af1iqnimV1OiNwqOc0iNV0Syj9wVXh7BA&s",
+        "genre": "Satire"
     },
     {
         "id": 117,
@@ -1187,7 +1305,8 @@
         "rating": 6.0,
         "readYear": 2024,
         "comments": "Рассуждения о существовании, перекручено во многом, от нечего делать впадает в извечные бесконечные рассуждения, которые только отдалаяют его от действительности",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1akM9YP1W2D04rx02nIlC50udB9I5vaSK2Q&s"
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1akM9YP1W2D04rx02nIlC50udB9I5vaSK2Q&s",
+        "genre": "Existential Fiction"
     },
     {
         "id": 118,
@@ -1197,7 +1316,8 @@
         "rating": 9.0,
         "readYear": 2024,
         "comments": "большая мексиканская семья, адаптация в США, отношения членов семьи ",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKfsZ5PniLTHWscVapaL79Y3kKGgf-008LyQ&s"
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKfsZ5PniLTHWscVapaL79Y3kKGgf-008LyQ&s",
+        "genre": "Family Saga"
     },
     {
         "id": 119,
@@ -1207,7 +1327,8 @@
         "rating": 10.0,
         "readYear": 2024,
         "comments": "несчастный отец, чрезмерно любивший дочерей был убит их прихотями и невозможностью им отказать",
-        "image": "https://books.google.com/books/content?id=vabIDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        "image": "https://books.google.com/books/content?id=vabIDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "genre": "Realist Fiction"
     },
     {
         "id": 120,
@@ -1217,7 +1338,8 @@
         "rating": 10.0,
         "readYear": 2024,
         "comments": "что отличает человека от андроида, так ли важна эта разница, связь с природой, жизнью",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRR-tgvIsC1YpXQVM1f4cQsjj1hy-ih-9vEOQ&s"
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRR-tgvIsC1YpXQVM1f4cQsjj1hy-ih-9vEOQ&s",
+        "genre": "Science Fiction"
     },
     {
         "id": 121,
@@ -1227,7 +1349,8 @@
         "rating": 10.0,
         "readYear": 2024,
         "comments": "Пороки высшего французского общества, влияние журналистов, дружба честолюбца и преданного друга",
-        "image": "https://books.google.com/books/content?id=f-52EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        "image": "https://books.google.com/books/content?id=f-52EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "genre": "Realist Fiction"
     },
     {
         "id": 122,
@@ -1237,7 +1360,8 @@
         "rating": 10.0,
         "readYear": 2024,
         "comments": "Будущее поколение, сверхлюди, дети, которых трудно понять, они лучше нас, умнее, пусть и жестоки, но практичны",
-        "image": "https://books.google.com/books/content?id=RCNFDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        "image": "https://books.google.com/books/content?id=RCNFDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "genre": "Science Fiction"
     },
     {
         "id": 123,
@@ -1247,7 +1371,8 @@
         "rating": 8.0,
         "readYear": 2024,
         "comments": "Интересно, но больше под впечатлением фильма",
-        "image": "https://books.google.com/books/content?id=SPtFDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        "image": "https://books.google.com/books/content?id=SPtFDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "genre": "Science Fiction"
     },
     {
         "id": 124,
@@ -1257,7 +1382,8 @@
         "rating": 9.0,
         "readYear": 2024,
         "comments": "Революционные стихи не так понравились, а лирика - очень, любимое: Люблю, стихи про США, Разговор с фининспектором ",
-        "image": "https://www.moscowbooks.ru/image/book/543/orig/i543777.jpg?cu=20180101000000"
+        "image": "https://www.moscowbooks.ru/image/book/543/orig/i543777.jpg?cu=20180101000000",
+        "genre": "Poetry"
     },
     {
         "id": 125,
@@ -1267,7 +1393,8 @@
         "rating": 8.0,
         "readYear": 2024,
         "comments": "Интересно, много про инвестиции и подход к деньгам. Многовато повторений, деньги - смысл жизни",
-        "image": "https://books.google.com/books/content?id=vy_lCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        "image": "https://books.google.com/books/content?id=vy_lCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "genre": "Personal Finance"
     },
     {
         "id": 126,
@@ -1277,7 +1404,8 @@
         "rating": 10.0,
         "readYear": 2024,
         "comments": "пропаганда, благие намерения, чувство справедливости. тотальное одурманивание",
-        "image": "https://cdn.librarius.md/img/original/obitaemyy-ostrov_1675332351.jpg"
+        "image": "https://cdn.librarius.md/img/original/obitaemyy-ostrov_1675332351.jpg",
+        "genre": "Science Fiction"
     },
     {
         "id": 127,
@@ -1287,7 +1415,8 @@
         "rating": 10.0,
         "readYear": 2024,
         "comments": "хорошо и понятно изложено",
-        "image": "https://books.google.com/books/content?id=ZSApEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        "image": "https://books.google.com/books/content?id=ZSApEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "genre": "Computer Science"
     },
     {
         "id": 128,
@@ -1297,7 +1426,8 @@
         "rating": 10.0,
         "readYear": 2024,
         "comments": "добрая сказка, любимая вселенная",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnC0sDG5Cj1HbgGI1nRnqDvtuTcosm9KQXCQ&s"
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnC0sDG5Cj1HbgGI1nRnqDvtuTcosm9KQXCQ&s",
+        "genre": "Fantasy"
     },
     {
         "id": 129,
@@ -1307,7 +1437,8 @@
         "rating": 10.0,
         "readYear": 2024,
         "comments": "ученные встают перед выбором: океан смерти или кривые глухие окольные тропы",
-        "image": "https://books.google.com/books/content?id=ViNFDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        "image": "https://books.google.com/books/content?id=ViNFDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "genre": "Science Fiction"
     },
     {
         "id": 130,
@@ -1317,7 +1448,8 @@
         "rating": 10.0,
         "readYear": 2024,
         "comments": "скряга, извивающийся над высшим обществом, людьми, которые берут у него кредит, будучи в бедственном финансовом положении. часть цикла парижских историй",
-        "image": "https://books.google.com/books/content?id=ggUSAgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        "image": "https://books.google.com/books/content?id=ggUSAgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "genre": "Realist Fiction"
     },
     {
         "id": 131,
@@ -1327,7 +1459,8 @@
         "rating": 8.0,
         "readYear": 2024,
         "comments": "Забавные истории антисоветчика-разгильдяя-пофигиста",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIsXTnbpIFCfFfQaGkCR29SPJPwr6GJsA82Q&s"
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIsXTnbpIFCfFfQaGkCR29SPJPwr6GJsA82Q&s",
+        "genre": "Short Stories"
     },
     {
         "id": 132,
@@ -1337,7 +1470,8 @@
         "rating": 9.0,
         "readYear": 2024,
         "comments": "много неожиданных поворотов, продолжение цикла парижских историй",
-        "image": "https://books.google.com/books/content?id=yX10EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        "image": "https://books.google.com/books/content?id=yX10EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "genre": "Realist Fiction"
     },
     {
         "id": 133,
@@ -1347,7 +1481,8 @@
         "rating": 9.0,
         "readYear": 2024,
         "comments": "забавные истории из жизни журналиста ",
-        "image": "https://cdn.librarius.md/img/original/kompromiss_1531329506.jpg"
+        "image": "https://cdn.librarius.md/img/original/kompromiss_1531329506.jpg",
+        "genre": "Short Stories"
     },
     {
         "id": 134,
@@ -1357,7 +1492,8 @@
         "rating": 10.0,
         "readYear": 2024,
         "comments": "Рабство - чёрное пятно на лице истории человечества, одно из самых страшных явлений",
-        "image": "https://books.google.com/books/content?id=a-qaEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        "image": "https://books.google.com/books/content?id=a-qaEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "genre": "Abolitionist Literature"
     },
     {
         "id": 135,
@@ -1367,7 +1503,8 @@
         "rating": 9.0,
         "readYear": 2024,
         "comments": "Размышления перед неминуемой смертью, чувства. Ничего нового для себя не открыл, но было интересно послушать. Очень напомнило рассуждения князя Мышкина из романа \"Идиот\"",
-        "image": "https://books.google.com/books/content?id=yptLDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        "image": "https://books.google.com/books/content?id=yptLDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "genre": "Psychological Fiction"
     },
     {
         "id": 136,
@@ -1377,7 +1514,8 @@
         "rating": 9.0,
         "readYear": 2024,
         "comments": "интересное научно-практическое приключение на Венере, ученные, сталкивающиеся с неизвестными живыми существами и природными явлениями ",
-        "image": "https://books.google.com/books/content?id=KCNFDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        "image": "https://books.google.com/books/content?id=KCNFDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "genre": "Science Fiction"
     },
     {
         "id": 137,
@@ -1387,7 +1525,8 @@
         "rating": 10.0,
         "readYear": 2024,
         "comments": "базовая анатомия",
-        "image": "https://fremus.narod.ru/java/i03/anat886-00m.jpg"
+        "image": "https://fremus.narod.ru/java/i03/anat886-00m.jpg",
+        "genre": "Textbook"
     },
     {
         "id": 138,
@@ -1397,7 +1536,8 @@
         "rating": 10.0,
         "readYear": 2024,
         "comments": "измена, утрата доверия, поиск себя в жизни, прощение",
-        "image": "https://cdn.librarius.md/img/original/lyusi-kraun_1531031103.jpg"
+        "image": "https://cdn.librarius.md/img/original/lyusi-kraun_1531031103.jpg",
+        "genre": "Psychological Fiction"
     },
     {
         "id": 139,
@@ -1407,7 +1547,8 @@
         "rating": 9.0,
         "readYear": 2024,
         "comments": "небольшие научно-фантастические рассказы",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZo34x22CnykdP36tLVIv3PBdtqFoiiN2aLA&s"
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZo34x22CnykdP36tLVIv3PBdtqFoiiN2aLA&s",
+        "genre": "Science Fiction Short Stories"
     },
     {
         "id": 140,
@@ -1417,7 +1558,8 @@
         "rating": 9.0,
         "readYear": 2024,
         "comments": "интересное небольшое приключение космонавтов, научная фантастика ",
-        "image": "https://books.google.com/books/content?id=ICNFDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        "image": "https://books.google.com/books/content?id=ICNFDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "genre": "Science Fiction"
     },
     {
         "id": 141,
@@ -1427,7 +1569,8 @@
         "rating": 10.0,
         "readYear": 2024,
         "comments": "шахматная книга с задачками для начинающих",
-        "image": "https://books.google.com/books/content?id=v6G1AAAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        "image": "https://books.google.com/books/content?id=v6G1AAAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+        "genre": "Chess"
     },
     {
         "id": 142,
@@ -1437,7 +1580,8 @@
         "rating": 10.0,
         "readYear": 2024,
         "comments": "доброта, искренность, честность спасают душу",
-        "image": "https://cdn.librarius.md/img/original/priklyucheniya-olivera-tvista_1554021988.jpg"
+        "image": "https://cdn.librarius.md/img/original/priklyucheniya-olivera-tvista_1554021988.jpg",
+        "genre": "Social Novel"
     },
     {
         "id": 143,
@@ -1447,7 +1591,8 @@
         "rating": 9.0,
         "readYear": 2024,
         "comments": "альтернативная история, много сюжетных линий, все крутится вокруг гадательной книги",
-        "image": "https://cdn.librarius.md/img/original/chelovek-v-vysokom-zamke_1591528981.jpg"
+        "image": "https://cdn.librarius.md/img/original/chelovek-v-vysokom-zamke_1591528981.jpg",
+        "genre": "Alternate History"
     },
     {
         "id": 144,
@@ -1457,7 +1602,8 @@
         "rating": 9.0,
         "readYear": 2024,
         "comments": "научная фантастика, много всего непонятного, полужизнь - разум живёт, к нему можно обращаться из нашего мира",
-        "image": "https://cdn.librarius.md/img/original/ubik_1716373916.jpg"
+        "image": "https://cdn.librarius.md/img/original/ubik_1716373916.jpg",
+        "genre": "Science Fiction"
     },
     {
         "id": 145,
@@ -1467,7 +1613,8 @@
         "rating": 10.0,
         "readYear": 2024,
         "comments": "очень подробно, не полная, надо читать следующий том",
-        "image": "https://books.google.com/books/content?id=i-EJbkH9b-EC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        "image": "https://books.google.com/books/content?id=i-EJbkH9b-EC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "genre": "Medical Textbook"
     },
     {
         "id": 146,
@@ -1477,7 +1624,8 @@
         "rating": 9.0,
         "readYear": 2024,
         "comments": "история знаменитого человека, проснувшегося в один день неизвестным, без документов",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_kqspNCU4howbHO2ZvaHS_bKwKCEyyUtT5g&s"
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_kqspNCU4howbHO2ZvaHS_bKwKCEyyUtT5g&s",
+        "genre": "Science Fiction"
     },
     {
         "id": 147,
@@ -1487,7 +1635,8 @@
         "rating": 10.0,
         "readYear": 2024,
         "comments": "судебная и исправительная системы, искупление, прощение, божьи заповеди",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdj_2dcY38VnoDuMwR9sb-02mcH2ZKqOPehQ&s"
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdj_2dcY38VnoDuMwR9sb-02mcH2ZKqOPehQ&s",
+        "genre": "Social Novel"
     },
     {
         "id": 148,
@@ -1497,7 +1646,8 @@
         "rating": 10.0,
         "readYear": 2024,
         "comments": "прирожденный делец пробивается в сливки общества, много финансовых схем, много исторических событий",
-        "image": "https://librarius.md/img/400/600/aHR0cHM6Ly9jZG4ubGlicmFyaXVzLm1kL2ltZy9jYXRhbG9nL2ZpbmFuc2lzdF8xNTI2OTMwMzQyLmpwZw_e__e_.jpg"
+        "image": "https://librarius.md/img/400/600/aHR0cHM6Ly9jZG4ubGlicmFyaXVzLm1kL2ltZy9jYXRhbG9nL2ZpbmFuc2lzdF8xNTI2OTMwMzQyLmpwZw_e__e_.jpg",
+        "genre": "Realist Fiction"
     },
     {
         "id": 149,
@@ -1507,7 +1657,8 @@
         "rating": 8.0,
         "readYear": 2024,
         "comments": "прямое продолжение, не очень понравилось изменение характера жены в угоду сюжета ",
-        "image": "https://biblion.md/wp-content/uploads/2024/06/%D1%82%D0%B8%D1%82%D0%B0%D0%BD-%D0%B4%D1%80%D0%B0%D0%B9%D0%B7%D0%B5%D1%80-%D0%90%D0%A1%D0%A2-%D0%BC%D1%8F%D0%B3.png"
+        "image": "https://biblion.md/wp-content/uploads/2024/06/%D1%82%D0%B8%D1%82%D0%B0%D0%BD-%D0%B4%D1%80%D0%B0%D0%B9%D0%B7%D0%B5%D1%80-%D0%90%D0%A1%D0%A2-%D0%BC%D1%8F%D0%B3.png",
+        "genre": "Realist Fiction"
     },
     {
         "id": 150,
@@ -1517,7 +1668,8 @@
         "rating": 9.0,
         "readYear": 2024,
         "comments": "прямое продолжение, понравилась концовка, переосмысление жизни",
-        "image": "https://cdn.ast.ru/v2/ASE000000000848853/COVER/cover1__w340.jpg"
+        "image": "https://cdn.ast.ru/v2/ASE000000000848853/COVER/cover1__w340.jpg",
+        "genre": "Realist Fiction"
     },
     {
         "id": 151,
@@ -1527,7 +1679,8 @@
         "rating": 9.0,
         "readYear": 2024,
         "comments": "интересная концепция, много отсылок к философии, религии и истории. война – это всегда коммерческое предприятие",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBVA2n5EJjnnDP3R3SjqdAmbdpAuZhG1zXIQ&s"
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBVA2n5EJjnnDP3R3SjqdAmbdpAuZhG1zXIQ&s",
+        "genre": "Satire"
     },
     {
         "id": 152,
@@ -1537,7 +1690,8 @@
         "rating": 10.0,
         "readYear": 2024,
         "comments": "антиутопия, главный герой придумывает \"эликсир правды\", теперь даже мысли караются законом, лишь в душах людей теплится стремление к свободе, единению людей, доверию",
-        "image": "https://books.google.com/books/content?id=zTE_DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        "image": "https://books.google.com/books/content?id=zTE_DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "genre": "Dystopian"
     },
     {
         "id": 153,
@@ -1547,7 +1701,8 @@
         "rating": 9.0,
         "readYear": 2024,
         "comments": "религиозный человек разочарован, обижен, хочет мстить за свои страдания и утраты. Сравнение мучений человека и Христа, кто пострадал больше, кто заслуживает больше любви (сын, прошедший через ад или Христос как символ религии?)",
-        "image": "https://books.google.com/books/content?id=4X10EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        "image": "https://books.google.com/books/content?id=4X10EAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "genre": "Historical Fiction"
     },
     {
         "id": 154,
@@ -1557,7 +1712,8 @@
         "rating": 10.0,
         "readYear": 2024,
         "comments": "невероятная история противоречивой лочности, которая своей гениальностью изменила индустрию ПК, музыки(iTunes, iPod), телефонов, мультипликации(Pixar). Он кричал на людей, оскорблял, увольнял, но стремился создать компанию, которая полностью отвечает за опыт клиента, а сотрудники говорят правду о том, что им не нравится. Он подходил ко всему как творец, принимавший только близкие к идеалу образы (будь то кампус, телефон, компьютер или магазин).",
-        "image": "https://cdn.librarius.md/img/original/stiv-dzhobs_1432884618.jpg"
+        "image": "https://cdn.librarius.md/img/original/stiv-dzhobs_1432884618.jpg",
+        "genre": "Biography"
     },
     {
         "id": 155,
@@ -1567,7 +1723,8 @@
         "rating": 10.0,
         "readYear": 2024,
         "comments": "мечтательная девушка, строившая свои представления о любви, читая романы, вышла замуж, поняла, что не любит и начала искать настоящую любовь (1 - мечтатель, как и она, 2 - богатый герой ее романов). страсть и желание счастья, любви -> разорила мужа и покончила с собой ",
-        "image": "https://books.google.com/books/content?id=cq2IDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        "image": "https://books.google.com/books/content?id=cq2IDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "genre": "Realist Fiction"
     },
     {
         "id": 156,
@@ -1577,7 +1734,8 @@
         "rating": 10.0,
         "readYear": 2024,
         "comments": "автобиографический рассказ о зависимости, неотвратимости порабощения человеского сознания, невозможности борьбы ",
-        "image": "https://books.google.com/books/content?id=GRrhDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        "image": "https://books.google.com/books/content?id=GRrhDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "genre": "Autobiographical Fiction"
     },
     {
         "id": 157,
@@ -1587,7 +1745,8 @@
         "rating": 9.0,
         "readYear": 2025,
         "comments": "Детская сказка про урода от рождения, которому с помощью магии дали власть, а потом, его как злодея победили",
-        "image": "https://books.google.com/books/content?id=tGNGDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        "image": "https://books.google.com/books/content?id=tGNGDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "genre": "Fairy Tale"
     },
     {
         "id": 158,
@@ -1597,7 +1756,8 @@
         "rating": 8.0,
         "readYear": 2025,
         "comments": "Исторический роман про быт людей в Киеве зимой 1918-19 годов со всеми ужасами тех лет.",
-        "image": "https://cdn.librarius.md/img/original/belaya-gvardiya_1485340543.jpg"
+        "image": "https://cdn.librarius.md/img/original/belaya-gvardiya_1485340543.jpg",
+        "genre": "Historical Fiction"
     },
     {
         "id": 159,
@@ -1607,7 +1767,8 @@
         "rating": 10.0,
         "readYear": 2025,
         "comments": "Люди приносят свою жизнь в жертву, ради чего-то более высокого и прекрасного, будь то жизнь, полная любви к человеку, который не может ответить взаимностью, или отречение от мирских благ в пользу бога",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQO72_RwLOdx3Gk9LDeFiRMEtGWvu95pMw35w&s"
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQO72_RwLOdx3Gk9LDeFiRMEtGWvu95pMw35w&s",
+        "genre": "Family Saga"
     },
     {
         "id": 160,
@@ -1617,7 +1778,8 @@
         "rating": 10.0,
         "readYear": 2025,
         "comments": "молодой врач делится мыслями, переживаниями в коротких рассказах повествуя нам о различных случаях, будучи врачом в глухой деревне. очень забавные, интересные мысли, близкие простому читателю. герой ругает сельчан за их невежество, пытается им помочь, достучаться до них (большинство забивало на сифилис)",
-        "image": "https://books.google.com/books/content?id=PaBEDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        "image": "https://books.google.com/books/content?id=PaBEDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "genre": "Short Stories"
     },
     {
         "id": 161,
@@ -1627,7 +1789,8 @@
         "rating": 10.0,
         "readYear": 2025,
         "comments": "безысходность борьбы с тоталитаризмом, который находится в руках 2 млн избранных, истово цепляющихся за власть. роман-предупреждение про тоталитарное общество, которое порабощает не только тела, но и умы своих граждан.",
-        "image": "https://fantasy-worlds.org/img/full/116/11604.jpg"
+        "image": "https://fantasy-worlds.org/img/full/116/11604.jpg",
+        "genre": "Dystopian"
     },
     {
         "id": 162,
@@ -1637,7 +1800,8 @@
         "rating": 9.0,
         "readYear": 2025,
         "comments": "молодой человек продал свою жизнь дьяволу за исполнение желаний, пусть это и вернуло его к жизни, оставалось ему не долго",
-        "image": "https://imo10.labirint.ru/books/875271/cover.jpg/242-0"
+        "image": "https://imo10.labirint.ru/books/875271/cover.jpg/242-0",
+        "genre": "Philosophical Fiction"
     },
     {
         "id": 163,
@@ -1647,7 +1811,8 @@
         "rating": 10.0,
         "readYear": 2025,
         "comments": "сатира на становление СССР, интересно читается",
-        "image": "https://cdn.librarius.md/img/original/skotnyy-dvor-esse_1531412476.jpg"
+        "image": "https://cdn.librarius.md/img/original/skotnyy-dvor-esse_1531412476.jpg",
+        "genre": "Political Satire"
     },
     {
         "id": 164,
@@ -1657,7 +1822,8 @@
         "rating": 9.0,
         "readYear": 2025,
         "comments": "интересная попытка объяснить возможность существования машины времени, а также предположение, каким может быть устройство жизни, если гиперболизировать капиталистические отношения конца 19 века",
-        "image": "https://books.google.com/books/content?id=uE2ZBAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        "image": "https://books.google.com/books/content?id=uE2ZBAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "genre": "Science Fiction"
     },
     {
         "id": 165,
@@ -1667,7 +1833,8 @@
         "rating": 2.0,
         "readYear": 2025,
         "comments": "запутавшийся молодой человек, не знает, что с собой делать (вокруг него такие же люди поканчивают с собой), слишком много откровенной пошлости, не в попад, просто ужас, невозможно читать, герои все в депресии и сплошные смерти",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQl7NqKyrUqInytCqvINi6wcZ9f3y5MI6H08A&s"
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQl7NqKyrUqInytCqvINi6wcZ9f3y5MI6H08A&s",
+        "genre": "Contemporary Fiction"
     },
     {
         "id": 166,
@@ -1677,7 +1844,8 @@
         "rating": 6.0,
         "readYear": 2025,
         "comments": "агитка про бравого большевика, настоящего рабочего, честного и идейного парня, который, превозмогая трудности, сопротивление неприятелей и проблемы со здоровьем, до последнего предан коммунистическому движению и борьбе за свободу Человека",
-        "image": "https://books.google.com/books/content?id=BNtLDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        "image": "https://books.google.com/books/content?id=BNtLDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "genre": "Socialist Realism"
     },
     {
         "id": 167,
@@ -1687,7 +1855,8 @@
         "rating": 9.0,
         "readYear": 2025,
         "comments": "интересно рассказано и техниках, примерах и возможностях пропаганды, мало чего-то нового, но все равно интересно систематизировать",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyZHRwDZYjaUpBuZgjcie5lkSlUhDFVmvhBA&s"
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyZHRwDZYjaUpBuZgjcie5lkSlUhDFVmvhBA&s",
+        "genre": "Political Science"
     },
     {
         "id": 168,
@@ -1697,7 +1866,8 @@
         "rating": 9.0,
         "readYear": 2025,
         "comments": "история заключённого, который поверил в бессмертие души, реинкарнацию, который переживал одну за другой свои прошлые жизни. осознал, что главное чудо и радость - женщина",
-        "image": "https://cdn.librarius.md/img/original/strannik-po-zvezdam_1675249764.jpg"
+        "image": "https://cdn.librarius.md/img/original/strannik-po-zvezdam_1675249764.jpg",
+        "genre": "Philosophical Fiction"
     },
     {
         "id": 169,
@@ -1707,7 +1877,8 @@
         "rating": 9.0,
         "readYear": 2025,
         "comments": "сборник научно фантастических рассказов, какие-то интереснее, какие-то менее интересные, но очень много идей и гипотез",
-        "image": "https://cdn.librarius.md/img/original/uderzhati-nebo_1683291128.jpg"
+        "image": "https://cdn.librarius.md/img/original/uderzhati-nebo_1683291128.jpg",
+        "genre": "Science Fiction Short Stories"
     },
     {
         "id": 170,
@@ -1717,7 +1888,8 @@
         "rating": 9.0,
         "readYear": 2025,
         "comments": "роман про гонщика, который флиртует, заводит романы и, конечно, участвует и побеждает в гонках. много интеллектуальных дуэлей, разговоров, каждое слово во время которых оценивается, обдумывается и только после этого произносится (стратегии, тактики)",
-        "image": "https://carturesti.md/img-prod/72921549-0-240.jpeg"
+        "image": "https://carturesti.md/img-prod/72921549-0-240.jpeg",
+        "genre": "Adventure"
     },
     {
         "id": 171,
@@ -1727,7 +1899,8 @@
         "rating": 9.0,
         "readYear": 2025,
         "comments": "интересный камерный детектив, очень уютный, местами жуткий и загадочный, в самом конце превращается в фантастический триллер",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcVnYqxQU2Hhu9BDlg6lnrrhLNK42rgUlrUw&s"
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcVnYqxQU2Hhu9BDlg6lnrrhLNK42rgUlrUw&s",
+        "genre": "Mystery"
     },
     {
         "id": 172,
@@ -1737,6 +1910,7 @@
         "rating": 8.0,
         "readYear": 2025,
         "comments": "слишком много похожих сентиментальных любовных стихов, понравилось из всей книги лишь 3: \"Мой бедный, мой далёкий друг! ...\", \"Ты твердишь, что я холоден, замкнут и сух...\", \"Когда ты загнан и забит.. (отрывок поэмы Возмездие)\"",
-        "image": "https://s1.livelib.ru/boocover/1000154351/200x305/cc9f/Aleksandr_Blok__Sobranie_sochinenij_v_12_tomah._Tom_3._Sobranie_stihotvorenij._K.jpg"
+        "image": "https://s1.livelib.ru/boocover/1000154351/200x305/cc9f/Aleksandr_Blok__Sobranie_sochinenij_v_12_tomah._Tom_3._Sobranie_stihotvorenij._K.jpg",
+        "genre": "Poetry"
     }
 ]

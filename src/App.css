@@ -24,7 +24,7 @@ h1 {
   color: #333;
   margin-bottom: 20px;
   text-align: center;
-  width: 1000%;
+  width: 100%;
 }
 
 .app.dark h1 {
@@ -366,7 +366,7 @@ h1 {
 }
 
 .book-actions button:first-child {
-  background-color: #357ef4;
+  background-color: rgba(53, 126, 244, 0.27);
 }
 
 .book-actions button:first-child:hover {
@@ -374,7 +374,7 @@ h1 {
 }
 
 .book-actions button:last-child {
-  background-color: #4770a3;
+  background-color: rgba(71, 112, 163, 0.32);
 }
 
 .book-actions button:last-child:hover {
@@ -858,6 +858,7 @@ input:checked + .slider:before {
   background-color: #444;
   color: #e9ecef;
 }
+
 /* Responsive Styles */
 @media (max-width: 1200px) {
   .book-item,
@@ -879,177 +880,121 @@ input:checked + .slider:before {
   }
 }
 
+/* Fixed search bar alignment in mobile view */
 @media (max-width: 768px) {
-  .search-filter-container {
-    width: 95%;
-    flex-direction: column;
-    align-items: stretch; /* Changed from flex-start for full width */
-    gap: 12px;
-  }
-
-  .book-row {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 15px;
-    margin-bottom: 20px;
-  }
-
-  .book-item,
-  .add-book-item {
-    width: calc(50% - 20px);
-    min-width: unset;
-    flex: 1 1 calc(50% - 20px);
-    max-width: calc(50% - 20px);
-    height: auto; /* Adjust height based on content */
-    height: 320px;
-  }
-
-  .header {
-    width: 95%;
-    flex-direction: column;
-    gap: 10px;
-  }
-
-  .year-heading,
-  .year-divider,
-  .book-grid-container {
-    width: 95%;
-  }
-
-  .book-actions button {
-    padding: 8px 5px;
-    font-size: 12px;
-    min-width: auto;
-  }
-
-  .search-filter-container {
-    width: 95%;
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .filter-options {
-    width: 100%;
-    justify-content: space-between;
-    gap: 8px;
-  }
-  .filter-options select {
-    flex: 1 1 calc(50% - 5px); /* Two selects per row with gap */
-    min-width: unset;
-  }
-
-  /* Make rating filter full width and on its own row in mobile */
-  .rating-filter {
-    width: 100%;
-    order: 3; /* Push to the bottom of filter options */
-    margin-top: 10px;
-  }
-
-  .book-row {
-    justify-content: center;
-  }
-
-  .book-item,
-  .add-book-item {
-    width: calc(50% - 20px);
-    min-width: unset;
-    flex: 1 1 calc(50% - 20px);
-    max-width: calc(50% - 20px);
-    height: 320px;
-  }
-
-  .header {
-    width: 95%;
-    flex-direction: column;
-    gap: 10px;
-  }
-
-  .year-heading,
-  .year-divider,
-  .book-grid-container {
-    width: 95%;
-  }
-
-  .book-actions button {
-    padding: 8px 5px;
-    font-size: 12px;
-    min-width: auto;
-  }
-
-
+  /* Fix search bar and button alignment */
   .search-bar {
-    width: 100%;
-    min-width: unset;
-    flex: 1 1 auto;
-  }
-
-  .rating-filter {
-    width: 100%;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 10px;
-  }
-
-  .rating-filter-title {
-    margin-bottom: 8px;
-    width: 100%;
-    text-align: left;
-  }
-
-  .rating-checkbox-group {
-    width: 100%;
-    justify-content: flex-start;
-    gap: 10px;
-    padding: 2px 0;
-    flex-wrap: wrap;
-  }
-
-  .rating-checkbox-item {
-    min-width: calc(33% - 10px); /* Three checkboxes per row */
-  }
-
-  .rating-buttons {
-    width: 100%;
-    justify-content: flex-end;
-    padding: 8px 0 2px;
-  }
-
-  .rating-buttons button {
-    padding: 5px 10px; /* Larger touch target */
-    font-size: 12px;
-  }
-
-  .filter-options {
-    flex-direction: column;
+    display: flex;
     align-items: stretch;
-  }
-
-  .rating-filter-container {
     width: 100%;
   }
 
-  .rating-dropdown-content {
-    width: 100%;
-    left: 0;
-    right: 0;
+  .search-bar input,
+  .search-bar button {
+    height: 40px; /* Make same height */
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+
+  /* Fix spacing between search bar and filters */
+  .search-filter-container {
+    gap: 8px; /* Reduced gap */
+  }
+
+  /* Hide edit and delete buttons on mobile */
+  .book-item .book-actions {
+    display: none;
+  }
+
+  /* Make books clickable on mobile */
+  .book-item {
+    cursor: pointer;
+    position: relative;
+  }
+
+  .book-item::after {
+    content: "View details →";
+    display: block;
+    text-align: center;
+    color: #2563eb;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 8px;
+  }
+
+  /*remove the following object */
+  .add-book-item {
+    display: none;
+  }
+
+  .app.dark .book-item::after {
+    color: #93c5fd;
   }
 }
 
+/* Extra small devices */
 @media (max-width: 480px) {
-  .filter-options select {
-    flex: 1 1 100%; /* One select per row */
+  .book-item,
+  .add-book-item {
+    width: 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    height: auto;
+    min-height: 280px;
+    margin-bottom: 12px;
   }
 
+  .book-row {
+    flex-direction: column;
+  }
+
+  .book-image {
+    max-height: 180px;
+  }
+
+  /* Rating Filter */
   .rating-checkbox-item {
-    min-width: calc(50% - 10px); /* Two checkboxes per row */
+    min-width: calc(50% - 4px);
   }
 
-  .search-bar input {
-    font-size: 14px;
+  .rating-filter-title {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 8px;
+  }
+
+  .rating-checkbox-group {
+    justify-content: space-between;
+  }
+
+  .rating-buttons {
+    justify-content: center;
+    margin-top: 8px;
+    width: 100%;
+  }
+
+  .rating-dropdown-actions {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .rating-dropdown-actions button {
+    width: 100%;
     padding: 8px;
   }
 
-  .search-bar button {
-    padding: 8px 12px;
+  /* Better touch targets */
+  .theme-switch {
+    width: 70px;
+    height: 34px;
+  }
+
+  .slider:before {
+    height: 26px;
+    width: 26px;
+  }
+
+  input:checked + .slider:before {
+    transform: translateX(36px);
   }
 }

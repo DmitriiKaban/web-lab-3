@@ -12,6 +12,7 @@ import {
     faStarHalfAlt
 } from '@fortawesome/free-solid-svg-icons';
 import RatingFilter from './RatingFilter';
+import BookDetail from './BookDetail';
 
 function App() {
 
@@ -29,6 +30,7 @@ function App() {
         return localStorage.getItem('theme') || 'light';
     });
     const [collapsedYears, setCollapsedYears] = useState([]);
+    const [selectedBook, setSelectedBook] = useState(null);
 
     useEffect(() => {
         // const storedBooks = JSON.parse(localStorage.getItem('books')) || [];
@@ -153,6 +155,10 @@ function App() {
             ...filterCriteria,
             ratings: []
         });
+    };
+
+    const handleBookClick = (book) => {
+        setSelectedBook(book);
     };
 
     // Render star rating based on number (1-10)
@@ -394,7 +400,7 @@ function App() {
     return (
         <div className={`app ${theme}`}>
             <div className="header">
-                <h1>My Book Collection</h1>
+                <h1>Hello, I'm Dima, here is my book collection (as of {new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })})</h1>
                 <div className="theme-switch-wrapper">
                     <label className="theme-switch">
                         <input
@@ -546,7 +552,9 @@ function App() {
                                             </div>
                                         </div>
                                     ) : (
-                                        <div key={item.id} className="book-item">
+                                        <div key={item.id} className="book-item"
+                                             onClick={() => handleBookClick(item)}
+                                        >
                                             <div className="book-title">
                                                 {item.title}
                                                 <div className="book-title-tooltip">{item.title}</div>
@@ -568,8 +576,24 @@ function App() {
                                             <div className="book-year">Published: {item.year}</div>
                                             <div className="book-rating"> {renderStarRating(item.rating)} </div>
                                             <div className="book-actions">
-                                                <button className="edit-button" onClick={() => startEdit(item)}>Edit</button>
-                                                <button className="delete-button" onClick={() => deleteBook(item.id)}>Delete</button>
+                                                <button
+                                                    className="edit-button"
+                                                    onClick={(e) => {
+                                                        e.stopPropagation();
+                                                        startEdit(item);
+                                                    }}
+                                                >
+                                                    Edit
+                                                </button>
+                                                <button
+                                                    className="delete-button"
+                                                    onClick={(e) => {
+                                                        e.stopPropagation();
+                                                        deleteBook(item.id);
+                                                    }}
+                                                >
+                                                    Delete
+                                                </button>
                                             </div>
                                         </div>
                                     )
@@ -640,6 +664,14 @@ function App() {
                     </div>
                 )}
             </div>
+            {selectedBook && (
+                <div className="book-detail-overlay">
+                    <BookDetail
+                        book={selectedBook}
+                        onClose={() => setSelectedBook(null)}
+                    />
+                </div>
+            )}
         </div>
     );
 }

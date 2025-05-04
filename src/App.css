@@ -186,7 +186,7 @@ h1 {
 
 /* Year Section Styling */
 .year-divider {
-  width: 90%;
+  width: 100%;
   max-width: 1400px;
   height: 2px;
   background-color: #18d61b;

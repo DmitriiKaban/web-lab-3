@@ -17,7 +17,7 @@ import './BookDetail.css';
 const BookDetail = ({ book, onClose, onEdit, onDelete, theme }) => {
     if (!book) return null;
 
-    // Render star rating (reusing from App.js)
+    // Render star rating (reusing from BookCollection.js)
     const renderStarRating = (rating) => {
         const normalizedRating = rating / 2;
         const stars = [];

@@ -1,1000 +1,1059 @@
 /* General Layout & Theme Styling */
 .app {
-  font-family: sans-serif;
-  padding: 20px;
-  background-color: #f8f8f8;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  transition: background-color 0.3s, color 0.3s;
+    font-family: sans-serif;
+    padding: 20px;
+    background-color: #f8f8f8;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: background-color 0.3s, color 0.3s;
 }
 
 .app.light {
-  background-color: #e2f4d1;
-  color: #333333;
+    background-color: #e2f4d1;
+    color: #333333;
 }
 
 .app.dark {
-  background-color: #1a1a1a;
-  color: #f0f0f0;
+    background-color: #1a1a1a;
+    color: #f0f0f0;
 }
 
 h1 {
-  color: #333;
-  margin-bottom: 20px;
-  text-align: center;
-  width: 100%;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 100%;
 }
 
 .app.dark h1 {
-  color: #f0f0f0;
+    color: #f0f0f0;
 }
 
 .header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 90%;
-  max-width: 1400px;
-  margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    max-width: 1400px;
+    margin-bottom: 20px;
 }
 
 /* Search and Filter Bar */
 .search-filter-container {
-  display: flex;
-  flex-direction: row;
-  width: 90%;
-  max-width: 1400px;
-  margin-bottom: 20px;
-  gap: 15px;
-  align-items: center;
-  flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    max-width: 1400px;
+    margin-bottom: 20px;
+    gap: 15px;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .search-bar {
-  flex: 0 1 300px; /* Give it a base width but allow it to shrink */
-  min-width: 200px;
-  display: flex;
+    flex: 0 1 300px; /* Give it a base width but allow it to shrink */
+    min-width: 200px;
+    display: flex;
 }
 
 .search-bar input {
-  flex: 1;
-  padding: 10px;
-  border: 1px solid #ddd;
-  border-radius: 4px 0 0 4px;
-  font-size: 16px;
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px 0 0 4px;
+    font-size: 16px;
 }
 
 .search-bar button {
-  padding: 10px 15px;
-  background-color: #2563eb;
-  color: white;
-  border: none;
-  border-radius: 0 4px 4px 0;
-  cursor: pointer;
-  transition: background-color 0.2s;
+    padding: 10px 15px;
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    transition: background-color 0.2s;
 }
 
 .search-bar button:hover {
-  background-color: #1d4ed8;
+    background-color: #1d4ed8;
 }
 
 .app.dark .search-bar input {
-  background-color: #2c3440;
-  border-color: #3f4756;
-  color: #e0e0e0;
+    background-color: #2c3440;
+    border-color: #3f4756;
+    color: #e0e0e0;
 }
 
 .filter-options {
-  display: flex;
-  gap: 10px;
-  flex-wrap: wrap;
-  align-items: center;
-  flex: 1;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+    flex: 1;
 }
 
 .filter-options select {
-  padding: 10px;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  background-color: white;
-  min-width: 120px;
-  flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: white;
+    min-width: 120px;
+    flex: 1;
 }
 
 .app.dark .filter-options select {
-  background-color: #2c3440;
-  border-color: #3f4756;
-  color: #e0e0e0;
+    background-color: #2c3440;
+    border-color: #3f4756;
+    color: #e0e0e0;
 }
 
 /* Rating Filter Checkboxes */
 .rating-filter {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 8px;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  padding: 5px;
-  background-color: white;
-  width: 100%;
-  flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    background-color: white;
+    width: 100%;
+    flex-wrap: wrap;
 }
 
 .app.dark .rating-filter {
-  background-color: #2c3440;
-  border-color: #3f4756;
+    background-color: #2c3440;
+    border-color: #3f4756;
 }
 
 .rating-filter-title {
-  margin: 0;
-  font-size: 12px;
-  font-weight: bold;
-  white-space: nowrap;
-  padding: 0 10px;
+    margin: 0;
+    font-size: 12px;
+    font-weight: bold;
+    white-space: nowrap;
+    padding: 0 10px;
 }
 
 .rating-checkbox-group {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 5px;
-  padding: 5px;
-  flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    padding: 5px;
+    flex: 1;
 }
 
 
 .rating-filter .rating-filter-title + div {
-  display: flex;
-  gap: 3px;
-  margin-top: 0;
+    display: flex;
+    gap: 3px;
+    margin-top: 0;
 }
 
 
 .rating-checkbox-item {
-  display: flex;
-  align-items: center;
-  gap: 5px;
-  margin-right: 5px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-right: 5px;
 }
 
 .rating-checkbox-item input[type="checkbox"] {
-  margin: 0;
+    margin: 0;
 }
 
 .rating-buttons {
-  display: flex;
-  gap: 5px;
-  padding-right: 10px;
+    display: flex;
+    gap: 5px;
+    padding-right: 10px;
 }
 
 .rating-buttons button {
-  padding: 2px 8px;
-  font-size: 11px;
-  background-color: #e0e0e0;
-  border: 1px solid #ccc;
-  border-radius: 3px;
-  cursor: pointer;
+    padding: 2px 8px;
+    font-size: 11px;
+    background-color: #e0e0e0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    cursor: pointer;
 }
 
 .app.dark .rating-buttons button {
-  background-color: #3f4756;
-  border-color: #2c3440;
-  color: #e0e0e0;
+    background-color: #3f4756;
+    border-color: #2c3440;
+    color: #e0e0e0;
 }
 
 /* Year Section Styling */
 .year-divider {
-  width: 100%;
-  max-width: 1400px;
-  height: 2px;
-  background-color: #18d61b;
-  margin: 30px 0 15px 0;
+    width: 100%;
+    max-width: 1400px;
+    height: 2px;
+    background-color: #18d61b;
+    margin: 30px 0 15px 0;
 }
 
 .year-heading {
-  width: 90%;
-  max-width: 1400px;
-  font-size: 1.8rem;
-  margin: 10px 0;
-  padding-left: 10px;
-  border-left: 5px solid #18d61b;
+    width: 90%;
+    max-width: 1400px;
+    font-size: 1.8rem;
+    margin: 10px 0;
+    padding-left: 10px;
+    border-left: 5px solid #18d61b;
 }
 
 .app.dark .year-divider {
-  background-color: #4d95e3;
+    background-color: #4d95e3;
 }
 
 .app.dark .year-heading {
-  border-left-color: #4d95e3;
+    border-left-color: #4d95e3;
 }
 
 /* Book Grid Layout */
 .book-grid-container {
-  width: 90%;
-  max-width: 1400px;
+    width: 90%;
+    max-width: 1400px;
 }
 
 .book-row {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 15px;
-  margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 20px;
 }
 
 /* Book Item Styling */
 .book-item {
-  border: 1px solid #ddd;
-  padding: 15px;
-  border-radius: 8px;
-  background-color: #fff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-  text-align: center;
-  height: 375px;
-  width: calc(22% - 20px); /* Changed to 25% for 4 items */
-  min-width: 180px;
-  flex: 1 1 calc(22% - 20px); /* Changed to 25% for 4 items */
-  max-width: calc(22% - 20px); /* Changed to 25% for 4 items */
-  overflow: hidden;
-  transition: transform 0.2s, box-shadow 0.2s;
-  position: relative;
-  order: 1;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    text-align: center;
+    height: 375px;
+    width: calc(22% - 20px); /* Changed to 25% for 4 items */
+    min-width: 180px;
+    flex: 1 1 calc(22% - 20px); /* Changed to 25% for 4 items */
+    max-width: calc(22% - 20px); /* Changed to 25% for 4 items */
+    overflow: hidden;
+    transition: transform 0.2s, box-shadow 0.2s;
+    position: relative;
+    order: 1;
 }
 
 .book-item:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
 .app.dark .book-item {
-  background-color: #222831;
-  border-color: #333;
+    background-color: #222831;
+    border-color: #333;
 }
 
 .book-title {
-  font-size: 1.1em;
-  font-weight: 700;
-  color: #1e3a8a;
-  margin-bottom: 5px;
-  text-transform: uppercase;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  position: relative;
+    font-size: 1.1em;
+    font-weight: 700;
+    color: #1e3a8a;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    position: relative;
 }
 
 .app.dark .book-title {
-  color: #93c5fd;
+    color: #93c5fd;
 }
 
 .book-title-tooltip {
-  visibility: hidden;
-  position: absolute;
-  background-color: rgba(30, 58, 138, 0.95);
-  color: white;
-  padding: 8px 12px;
-  border-radius: 4px;
-  z-index: 100;
-  top: 30px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 90%;
-  max-width: 300px;
-  white-space: normal;
-  font-size: 0.9em;
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
-  opacity: 0;
-  transition: opacity 0.3s, visibility 0.3s;
+    visibility: hidden;
+    position: absolute;
+    background-color: rgba(30, 58, 138, 0.95);
+    color: white;
+    padding: 8px 12px;
+    border-radius: 4px;
+    z-index: 100;
+    top: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90%;
+    max-width: 300px;
+    white-space: normal;
+    font-size: 0.9em;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+    opacity: 0;
+    transition: opacity 0.3s, visibility 0.3s;
 }
 
 .app.dark .book-title-tooltip {
-  background-color: rgba(147, 197, 253, 0.95);
-  color: #0f172a;
+    background-color: rgba(147, 197, 253, 0.95);
+    color: #0f172a;
 }
 
 .book-title:hover .book-title-tooltip {
-  visibility: visible;
-  opacity: 1;
+    visibility: visible;
+    opacity: 1;
 }
 
 .book-image {
-  max-width: 100%;
-  max-height: 180px;
-  object-fit: cover;
-  border-radius: 4px;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
-  margin: 0 auto;
+    max-width: 100%;
+    max-height: 180px;
+    object-fit: cover;
+    border-radius: 4px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+    margin: 0 auto;
 }
 
 .book-author {
-  font-weight: 500;
-  margin-bottom: 2px;
+    font-weight: 500;
+    margin-bottom: 2px;
 }
 
 /* Star Rating */
 .star-rating {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 2px;
-  margin: 5px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    margin: 5px 0;
 }
 
 .star {
-  color: #d1d5db;
-  font-size: 18px;
+    color: #d1d5db;
+    font-size: 18px;
 }
 
 .star.filled {
-  color: #ffb800;
+    color: #ffb800;
 }
 
 .star.half-filled {
-  position: relative;
-  display: inline-block;
+    position: relative;
+    display: inline-block;
 }
 
 .star.half-filled .half {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 50%;
-  overflow: hidden;
-  color: #ffb800;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    overflow: hidden;
+    color: #ffb800;
 }
 
 .book-actions {
-  margin-top: auto;
-  display: flex;
-  justify-content: center;
-  gap: 10px;
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
 }
 
 .book-actions button {
-  padding: 10px 15px;
-  border: none;
-  border-radius: 8px;
-  cursor: pointer;
-  font-size: 14px;
-  transition: background-color 0.3s ease, color 0.3s ease;
-  min-width: 80px;
-  color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    min-width: 80px;
+    color: white;
 }
 
 .book-actions button:first-child {
-  background-color: rgba(53, 126, 244, 0.27);
+    background-color: rgba(53, 126, 244, 0.27);
 }
 
 .book-actions button:first-child:hover {
-  background-color: #2563eb;
+    background-color: #2563eb;
 }
 
 .book-actions button:last-child {
-  background-color: rgba(71, 112, 163, 0.32);
+    background-color: rgba(71, 112, 163, 0.32);
 }
 
 .book-actions button:last-child:hover {
-  background-color: #3b82f6;
+    background-color: #3b82f6;
 }
 
 /* Add/Edit Book Form in Grid */
 .add-book-item {
-  border: 2px dashed #93c5fd;
-  padding: 15px;
-  border-radius: 8px;
-  background-color: #fff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-  height: 375px;
-  width: calc(21% - 20px); /* Changed to 25% for 4 items */
-  min-width: 180px;
-  flex: 1 1 calc(21% - 20px); /* Changed to 25% for 4 items */
-  max-width: calc(21% - 20px); /* Changed to 25% for 4 items */
-  overflow: auto;
-  order: -1; /* This will make it appear first in flexbox layouts */
+    border: 2px dashed #93c5fd;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    height: 375px;
+    width: calc(21% - 20px); /* Changed to 25% for 4 items */
+    min-width: 180px;
+    flex: 1 1 calc(21% - 20px); /* Changed to 25% for 4 items */
+    max-width: calc(21% - 20px); /* Changed to 25% for 4 items */
+    overflow: auto;
+    order: -1; /* This will make it appear first in flexbox layouts */
 }
 
 .app.dark .add-book-item {
-  background-color: #222831;
-  border-color: #3b82f6;
+    background-color: #222831;
+    border-color: #3b82f6;
 }
 
 .add-book-item h3 {
-  margin: 0 0 10px 0;
-  text-align: center;
-  color: #2563eb;
+    margin: 0 0 10px 0;
+    text-align: center;
+    color: #2563eb;
 }
 
 .app.dark .add-book-item h3 {
-  color: #93c5fd;
+    color: #93c5fd;
 }
 
 .add-book-item input,
 .add-book-item textarea,
 .add-book-item select {
-  padding: 8px;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  font-size: 14px;
-  margin-bottom: 8px;
-  width: 100%;
-  box-sizing: border-box;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+    margin-bottom: 8px;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .app.dark .add-book-item input,
 .app.dark .add-book-item textarea,
 .app.dark .add-book-item select {
-  background-color: #2c3440;
-  border-color: #3f4756;
-  color: #e0e0e0;
+    background-color: #2c3440;
+    border-color: #3f4756;
+    color: #e0e0e0;
 }
 
 .add-book-item .rating-input {
-  display: flex;
-  align-items: center;
-  margin-bottom: 8px;
-  gap: 8px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+    gap: 8px;
 }
 
 .add-book-item .rating-input input[type="range"] {
-  flex: 1;
-  margin: 0;
+    flex: 1;
+    margin: 0;
 }
 
 .add-book-item .rating-input .rating-value {
-  width: 20px;
-  text-align: center;
+    width: 20px;
+    text-align: center;
 }
 
 .rating-filter button {
-  font-size: 11px;
-  padding: 2px 6px;
+    font-size: 11px;
+    padding: 2px 6px;
 }
 
 .add-book-item textarea {
-  resize: vertical;
-  min-height: 60px;
+    resize: vertical;
+    min-height: 60px;
 }
 
 .add-book-item button {
-  padding: 8px 12px;
-  background-color: #3b82f6;
-  color: white;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  font-size: 14px;
-  margin-top: 5px;
-  transition: background-color 0.2s;
+    padding: 8px 12px;
+    background-color: #3b82f6;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 5px;
+    transition: background-color 0.2s;
 }
 
 .add-book-item button:hover {
-  background-color: #2563eb;
+    background-color: #2563eb;
 }
 
 .add-book-item .form-actions {
-  display: flex;
-  gap: 8px;
+    display: flex;
+    gap: 8px;
 }
 
 .add-book-item .form-actions button:last-child {
-  background-color: #60a5fa;
+    background-color: #60a5fa;
 }
 
 .add-book-item .form-actions button:last-child:hover {
-  background-color: #3b82f6;
+    background-color: #3b82f6;
+}
+
+/* Updated CSS */
+.user-actions {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 1rem;
+    margin-right: 1rem;
+}
+
+.logout-button {
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    border: none;
+    background-color: #ff4757;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    transition: background-color 0.3s ease;
+    font-size: 0.9rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 /* Theme Switcher */
 .theme-switch-wrapper {
-  display: flex;
-  align-items: center;
+    display: flex;
+    align-items: center;
 }
 
 .theme-switch {
-  position: relative;
-  display: inline-block;
-  width: 60px;
-  height: 30px;
+    position: relative;
+    display: inline-block;
+    width: 80px;
+    height: 30px;
 }
 
 .theme-switch input {
-  opacity: 0;
-  width: 0;
-  height: 0;
+    opacity: 0;
+    width: 0;
+    height: 0;
 }
 
 .slider {
-  position: absolute;
-  cursor: pointer;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: #ccc;
-  transition: .4s;
-  border-radius: 34px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0 5px;
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: .4s;
+    border-radius: 34px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 9px;
 }
 
 .switch-sun {
-  color: #f5c71a;
-  font-size: 14px;
+    color: #f5c71a;
+    font-size: 20px;
 }
 
 .switch-moon {
-  color: #fff;
-  font-size: 14px;
+    color: #fff;
+    font-size: 20px;
 }
 
 .slider:before {
-  position: absolute;
-  content: "";
-  height: 22px;
-  width: 22px;
-  left: 4px;
-  bottom: 4px;
-  background-color: white;
-  transition: .4s;
-  border-radius: 50%;
+    position: absolute;
+    content: "";
+    height: 22px;
+    width: 22px;
+    left: 8px;
+    bottom: 4px;
+    background-color: white;
+    transition: .4s;
+    border-radius: 50%;
 }
 
 input:checked + .slider {
-  background-color: #3b82f6;
+    background-color: #3b82f6;
 }
 
 input:checked + .slider:before {
-  transform: translateX(30px);
+    transform: translateX(42px);
 }
 
 /* Rating Filter Dropdown with Checkboxes */
 .rating-filter-container {
-  position: relative;
-  display: inline-block;
-  z-index: 1000; /* Ensure dropdown appears above other elements */
+    position: relative;
+    display: inline-block;
+    z-index: 1000; /* Ensure dropdown appears above other elements */
 }
 
 .rating-dropdown-button {
-  padding: 8px 12px;
-  background-color: #f8f9fa;
-  border: 1px solid #ced4da;
-  border-radius: 4px;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  min-width: 140px;
-  font-size: 1rem;
-  color: #212529;
-  text-align: left;
+    padding: 8px 12px;
+    background-color: #f8f9fa;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    min-width: 140px;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
 }
 
 .dark .rating-dropdown-button {
-  background-color: #333;
-  color: #f8f9fa;
-  border-color: #555;
+    background-color: #333;
+    color: #f8f9fa;
+    border-color: #555;
 }
+
 .rating-dropdown-button:hover {
-  background-color: #e9ecef;
+    background-color: #e9ecef;
 }
 
 .dark .rating-dropdown-button:hover {
-  background-color: #444;
+    background-color: #444;
 }
 
 
 .rating-dropdown-button:after {
-  content: "▼";
-  font-size: 10px;
-  margin-left: 10px;
+    content: "▼";
+    font-size: 10px;
+    margin-left: 10px;
 }
+
 .rating-dropdown-button:focus {
-  outline: none;
-  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+    outline: none;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
 }
 
 .rating-dropdown-content {
-  position: absolute;
-  top: 100%;
-  left: 0;
-  background-color: #fff;
-  border: 1px solid #ced4da;
-  border-radius: 4px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
-  z-index: 1001;
-  min-width: 220px;
-  padding: 12px;
-  margin-top: 8px;
-  display: block; /* Ensure it's displayed */
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    z-index: 1001;
+    min-width: 220px;
+    padding: 12px;
+    margin-top: 8px;
+    display: block; /* Ensure it's displayed */
 }
 
 .dark .rating-dropdown-content {
-  background-color: #222;
-  border-color: #555;
-  color: #f8f9fa;
+    background-color: #222;
+    border-color: #555;
+    color: #f8f9fa;
 }
 
 .rating-filter-container.active .rating-dropdown-content {
-  display: block;
+    display: block;
 }
 
 .rating-dropdown-content .rating-checkbox-group {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-  width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 100%;
 }
 
 .rating-checkbox-item {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  padding: 3px 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 3px 0;
 }
 
 .rating-checkbox-item label {
-  cursor: pointer;
-  user-select: none;
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  width: 100%;
+    cursor: pointer;
+    user-select: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    width: 100%;
 }
 
 .rating-checkbox-item input[type="checkbox"] {
-  margin: 0;
-  cursor: pointer;
+    margin: 0;
+    cursor: pointer;
 }
 
 .rating-dropdown-actions {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 10px;
-  padding-top: 10px;
-  border-top: 1px solid #eee;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid #eee;
 }
 
 .app.dark .rating-dropdown-actions {
-  border-top-color: #3f4756;
+    border-top-color: #3f4756;
 }
 
 .rating-dropdown-actions button {
-  padding: 5px 10px;
-  font-size: 12px;
-  background-color: #e0e0e0;
-  border: 1px solid #ccc;
-  border-radius: 3px;
-  cursor: pointer;
+    padding: 5px 10px;
+    font-size: 12px;
+    background-color: #e0e0e0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    cursor: pointer;
 }
 
 .app.dark .rating-dropdown-actions button {
-  background-color: #3f4756;
-  border-color: #2c3440;
-  color: #e0e0e0;
+    background-color: #3f4756;
+    border-color: #2c3440;
+    color: #e0e0e0;
 }
 
 .rating-dropdown-actions button:hover {
-  background-color: #d0d0d0;
+    background-color: #d0d0d0;
 }
 
 .app.dark .rating-dropdown-actions button:hover {
-  background-color: #4a5568;
+    background-color: #4a5568;
 }
 
 /* For the star display inside the dropdown */
 .rating-star-display {
-  display: flex;
-  align-items: center;
+    display: flex;
+    align-items: center;
 }
 
 .dropdown-star {
-  color: #ffb800;
-  font-size: 14px;
-  margin-right: 2px;
+    color: #ffb800;
+    font-size: 14px;
+    margin-right: 2px;
 }
 
 /* Selected ratings indicator */
 .selected-ratings {
-  display: inline-flex;
-  align-items: center;
-  margin-left: 8px;
-  gap: 5px;
+    display: inline-flex;
+    align-items: center;
+    margin-left: 8px;
+    gap: 5px;
 }
 
 .selected-rating-tag {
-  background-color: #e7f3ff;
-  color: #2563eb;
-  border-radius: 12px;
-  padding: 2px 8px;
-  font-size: 12px;
-  display: inline-flex;
-  align-items: center;
+    background-color: #e7f3ff;
+    color: #2563eb;
+    border-radius: 12px;
+    padding: 2px 8px;
+    font-size: 12px;
+    display: inline-flex;
+    align-items: center;
 }
 
 .app.dark .selected-rating-tag {
-  background-color: #2c3e50;
-  color: #93c5fd;
+    background-color: #2c3e50;
+    color: #93c5fd;
 }
 
 .selected-rating-tag .remove-tag {
-  margin-left: 5px;
-  cursor: pointer;
-  font-size: 10px;
+    margin-left: 5px;
+    cursor: pointer;
+    font-size: 10px;
 }
 
 
 .rating-checkbox-group {
-  max-height: 300px;
-  overflow-y: auto;
+    max-height: 300px;
+    overflow-y: auto;
 }
 
 .rating-checkbox-item {
-  margin-bottom: 10px;
-  padding: 6px 4px;
-  border-radius: 4px;
-  transition: background-color 0.2s;
+    margin-bottom: 10px;
+    padding: 6px 4px;
+    border-radius: 4px;
+    transition: background-color 0.2s;
 }
 
 .rating-checkbox-item:hover {
-  background-color: #f8f9fa;
+    background-color: #f8f9fa;
 }
 
 .dark .rating-checkbox-item:hover {
-  background-color: #333;
+    background-color: #333;
 }
 
 .rating-checkbox-item label {
-  display: flex;
-  align-items: center;
-  cursor: pointer;
-  width: 100%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    width: 100%;
 }
 
 .rating-checkbox-item input[type="checkbox"] {
-  margin-right: 10px;
-  cursor: pointer;
+    margin-right: 10px;
+    cursor: pointer;
 }
 
 .rating-star-display {
-  display: flex;
-  align-items: center;
-  flex-grow: 1;
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
 }
 
 .dropdown-star {
-  color: #ffc107;
-  font-size: 16px;
-  margin-right: 2px;
+    color: #ffc107;
+    font-size: 16px;
+    margin-right: 2px;
 }
 
 .dropdown-star.empty {
-  color: #ccc;
+    color: #ccc;
 }
 
 .dark .dropdown-star.empty {
-  color: #666;
+    color: #666;
 }
 
 .dropdown-star.half {
-  position: relative;
-  color: #ccc;
+    position: relative;
+    color: #ccc;
 }
 
 .dropdown-star.half::after {
-  content: "★";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 50%;
-  overflow: hidden;
-  color: #ffc107;
+    content: "★";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    overflow: hidden;
+    color: #ffc107;
 }
 
 .rating-number {
-  margin-left: 8px;
-  font-size: 14px;
-  color: #666;
-  flex-shrink: 0;
+    margin-left: 8px;
+    font-size: 14px;
+    color: #666;
+    flex-shrink: 0;
 }
 
 .dark .rating-number {
-  color: #ccc;
+    color: #ccc;
 }
 
 .rating-dropdown-actions {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 12px;
-  padding-top: 12px;
-  border-top: 1px solid #eee;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12px;
+    padding-top: 12px;
+    border-top: 1px solid #eee;
 }
 
 .dark .rating-dropdown-actions {
-  border-top-color: #444;
+    border-top-color: #444;
 }
 
 .rating-dropdown-actions button {
-  background-color: transparent;
-  border: none;
-  color: #007bff;
-  cursor: pointer;
-  padding: 4px 8px;
-  font-size: 14px;
+    background-color: transparent;
+    border: none;
+    color: #007bff;
+    cursor: pointer;
+    padding: 4px 8px;
+    font-size: 14px;
 }
 
 .dark .rating-dropdown-actions button {
-  color: #4dabf7;
+    color: #4dabf7;
 }
 
 .rating-dropdown-actions button:hover {
-  text-decoration: underline;
+    text-decoration: underline;
 }
 
 .selected-ratings {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 5px;
-  margin-left: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-left: 8px;
 }
 
 .selected-rating-tag {
-  background-color: #e9ecef;
-  padding: 2px 8px;
-  border-radius: 12px;
-  font-size: 12px;
-  color: #495057;
+    background-color: #e9ecef;
+    padding: 2px 8px;
+    border-radius: 12px;
+    font-size: 12px;
+    color: #495057;
 }
 
 .dark .selected-rating-tag {
-  background-color: #444;
-  color: #e9ecef;
+    background-color: #444;
+    color: #e9ecef;
+}
+
+.pagination-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    gap: 10px;
+}
+
+.pagination-button {
+    padding: 8px 16px;
+    background-color: #4a6fa5;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.pagination-button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+.page-indicator {
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+.page-size-selector {
+    padding: 6px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
 }
 
 /* Responsive Styles */
 @media (max-width: 1200px) {
-  .book-item,
-  .add-book-item {
-    width: calc(25% - 20px);
-    min-width: 160px;
-    flex: 1 1 calc(25% - 20px);
-    max-width: calc(25% - 20px);
-  }
+    .book-item,
+    .add-book-item {
+        width: calc(25% - 20px);
+        min-width: 160px;
+        flex: 1 1 calc(25% - 20px);
+        max-width: calc(25% - 20px);
+    }
 }
 
 @media (max-width: 992px) {
-  .book-item,
-  .add-book-item {
-    width: calc(33.333% - 20px);
-    min-width: 160px;
-    flex: 1 1 calc(33.333% - 20px);
-    max-width: calc(33.333% - 20px);
-  }
+    .book-item,
+    .add-book-item {
+        width: calc(33.333% - 20px);
+        min-width: 160px;
+        flex: 1 1 calc(33.333% - 20px);
+        max-width: calc(33.333% - 20px);
+    }
 }
 
 /* Fixed search bar alignment in mobile view */
 @media (max-width: 768px) {
-  /* Fix search bar and button alignment */
-  .search-bar {
-    display: flex;
-    align-items: stretch;
-    width: 100%;
-  }
+    /* Fix search bar and button alignment */
+    .search-bar {
+        display: flex;
+        align-items: stretch;
+        width: 100%;
+    }
 
-  .search-bar input,
-  .search-bar button {
-    height: 40px; /* Make same height */
-    box-sizing: border-box;
-    font-size: 16px;
-  }
+    .search-bar input,
+    .search-bar button {
+        height: 40px; /* Make same height */
+        box-sizing: border-box;
+        font-size: 16px;
+    }
 
-  /* Fix spacing between search bar and filters */
-  .search-filter-container {
-    gap: 8px; /* Reduced gap */
-  }
+    /* Fix spacing between search bar and filters */
+    .search-filter-container {
+        gap: 8px; /* Reduced gap */
+    }
 
-  /* Hide edit and delete buttons on mobile */
-  .book-item .book-actions {
-    display: none;
-  }
+    /* Hide edit and delete buttons on mobile */
+    .book-item .book-actions {
+        display: none;
+    }
 
-  /* Make books clickable on mobile */
-  .book-item {
-    cursor: pointer;
-    position: relative;
-  }
+    /* Make books clickable on mobile */
+    .book-item {
+        cursor: pointer;
+        position: relative;
+    }
 
-  .book-item::after {
-    content: "View details →";
-    display: block;
-    text-align: center;
-    color: #2563eb;
-    font-size: 14px;
-    font-weight: 500;
-    margin-top: 8px;
-  }
+    .book-item::after {
+        content: "View details →";
+        display: block;
+        text-align: center;
+        color: #2563eb;
+        font-size: 14px;
+        font-weight: 500;
+        margin-top: 8px;
+    }
 
-  /*remove the following object */
-  .add-book-item {
-    display: none;
-  }
+    /*remove the following object */
+    .add-book-item {
+        display: none;
+    }
 
-  .app.dark .book-item::after {
-    color: #93c5fd;
-  }
+    .app.dark .book-item::after {
+        color: #93c5fd;
+    }
 }
 
 /* Extra small devices */
 @media (max-width: 480px) {
-  .book-item,
-  .add-book-item {
-    width: 100%;
-    flex: 0 0 100%;
-    max-width: 100%;
-    height: auto;
-    min-height: 280px;
-    margin-bottom: 12px;
-  }
+    .book-item,
+    .add-book-item {
+        width: 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        height: auto;
+        min-height: 280px;
+        margin-bottom: 12px;
+    }
 
-  .book-row {
-    flex-direction: column;
-  }
+    .book-row {
+        flex-direction: column;
+    }
 
-  .book-image {
-    max-height: 180px;
-  }
+    .book-image {
+        max-height: 180px;
+    }
 
-  /* Rating Filter */
-  .rating-checkbox-item {
-    min-width: calc(50% - 4px);
-  }
+    /* Rating Filter */
+    .rating-checkbox-item {
+        min-width: calc(50% - 4px);
+    }
 
-  .rating-filter-title {
-    width: 100%;
-    text-align: center;
-    margin-bottom: 8px;
-  }
+    .rating-filter-title {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 8px;
+    }
 
-  .rating-checkbox-group {
-    justify-content: space-between;
-  }
+    .rating-checkbox-group {
+        justify-content: space-between;
+    }
 
-  .rating-buttons {
-    justify-content: center;
-    margin-top: 8px;
-    width: 100%;
-  }
+    .rating-buttons {
+        justify-content: center;
+        margin-top: 8px;
+        width: 100%;
+    }
 
-  .rating-dropdown-actions {
-    flex-direction: column;
-    gap: 8px;
-  }
+    .rating-dropdown-actions {
+        flex-direction: column;
+        gap: 8px;
+    }
 
-  .rating-dropdown-actions button {
-    width: 100%;
-    padding: 8px;
-  }
+    .rating-dropdown-actions button {
+        width: 100%;
+        padding: 8px;
+    }
 
-  /* Better touch targets */
-  .theme-switch {
-    width: 70px;
-    height: 34px;
-  }
+    /* Better touch targets */
+    .theme-switch {
+        width: 70px;
+        height: 34px;
+    }
 
-  .slider:before {
-    height: 26px;
-    width: 26px;
-  }
+    .slider:before {
+        height: 26px;
+        width: 26px;
+    }
 
-  input:checked + .slider:before {
-    transform: translateX(36px);
-  }
+    input:checked + .slider:before {
+        transform: translateX(36px);
+    }
 }

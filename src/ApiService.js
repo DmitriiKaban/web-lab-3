@@ -72,25 +72,17 @@ const apiService = {
                 body: JSON.stringify(credentials)
             });
             return handleResponse(response);
-        },
-        register: async (userData) => {
-            const response = await fetch(`${API_BASE_URL}/auth/register`, {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify(userData)
-            });
-            return handleResponse(response);
         }
     },
     books: {
-        getAll: async () => {
+        getAll: async (page = 0, size = 30) => {
             // Check token before making request
             if (isTokenExpired()) {
                 handleExpiredToken();
                 throw new Error('Authentication expired. Please log in again.');
             }
 
-            const response = await fetch(`${API_BASE_URL}/books`, {
+            const response = await fetch(`${API_BASE_URL}/books?page=${page}&size=${size}`, {
                 headers: getHeaders()
             });
             return handleResponse(response);

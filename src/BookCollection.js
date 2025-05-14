@@ -41,25 +41,29 @@ function BookCollection() {
     // Add loading state for API operations
     const [isLoading, setIsLoading] = useState(true);
     const [error, setError] = useState(null);
+    const [currentPage, setCurrentPage] = useState(0);
+    const [totalPages, setTotalPages] = useState(1);
+    const [pageSize, setPageSize] = useState(30);
 
     // Fetch books from API on component mount
     useEffect(() => {
         fetchBooks();
 
-        const savedTheme = localStorage.getItem('theme') || 'light';
+        const savedTheme = localStorage.getItem('theme') || 'dark';
         setTheme(savedTheme);
-    }, []);
+    }, [currentPage, pageSize]);
 
     // Function to fetch books from API
     const fetchBooks = async () => {
         setIsLoading(true);
         setError(null);
         try {
-            const data = await apiService.books.getAll();
+            const data = await apiService.books.getAll(currentPage, pageSize);
 
             // Check if the response contains books
-            if (data && Array.isArray(data.books)) {
-                setBooks(data.books);
+            if (data && data.books) {
+                setBooks(data.books.content);
+                setTotalPages(data.books.totalPages);
             } else if (data && Array.isArray(data)) {
                 // Some APIs might return books directly as an array
                 setBooks(data);
@@ -361,9 +365,6 @@ function BookCollection() {
                     (as of {new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })})
                 </h1>
                 <div className="user-actions">
-                    <button className="logout-button" onClick={handleLogout}>
-                        <FontAwesomeIcon icon={faSignOutAlt} /> Logout
-                    </button>
                     <div className="theme-switch-wrapper">
                         <label className="theme-switch">
                             <input
@@ -372,11 +373,19 @@ function BookCollection() {
                                 onChange={toggleTheme}
                             />
                             <span className="slider">
-                                <FontAwesomeIcon icon={faSun} className="switch-sun"/>
-                                <FontAwesomeIcon icon={faMoon} className="switch-moon"/>
-                            </span>
+                <FontAwesomeIcon icon={faSun} className="switch-sun"/>
+                <FontAwesomeIcon icon={faMoon} className="switch-moon"/>
+            </span>
                         </label>
                     </div>
+                    <button
+                        className="logout-button"
+                        onClick={handleLogout}
+                        onMouseOver={(e) => e.currentTarget.style.backgroundColor = '#ff6b81'}
+                        onMouseOut={(e) => e.currentTarget.style.backgroundColor = '#ff4757'}
+                    >
+                        <FontAwesomeIcon icon={faSignOutAlt} /> Logout
+                    </button>
                 </div>
             </div>
 
@@ -642,6 +651,42 @@ function BookCollection() {
                     />
                 </div>
             )}
+
+            <div className="pagination-controls">
+                <button
+                    disabled={currentPage === 0}
+                    onClick={() => setCurrentPage(prev => prev - 1)}
+                    className="pagination-button"
+                >
+                    Previous
+                </button>
+
+                <span className="page-indicator">
+                Page {currentPage + 1} of {totalPages}
+            </span>
+
+                <button
+                    disabled={currentPage === totalPages - 1}
+                    onClick={() => setCurrentPage(prev => prev + 1)}
+                    className="pagination-button"
+                >
+                    Next
+                </button>
+
+                <select
+                    value={pageSize}
+                    onChange={(e) => {
+                        setPageSize(Number(e.target.value));
+                        setCurrentPage(0); // Reset to first page when changing page size
+                    }}
+                    className="page-size-selector"
+                >
+                    <option value={10}>10 per page</option>
+                    <option value={20}>20 per page</option>
+                    <option value={30}>30 per page</option>
+                    <option value={50}>50 per page</option>
+                </select>
+            </div>
         </div>
     );
 }

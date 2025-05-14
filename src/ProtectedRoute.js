@@ -1,21 +1,28 @@
-import React from 'react';
-import { Navigate, Outlet } from 'react-router-dom';
+import React, { useEffect } from 'react';
+import { Navigate, Outlet, useNavigate } from 'react-router-dom';
 import { useAuth } from './AuthContext';
 
 const ProtectedRoute = () => {
-    const { isAuthenticated, loading } = useAuth();
+    const { isAuthenticated, loading, isTokenExpired } = useAuth();
+    const navigate = useNavigate();
 
-    // Show loading state while checking authentication
+    // Check token expiration on component mount and navigation
+    useEffect(() => {
+        // If token is expired but still marked as authenticated, logout and redirect
+        if (isAuthenticated && isTokenExpired()) {
+            console.log('Token expired in protected route');
+            navigate('/login', { replace: true });
+        }
+    }, [isAuthenticated, isTokenExpired, navigate]);
+
     if (loading) {
         return <div className="loading-spinner">Checking authentication...</div>;
     }
 
-    // Redirect to login if not authenticated
     if (!isAuthenticated) {
         return <Navigate to="/login" replace />;
     }
 
-    // Render children if authenticated
     return <Outlet />;
 };
 

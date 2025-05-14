@@ -69,13 +69,7 @@ function BookCollection() {
             }
         } catch (err) {
             console.error("Failed to fetch books:", err);
-            setError("Failed to load books. Please try again later.");
-
-            // Optional: fallback to local storage
-            // const storedBooks = JSON.parse(localStorage.getItem('books')) || [];
-            // if (storedBooks.length > 0) {
-            //     setBooks(storedBooks);
-            // }
+            setError(err.message + " Failed to load books. Please try again later.");
         } finally {
             setIsLoading(false);
         }
@@ -108,14 +102,11 @@ function BookCollection() {
             setIsLoading(true);
             try {
                 const addedBook = await apiService.books.add(bookToAdd);
-                // Update local state with the server response (which includes the ID)
-                // Ensure books is treated as an array
                 const currentBooks = Array.isArray(books) ? books : [];
                 setBooks([...currentBooks, addedBook]);
                 setNewBook({title: '', author: '', year: '', readYear: '', pages: '', image: '', rating: 5, comments: '', genre: ''});
             } catch (err) {
-                console.error("Failed to add book:", err);
-                alert('Failed to add book. Please try again.');
+                alert(err.message + ' Failed to add book.');
             } finally {
                 setIsLoading(false);
             }
@@ -149,7 +140,7 @@ function BookCollection() {
                 }
             } catch (err) {
                 console.error("Failed to delete book:", err);
-                alert('Failed to delete book. Please try again.');
+                alert(err.messasge + ' Failed to delete book. Please try again.');
             } finally {
                 setIsLoading(false);
             }
@@ -189,8 +180,7 @@ function BookCollection() {
                 setEditingBookId(null);
                 setNewBook({title: '', author: '', year: '', readYear: '', pages: '', image: '', rating: 5, comments: '', genre: ''});
             } catch (err) {
-                console.error("Failed to update book:", err);
-                alert('Failed to update book. Please try again.');
+                alert(err.message + ' Failed to update book. Please try again.');
             } finally {
                 setIsLoading(false);
             }
@@ -201,7 +191,6 @@ function BookCollection() {
 
     const handleSearch = (e) => {
         e.preventDefault();
-        // Search is already reactive with the searchTerm state
     };
 
     const handleBookClick = (book) => {
@@ -260,8 +249,8 @@ function BookCollection() {
     const filteredBooks = safeBooks.filter(book => {
         // Apply search term filter
         const searchMatch =
-            book.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
-            book.author.toLowerCase().includes(searchTerm.toLowerCase()) ||
+            (book.title && book.title.toLowerCase().includes(searchTerm.toLowerCase())) ||
+            (book.author && book.author.toLowerCase().includes(searchTerm.toLowerCase())) ||
             (book.comments && book.comments.toLowerCase().includes(searchTerm.toLowerCase()));
 
         // Apply year filter

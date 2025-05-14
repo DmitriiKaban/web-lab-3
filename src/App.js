@@ -3,8 +3,9 @@ import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-d
 import { AuthProvider } from './AuthContext';
 import ProtectedRoute from './ProtectedRoute';
 import Login from './Login';
-import BookCollection from './BookCollection'; // Your existing App component, renamed for clarity
-import './App.css';
+import BookCollection from './BookCollection';
+
+localStorage.clear();
 
 function App() {
     return (

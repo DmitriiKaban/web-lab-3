@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import React, { useState, useEffect } from 'react';
+import { useNavigate, useLocation } from 'react-router-dom';
 import './Login.css';
-import { useAuth } from './AuthContext'; // Import useAuth hook
+import { useAuth } from './AuthContext';
 
 function Login() {
     const [username, setUsername] = useState('');
@@ -9,7 +9,20 @@ function Login() {
     const [error, setError] = useState('');
     const [isLoading, setIsLoading] = useState(false);
     const navigate = useNavigate();
-    const { login } = useAuth(); // Get login function from AuthContext
+    const location = useLocation();
+    const { login, isAuthenticated } = useAuth();
+
+    // Get the intended destination from the location state or default to books
+    const from = location.state?.from?.pathname || '/books';
+
+    // Clear any existing authentication data on mount
+    useEffect(() => {
+        console.log('Login component mounted');
+        // Clear localStorage to start fresh on the login page
+        localStorage.removeItem('authToken');
+        localStorage.removeItem('username');
+        localStorage.removeItem('tokenExpiration');
+    }, []);
 
     const handleSubmit = async (e) => {
         e.preventDefault();
@@ -17,6 +30,7 @@ function Login() {
         setIsLoading(true);
 
         try {
+            console.log('Attempting login with:', username);
             const response = await fetch('http://localhost:8016/auth/login', {
                 method: 'POST',
                 headers: {
@@ -33,13 +47,20 @@ function Login() {
             }
 
             const data = await response.json();
+            console.log('Login successful, received data:', data);
+
+            // Calculate expiration time
+            const expiresIn = data.expiresIn || 3600; // Default to 1 hour if not provided
+            const expirationTime = new Date().getTime() + expiresIn * 1000;
 
             // Store token and user info in localStorage
             localStorage.setItem('authToken', data.token);
             localStorage.setItem('username', data.fullName);
-            localStorage.setItem('tokenExpiration', new Date().getTime() + data.expiresIn * 1000);
+            localStorage.setItem('tokenExpiration', expirationTime);
 
-            console.log(data.token + " " + data.fullName + "  ");
+            console.log('Login - Token:', data.token);
+            console.log('Login - Full Name:', data.fullName);
+            console.log('Login - Token expires at:', new Date(expirationTime).toLocaleString());
 
             // Update the AuthContext state
             login({
@@ -47,9 +68,10 @@ function Login() {
                 fullName: data.fullName
             });
 
-            // Redirect to the main books page
-            navigate('/books');
+            console.log('Login - AuthContext updated, redirecting to', from);
+            navigate(from, { replace: true });
         } catch (err) {
+            console.error('Login error:', err);
             setError(err.message || 'Login failed. Please try again.');
         } finally {
             setIsLoading(false);
